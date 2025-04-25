@@ -1638,6 +1638,236 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
+//DOOMDEX
+/*
+#define SPECIES_LILICHEN                                1524
+#define SPECIES_NOBLICHEN                               SPECIES_LILICHEN + 1
+#define SPECIES_MONARCHEN                               SPECIES_LILICHEN + 2
+#define SPECIES_BEEMBER                                 SPECIES_LILICHEN + 3
+#define SPECIES_DETOPTERE                               SPECIES_LILICHEN + 4
+#define SPECIES_ACIDOPTE                                SPECIES_LILICHEN + 5
+#define SPECIES_WOOPEEL                                 SPECIES_LILICHEN + 6
+#define SPECIES_CRUEEL                                  SPECIES_LILICHEN + 7
+#define SPECIES_HORRIFEEL                               SPECIES_LILICHEN + 8
+#define SPECIES_CATERPILE                               SPECIES_LILICHEN + 9
+#define SPECIES_COCAMPER                                SPECIES_LILICHEN + 10
+#define SPECIES_LAMPIPOSA                               SPECIES_LILICHEN + 11
+#define SPECIES_SCARABEBE                               SPECIES_LILICHEN + 12
+#define SPECIES_SCARACIER                               SPECIES_LILICHEN + 13
+#define SPECIES_SCABUTO                                 SPECIES_LILICHEN + 14
+#define SPECIES_FUKUNNY                                 SPECIES_LILICHEN + 15
+#define SPECIES_USAGUNNY                                SPECIES_LILICHEN + 16
+#define SPECIES_YUKIGORI                                SPECIES_LILICHEN + 17
+#define SPECIES_GRALIBRI                                SPECIES_LILICHEN + 18
+#define SPECIES_STALIBRI                                SPECIES_LILICHEN + 19
+#define SPECIES_ZARDOPIUM                               SPECIES_LILICHEN + 20
+#define SPECIES_STALLA                                  SPECIES_LILICHEN + 21
+#define SPECIES_STARLING                                SPECIES_LILICHEN + 22
+#define SPECIES_GLADIVA                                 SPECIES_LILICHEN + 23
+#define SPECIES_ZAPEK                                   SPECIES_LILICHEN + 24
+#define SPECIES_PIKORAGE                                SPECIES_LILICHEN + 25
+#define SPECIES_COCKALYPSE                              SPECIES_LILICHEN + 26
+#define SPECIES_CAVIACHAT                               SPECIES_LILICHEN + 27
+#define SPECIES_CALIKEAU                                SPECIES_LILICHEN + 28
+#define SPECIES_NAUTICAT                                SPECIES_LILICHEN + 29
+#define SPECIES_PLANKTEUY                               SPECIES_LILICHEN + 30
+#define SPECIES_MELODIE                                 SPECIES_LILICHEN + 31
+#define SPECIES_MELODRAME                               SPECIES_LILICHEN + 32
+#define SPECIES_BIPPER                                  SPECIES_LILICHEN + 33
+#define SPECIES_COPESPINE                               SPECIES_LILICHEN + 34
+#define SPECIES_COLEANGIOS                              SPECIES_LILICHEN + 35
+#define SPECIES_TAUPETI                                 SPECIES_LILICHEN + 36
+#define SPECIES_TAUPASSAGE                              SPECIES_LILICHEN + 37
+#define SPECIES_TAUPERE                                 SPECIES_LILICHEN + 38
+#define SPECIES_GERBUZZ                                 SPECIES_LILICHEN + 39
+#define SPECIES_TESLANTEN                               SPECIES_LILICHEN + 40
+#define SPECIES_GALEMIMI                                SPECIES_LILICHEN + 41
+#define SPECIES_GALEM                                   SPECIES_LILICHEN + 42
+#define SPECIES_WARDELITH                               SPECIES_LILICHEN + 43
+#define SPECIES_GROUNDER                                SPECIES_LILICHEN + 44
+#define SPECIES_SNIFOUY                                 SPECIES_LILICHEN + 45
+#define SPECIES_FISTFOUY                                SPECIES_LILICHEN + 46
+#define SPECIES_NEKOFEE                                 SPECIES_LILICHEN + 47
+#define SPECIES_PLOUFFY                                 SPECIES_LILICHEN + 48
+#define SPECIES_COINQWACK                               SPECIES_LILICHEN + 49
+#define SPECIES_COLBOUEE                                SPECIES_LILICHEN + 50
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+#define SPECIES_
+*/
+
 #define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
 
 #define NUM_SPECIES SPECIES_EGG
