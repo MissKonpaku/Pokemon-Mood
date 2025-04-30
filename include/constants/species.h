@@ -1751,8 +1751,8 @@
 #define SPECIES_COCOQUILLE                              SPECIES_LILICHEN + 108
 #define SPECIES_PALMYPINCE                              SPECIES_LILICHEN + 109
 #define SPECIES_MAYSUGEKI                               SPECIES_LILICHEN + 110
-#define SPECIES_EAU                                     SPECIES_LILICHEN + 111
-#define SPECIES_EAUACIER                                SPECIES_LILICHEN + 112
+#define SPECIES_POAMECON                                SPECIES_LILICHEN + 111
+#define SPECIES_LEVIAMECON                              SPECIES_LILICHEN + 112
 #define SPECIES_LILIBANA                                SPECIES_LILICHEN + 113
 #define SPECIES_HIGANLILY                               SPECIES_LILICHEN + 114
 #define SPECIES_MERACHAN                                SPECIES_LILICHEN + 115
