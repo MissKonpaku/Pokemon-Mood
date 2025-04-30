@@ -26735,6 +26735,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+/*
 //PLACEHOLDER
     const u32 gMonFrontPic_Placeholder[] = INCBIN_U32("graphics/doomdex/Placeholder/front.4bpp.lz");
     const u32 gMonPalette_Placeholder[] = INCBIN_U32("graphics/doomdex/Placeholder/normal.gbapal.lz");
@@ -26776,7 +26777,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Monarchen[] = INCBIN_U8("graphics/doomdex/monarchen/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/*
     const u32 gMonFrontPic_Beember[] = INCBIN_U32("graphics/doomdex/beember/Front.4bpp.lz");
     const u32 gMonPalette_Beember[] = INCBIN_U32("graphics/doomdex/beember/normal.gbapal.lz");
     const u32 gMonBackPic_Beember[] = INCBIN_U32("graphics/doomdex/beember/Back.4bpp.lz");
@@ -26800,7 +26801,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Acidopt[] = INCBIN_U8("graphics/doomdex/acidopt/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/acidopt/footprint.1bpp");
-/**/
+/*
     const u32 gMonFrontPic_Woopeel[] = INCBIN_U32("graphics/doomdex/woopeel/Front.4bpp.lz");
     const u32 gMonPalette_Woopeel[] = INCBIN_U32("graphics/doomdex/woopeel/normal.gbapal.lz");
     const u32 gMonBackPic_Woopeel[] = INCBIN_U32("graphics/doomdex/woopeel/Back.4bpp.lz");
@@ -26824,7 +26825,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Horrifeel[] = INCBIN_U8("graphics/doomdex/horrifeel/icon.4bpp");
     //#if P_FOOTPRINTS
     // const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/*
     const u32 gMonFrontPic_Caterpile[] = INCBIN_U32("graphics/doomdex/caterpile/Front.4bpp.lz");
     const u32 gMonPalette_Caterpile[] = INCBIN_U32("graphics/doomdex/caterpile/normal.gbapal.lz");
     const u32 gMonBackPic_Caterpile[] = INCBIN_U32("graphics/doomdex/caterpile/Back.4bpp.lz");
@@ -26848,7 +26849,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Lampiposa[] = INCBIN_U8("graphics/doomdex/lampiposa/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Lampiposa[] = INCBIN_U8("graphics/doomdex/lampiposa/footprint.1bpp");
-/**/
+/*
     const u32 gMonFrontPic_Scarabebe[] = INCBIN_U32("graphics/doomdex/scarabebe/Front.4bpp.lz");
     const u32 gMonPalette_Scarabebe[] = INCBIN_U32("graphics/doomdex/scarabebe/normal.gbapal.lz");
     const u32 gMonBackPic_Scarabebe[] = INCBIN_U32("graphics/doomdex/scarabebe/Back.4bpp.lz");
@@ -26896,7 +26897,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Yukigori[] = INCBIN_U8("graphics/doomdex/yukigori/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Yukigori[] = INCBIN_U8("graphics/doomdex/yukigori/footprint.1bpp");
-/**/
+/*
     const u32 gMonFrontPic_Gralibri[] = INCBIN_U32("graphics/doomdex/gralibri/Front.4bpp.lz");
     const u32 gMonPalette_Gralibri[] = INCBIN_U32("graphics/doomdex/gralibri/normal.gbapal.lz");
     const u32 gMonBackPic_Gralibri[] = INCBIN_U32("graphics/doomdex/gralibri/Back.4bpp.lz");
@@ -26920,7 +26921,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Zardopium[] = INCBIN_U8("graphics/doomdex/zardopium/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Zardopium[] = INCBIN_U8("graphics/doomdex/zardopium/footprint.1bpp");
-/**/
+/*
     const u32 gMonFrontPic_Stalla[] = INCBIN_U32("graphics/doomdex/stalla/Front.4bpp.lz");
     const u32 gMonPalette_Stalla[] = INCBIN_U32("graphics/doomdex/stalla/normal.gbapal.lz");
     const u32 gMonBackPic_Stalla[] = INCBIN_U32("graphics/doomdex/stalla/Back.4bpp.lz");
@@ -26944,7 +26945,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Gladiva[] = INCBIN_U8("graphics/doomdex/gladiva/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Gladiva[] = INCBIN_U8("graphics/doomdex/gladiva/footprint.1bpp");
-/**/ 
+/*
     const u32 gMonFrontPic_Zapek[] = INCBIN_U32("graphics/doomdex/zapek/front.4bpp.lz");
     const u32 gMonPalette_Zapek[] = INCBIN_U32("graphics/doomdex/zapek/normal.gbapal.lz");
     const u32 gMonBackPic_Zapek[] = INCBIN_U32("graphics/doomdex/zapek/back.4bpp.lz");
@@ -26968,7 +26969,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Cockalypse[] = INCBIN_U8("graphics/doomdex/cockalypse/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Cockalypse[] = INCBIN_U8("graphics/doomdex/Cockalypse/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Caviachat[] = INCBIN_U32("graphics/doomdex/caviachat/Front.4bpp.lz");
     const u32 gMonPalette_Caviachat[] = INCBIN_U32("graphics/doomdex/caviachat/normal.gbapal.lz");
     const u32 gMonBackPic_Caviachat[] = INCBIN_U32("graphics/doomdex/caviachat/Back.4bpp.lz");
@@ -26992,7 +26993,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Nauticat[] = INCBIN_U8("graphics/doomdex/nauticat/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Plankteuy[] = INCBIN_U32("graphics/doomdex/plankteuy/Front.4bpp.lz");
     const u32 gMonPalette_Plankteuy[] = INCBIN_U32("graphics/doomdex/plankteuy/normal.gbapal.lz");
     const u32 gMonBackPic_Plankteuy[] = INCBIN_U32("graphics/doomdex/plankteuy/Back.4bpp.lz");
@@ -27000,7 +27001,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Plankteuy[] = INCBIN_U8("graphics/doomdex/plankteuy/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Plankteuy[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Melodie[] = INCBIN_U32("graphics/doomdex/melodie/front.4bpp.lz");
     const u32 gMonPalette_Melodie[] = INCBIN_U32("graphics/doomdex/melodie/normal.gbapal.lz");
     const u32 gMonBackPic_Melodie[] = INCBIN_U32("graphics/doomdex/melodie/back.4bpp.lz");
@@ -27016,7 +27017,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Melodrame[] = INCBIN_U8("graphics/doomdex/melodrame/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Melodrame[] = INCBIN_U8("graphics/doomdex/melodrame/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Blipper[] = INCBIN_U32("graphics/doomdex/blipper/front.4bpp.lz");
     const u32 gMonPalette_Blipper[] = INCBIN_U32("graphics/doomdex/blipper/normal.gbapal.lz");
     const u32 gMonBackPic_Blipper[] = INCBIN_U32("graphics/doomdex/blipper/back.4bpp.lz");
@@ -27040,7 +27041,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Blopeller[] = INCBIN_U8("graphics/doomdex/coleangious/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Blopeller[] = INCBIN_U8("graphics/doomdex/coleangious/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Taupeti[] = INCBIN_U32("graphics/doomdex/taupeti/Front.4bpp.lz");
     const u32 gMonPalette_Taupeti[] = INCBIN_U32("graphics/doomdex/taupeti/normal.gbapal.lz");
     const u32 gMonBackPic_Taupeti[] = INCBIN_U32("graphics/doomdex/taupeti/Back.4bpp.lz");
@@ -27064,7 +27065,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Taupere[] = INCBIN_U8("graphics/doomdex/taupere/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Taupere[] = INCBIN_U8("graphics/doomdex/taupere/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Gerbuzz[] = INCBIN_U32("graphics/doomdex/gerbuzz/front.4bpp.lz");
     const u32 gMonPalette_Gerbuzz[] = INCBIN_U32("graphics/doomdex/gerbuzz/normal.gbapal.lz");
     const u32 gMonBackPic_Gerbuzz[] = INCBIN_U32("graphics/doomdex/gerbuzz/back.4bpp.lz");
@@ -27080,7 +27081,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Teslanten[] = INCBIN_U8("graphics/doomdex/teslanten/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/teslanten/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Galemimi[] = INCBIN_U32("graphics/doomdex/galemimi/Front.4bpp.lz");
     const u32 gMonPalette_Galemimi[] = INCBIN_U32("graphics/doomdex/galemimi/normal.gbapal.lz");
     const u32 gMonBackPic_Galemimi[] = INCBIN_U32("graphics/doomdex/galemimi/Back.4bpp.lz");
@@ -27104,7 +27105,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_[] = INCBIN_U8("graphics/doomdex/x/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/    
+/**  
     const u32 gMonFrontPic_Grounder[] = INCBIN_U32("graphics/doomdex/grounder/Front.4bpp.lz");
     const u32 gMonPalette_Grounder[] = INCBIN_U32("graphics/doomdex/grounder/normal.gbapal.lz");
     const u32 gMonBackPic_Grounder[] = INCBIN_U32("graphics/doomdex/grounder/Back.4bpp.lz");
@@ -27112,7 +27113,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Grounder[] = INCBIN_U8("graphics/doomdex/grounder/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Snifouy[] = INCBIN_U32("graphics/doomdex/snifouy/Front.4bpp.lz");
     const u32 gMonPalette_Snifouy[] = INCBIN_U32("graphics/doomdex/snifouy/normal.gbapal.lz");
     const u32 gMonBackPic_Snifouy[] = INCBIN_U32("graphics/doomdex/snifouy/Back.4bpp.lz");
@@ -27128,7 +27129,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Fistfouy[] = INCBIN_U8("graphics/doomdex/fistfouy/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Fistfouy[] = INCBIN_U8("graphics/doomdex/fistfouy/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Nekofee[] = INCBIN_U32("graphics/doomdex/nekofee/Front.4bpp.lz");
     const u32 gMonPalette_Nekofee[] = INCBIN_U32("graphics/doomdex/nekofee/normal.gbapal.lz");
     const u32 gMonBackPic_Nekofee[] = INCBIN_U32("graphics/doomdex/nekofee/Back.4bpp.lz");
@@ -27136,7 +27137,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Nekofee[] = INCBIN_U8("graphics/doomdex/nekofee/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Nekofee[] = INCBIN_U8("graphics/doomdex/nekofee/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Plouffy[] = INCBIN_U32("graphics/doomdex/plouffy/Front.4bpp.lz");
     const u32 gMonPalette_Plouffy[] = INCBIN_U32("graphics/doomdex/plouffy/normal.gbapal.lz");
     const u32 gMonBackPic_Plouffy[] = INCBIN_U32("graphics/doomdex/plouffy/Back.4bpp.lz");
@@ -27160,7 +27161,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Colbouee[] = INCBIN_U8("graphics/doomdex/colbouee/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Colbouée[] = INCBIN_U8("graphics/doomdex/colbouee/footprint.1bpp");
-/**/
+/**
     //const u32 gMonFrontPic_Hemoglezar[] = INCBIN_U32("graphics/doomdex/hemoglezar/Front.4bpp.lz");
     //const u32 gMonPalette_Hemoglezar[] = INCBIN_U32("graphics/doomdex/hemoglezar/normal.gbapal.lz");
     //const u32 gMonBackPic_Hemoglezar[] = INCBIN_U32("graphics/doomdex/hemoglezar/Back.4bpp.lz");
@@ -27176,7 +27177,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Sanglodon[] = INCBIN_U8("graphics/doomdex/sanglodon/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Sanglodon[] = INCBIN_U8("graphics/doomdex/sanglodon/footprint.1bpp");
-/**/
+/**
     //const u32 gMonFrontPic_Cocoquille[] = INCBIN_U32("graphics/doomdex/cocoquille/Front.4bpp.lz");
     //const u32 gMonPalette_Cocoquille[] = INCBIN_U32("graphics/doomdex/cocoquille/normal.gbapal.lz");
     //const u32 gMonBackPic_Cocoquille[] = INCBIN_U32("graphics/doomdex/cocoquille/Back.4bpp.lz");
@@ -27192,7 +27193,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Palmypince[] = INCBIN_U8("graphics/doomdex/palmypince/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Palmypince[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/**
     //const u32 gMonFrontPic_Plopetit[] = INCBIN_U32("graphics/doomdex/plopetit/Front.4bpp.lz");
     //const u32 gMonPalette_Plopetit[] = INCBIN_U32("graphics/doomdex/plopetit/normal.gbapal.lz");
     //const u32 gMonBackPic_Plopetit[] = INCBIN_U32("graphics/doomdex/plopetit/Back.4bpp.lz");
@@ -27264,7 +27265,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Veracina[] = INCBIN_U8("graphics/doomdex/veracina/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Veracina[] = INCBIN_U8("graphics/doomdex/veracina/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Squalil[] = INCBIN_U32("graphics/doomdex/squalil/Front.4bpp.lz");
     const u32 gMonPalette_Squalil[] = INCBIN_U32("graphics/doomdex/squalil/normal.gbapal.lz");
     const u32 gMonBackPic_Squalil[] = INCBIN_U32("graphics/doomdex/squalil/Back.4bpp.lz");
@@ -27304,7 +27305,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_[] = INCBIN_U8("graphics/doomdex/x/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Cheepouf[] = INCBIN_U32("graphics/doomdex/cheepouf/Front.4bpp.lz");
     const u32 gMonPalette_Cheepouf[] = INCBIN_U32("graphics/doomdex/cheepouf/normal.gbapal.lz");
     const u32 gMonBackPic_Cheepouf[] = INCBIN_U32("graphics/doomdex/cheepouf/Back.4bpp.lz");
@@ -27320,7 +27321,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Cheesetah[] = INCBIN_U8("graphics/doomdex/cheesetah/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Cheesetah[] = INCBIN_U8("graphics/doomdex/Cheesetah/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Maysugeki[] = INCBIN_U32("graphics/doomdex/maysugeki/front.4bpp.lz");
     const u32 gMonPalette_Maysugeki[] = INCBIN_U32("graphics/doomdex/maysugeki/normal.gbapal.lz");
     const u32 gMonBackPic_Maysugeki[] = INCBIN_U32("graphics/doomdex/maysugeki/back.4bpp.lz");
@@ -27328,7 +27329,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Maysugeki[] = INCBIN_U8("graphics/doomdex/maysugeki/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Boh[] = INCBIN_U32("graphics/doomdex/boh/Front.4bpp.lz");
     const u32 gMonPalette_Boh[] = INCBIN_U32("graphics/doomdex/boh/normal.gbapal.lz");
     const u32 gMonBackPic_Boh[] = INCBIN_U32("graphics/doomdex/boh/Back.4bpp.lz");
@@ -27351,7 +27352,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonShinyPalette_Ohhaerk[] = INCBIN_U32("graphics/doomdex/ohhaerk/shiny.gbapal.lz");
     const u8 gMonIcon_Ohhaerk[] = INCBIN_U8("graphics/doomdex/ohhaerk/icon.4bpp");
     //#if P_FOOTPRINTS
-/**/
+/**
     //const u32 gMonFrontPic_Sleepompik[] = INCBIN_U32("graphics/doomdex/euark/front.4bpp.lz");
     //const u32 gMonPalette_Sleepompik[] = INCBIN_U32("graphics/doomdex/euark/normal.gbapal.lz");
     //const u32 gMonBackPic_Sleepompik[] = INCBIN_U32("graphics/doomdex/euark/Back.4bpp.lz");
@@ -27375,7 +27376,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Mandelman[] = INCBIN_U8("graphics/doomdex/mandelman/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Mandelman[] = INCBIN_U8("graphics/doomdex/mandelman/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Finkfok[] = INCBIN_U32("graphics/doomdex/finkfok/Front.4bpp.lz");
     const u32 gMonPalette_Finkfok[] = INCBIN_U32("graphics/doomdex/finkfok/normal.gbapal.lz");
     const u32 gMonBackPic_Finkfok[] = INCBIN_U32("graphics/doomdex/finkfok/Back.4bpp.lz");
@@ -27383,7 +27384,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Finkfok[] = INCBIN_U8("graphics/doomdex/finkfok/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Finkfok[] = INCBIN_U8("graphics/doomdex/finkfok/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Legz[] = INCBIN_U32("graphics/doomdex/legz/Front.4bpp.lz");
     const u32 gMonPalette_Legz[] = INCBIN_U32("graphics/doomdex/legz/normal.gbapal.lz");
     const u32 gMonBackPic_Legz[] = INCBIN_U32("graphics/doomdex/legz/Back.4bpp.lz");
@@ -27391,7 +27392,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Legz[] = INCBIN_U8("graphics/doomdex/legz/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Legz[] = INCBIN_U8("graphics/doomdex/legz/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_STOOPID[] = INCBIN_U32("graphics/doomdex/STOOPID/front.4bpp.lz");
     const u32 gMonPalette_STOOPID[] = INCBIN_U32("graphics/doomdex/STOOPID/normal.gbapal.lz");
     const u32 gMonBackPic_STOOPID[] = INCBIN_U32("graphics/doomdex/STOOPID/back.4bpp.lz");
@@ -27399,7 +27400,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_STOOPID[] = INCBIN_U8("graphics/doomdex/STOOPID/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_STOOPID[] = INCBIN_U8("graphics/doomdex/STOOPID/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Beublop[] = INCBIN_U32("graphics/doomdex/beublop/Front.4bpp.lz");
     const u32 gMonPalette_Beublop[] = INCBIN_U32("graphics/doomdex/beublop/normal.gbapal.lz");
     const u32 gMonBackPic_Beublop[] = INCBIN_U32("graphics/doomdex/beublop/Back.4bpp.lz");
@@ -27407,7 +27408,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Beublop[] = INCBIN_U8("graphics/doomdex/beublop/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Beublop[] = INCBIN_U8("graphics/doomdex/beublop/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Potipwet[] = INCBIN_U32("graphics/doomdex/potipwet/Front.4bpp.lz");
     const u32 gMonPalette_Potipwet[] = INCBIN_U32("graphics/doomdex/potipwet/normal.gbapal.lz");
     const u32 gMonBackPic_Potipwet[] = INCBIN_U32("graphics/doomdex/potipwet/Back.4bpp.lz");
@@ -27423,7 +27424,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Flopwetwet[] = INCBIN_U8("graphics/doomdex/flopwetwet/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Flopwetwet[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Gesticot[] = INCBIN_U32("graphics/doomdex/gesticot/front.4bpp.lz");
     const u32 gMonPalette_Gesticot[] = INCBIN_U32("graphics/doomdex/gesticot/normal.gbapal.lz");
     const u32 gMonBackPic_Gesticot[] = INCBIN_U32("graphics/doomdex/gesticot/back.4bpp.lz");
@@ -27439,7 +27440,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Terrakami[] = INCBIN_U8("graphics/doomdex/terrakami/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Terrakami[] = INCBIN_U8("graphics/doomdex/terrakami/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Daemonix[] = INCBIN_U32("graphics/doomdex/daemonix/Front.4bpp.lz");
     const u32 gMonPalette_Daemonix[] = INCBIN_U32("graphics/doomdex/daemonix/normal.gbapal.lz");
     const u32 gMonBackPic_Daemonix[] = INCBIN_U32("graphics/doomdex/daemonix/Back.4bpp.lz");
@@ -27455,7 +27456,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Achaethena[] = INCBIN_U8("graphics/doomdex/achaethena/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Achaethena[] = INCBIN_U8("graphics/doomdex/achaethena/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Phantasm[] = INCBIN_U32("graphics/doomdex/phantasm/front.4bpp.lz");
     const u32 gMonPalette_Phantasm[] = INCBIN_U32("graphics/doomdex/phantasm/normal.gbapal.lz");
     const u32 gMonBackPic_Phantasm[] = INCBIN_U32("graphics/doomdex/phantasm/back.4bpp.lz");
@@ -27463,7 +27464,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Phantasm[] = INCBIN_U8("graphics/doomdex/phantasm/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Phantasm[] = INCBIN_U8("graphics/doomdex/phantasm/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Shroomalice[] = INCBIN_U32("graphics/doomdex/shroomalice/Front.4bpp.lz");
     const u32 gMonPalette_Shroomalice[] = INCBIN_U32("graphics/doomdex/shroomalice/normal.gbapal.lz");
     const u32 gMonBackPic_Shroomalice[] = INCBIN_U32("graphics/doomdex/shroomalice/Back.4bpp.lz");
@@ -27471,7 +27472,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Shroomalice[] = INCBIN_U8("graphics/doomdex/shroomalice/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Shroomalice[] = INCBIN_U8("graphics/doomdex/shroomalice/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Denkid[] = INCBIN_U32("graphics/doomdex/denkid/front.4bpp.lz");
     const u32 gMonPalette_Denkid[] = INCBIN_U32("graphics/doomdex/denkid/normal.gbapal.lz");
     const u32 gMonBackPic_Denkid[] = INCBIN_U32("graphics/doomdex/denkid/back.4bpp.lz");
@@ -27487,7 +27488,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //const u8 gMonIcon_Dekigan[] = INCBIN_U8("graphics/doomdex/dekigan/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Dekigan[] = INCBIN_U8("graphics/doomdex/dekigan/footprint.1bpp");
-/**/
+/**
     const u32 gMonFrontPic_Jamush[] = INCBIN_U32("graphics/doomdex/jamush/Front.4bpp.lz");
     const u32 gMonPalette_Jamush[] = INCBIN_U32("graphics/doomdex/jamush/normal.gbapal.lz");
     const u32 gMonBackPic_Jamush[] = INCBIN_U32("graphics/doomdex/jamush/Back.4bpp.lz");
@@ -27504,3 +27505,4 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Mycellum[] = INCBIN_U8("graphics/doomdex/mycellum/footprint.1bpp");
 /**/
+*/

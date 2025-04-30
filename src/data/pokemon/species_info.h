@@ -174,6 +174,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
 //P_FAMILY_LILICHEN
 //BackPickYOffset starts at -8 
+/*
 [SPECIES_LILICHEN] =
 {
     .baseHP        = 50,
@@ -231,10 +232,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
 [SPECIES_NOBLICHEN] =
 {
-    /*"Lorsque qu'il évolue, il quitte
-    directement son groupe pour créer sa 
-    propre colonie. 
-    Ce Pokémon a mauvais caractère"),*/
     .baseHP        = 65,
     .baseAttack    = 69,
     .baseDefense   = 91,
@@ -291,9 +288,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
 [SPECIES_MONARCHEN] =
 {   
-    /*"Monarchen dirige sa colonie avec fermeté.\n"
-        "Malgré son tempérament froid, il aime sa\n"
-        "colonie plus que sa propre vie."),*/
+
     .baseHP        = 85,
     .baseAttack    = 86,
     .baseDefense   = 122,
@@ -1424,7 +1419,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*/},
+    .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*},
      
     .speciesName = _("Stalla"),
     .categoryName = _("Cristal"),
@@ -1482,7 +1477,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*/},
+    .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*},
      
     .speciesName = _("Starling"),
     .categoryName = _("Nourrice"),
@@ -1539,7 +1534,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*/},
+    .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*},
      
     .speciesName = _("Gladiva"),
     .categoryName = _("Diva"),
@@ -1713,7 +1708,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_FLUCTUATING,
      
-    .abilities = {/*ABILITY_PIKA_CLIMAT, ABILITY_NONE,*/ ABILITY_MOLD_BREAKER},
+    .abilities = {/*ABILITY_PIKA_CLIMAT, ABILITY_NONE,* ABILITY_MOLD_BREAKER},
      
     .speciesName = _("Cockalypse"),
     .categoryName = _("Orage"),
@@ -3180,7 +3175,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_FAST,
      
-    .abilities = {/*ABILITY_THERMOFRAPPE,*/ ABILITY_DRY_SKIN, ABILITY_SAND_VEIL},
+    .abilities = {/*ABILITY_THERMOFRAPPE,* ABILITY_DRY_SKIN, ABILITY_SAND_VEIL},
      
     .speciesName = _("Hemoglézar"),
     .categoryName = _("Sang Lézard"),
@@ -3237,7 +3232,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_FAST,
      
-    .abilities = {/*ABILITY_THERMOFRAPPE,*/ ABILITY_DRY_SKIN, ABILITY_SAND_VEIL},
+    .abilities = {/*ABILITY_THERMOFRAPPE,* ABILITY_DRY_SKIN, ABILITY_SAND_VEIL},
      
     .speciesName = _("Sanglodon"),
     .categoryName = _("Bouillant"),
@@ -3354,7 +3349,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_FAST,
      
-    .abilities = {ABILITY_CHLOROPHYLL, ABILITY_PICKUP/*, ABILITY_FORCE_AQUA*/},
+    .abilities = {ABILITY_CHLOROPHYLL, ABILITY_PICKUP/*, ABILITY_FORCE_AQUA*},
      
     .speciesName = _("Palmypince"),
     .categoryName = _("Coco Pince"),
@@ -3770,7 +3765,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_FAST,
      
-    .abilities = {/*ABILITY_SKIN_CARE,*/ ABILITY_WATER_VEIL, ABILITY_IRON_BARBS},
+    .abilities = {/*ABILITY_SKIN_CARE,* ABILITY_WATER_VEIL, ABILITY_IRON_BARBS},
      
     .speciesName = _("Alwy"),
     .categoryName = _("Aloe Vera"),
@@ -3827,7 +3822,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_FAST,
      
-    .abilities = {/*ABILITY_SKIN_CARE,*/ ABILITY_WATER_VEIL, ABILITY_IRON_BARBS},
+    .abilities = {/*ABILITY_SKIN_CARE,* ABILITY_WATER_VEIL, ABILITY_IRON_BARBS},
      
     .speciesName = _("Verophyla"),
     .categoryName = _("Aloe Vera"),
@@ -3884,7 +3879,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_FAST,
      
-    .abilities = {/*ABILITY_SKIN_CARE,*/ ABILITY_FILTER, ABILITY_IRON_BARBS},
+    .abilities = {/*ABILITY_SKIN_CARE,* ABILITY_FILTER, ABILITY_IRON_BARBS},
      
     .speciesName = _("Veracina"),
     .categoryName = _("Aloe Vera"),
@@ -4039,7 +4034,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .levelUpLearnset = sBulbasaurLevelUpLearnset,
     .teachableLearnset = sBulbasaurTeachableLearnset,
     .evolutions = EVOLUTION({EVO_LEVEL, 50, SPECIES_MAGMALODON}/*,
-                            {EVO_LEVEL, ITEM_PIERRE_MAGMA, SPECIES_MAGMALODON}*/),
+                            {EVO_LEVEL, ITEM_PIERRE_MAGMA, SPECIES_MAGMALODON}*),
 },
 
 [SPECIES_MAGMALODON] =
@@ -4158,7 +4153,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .levelUpLearnset = sBulbasaurLevelUpLearnset,
     .teachableLearnset = sBulbasaurTeachableLearnset,
     .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_DUNESTIN}
-                            /*,{EVO_ITEM, ITEM_HEMOQUEUE, SPECIES_DUNESTIN}*/),
+                            /*,{EVO_ITEM, ITEM_HEMOQUEUE, SPECIES_DUNESTIN}*),
 },
 
 [SPECIES_DUNESTIN] =
@@ -4598,7 +4593,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_FAST,
      
-    .abilities = {ABILITY_GLUTTONY,/*ABILITY_LACERATION, */ ABILITY_DAMP , ABILITY_INFILTRATOR},
+    .abilities = {ABILITY_GLUTTONY,/*ABILITY_LACERATION, * ABILITY_DAMP , ABILITY_INFILTRATOR},
      
     .speciesName = _("Verote"),
     .categoryName = _("Steak"),
@@ -4636,7 +4631,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .levelUpLearnset = sBulbasaurLevelUpLearnset,
     .teachableLearnset = sBulbasaurTeachableLearnset,
     .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_ROTTENIA}
-                            /*, {EVO_ITEM, ITEM_MAIN_PUTRIDE, SPECIES_ROTTENIA}*/),
+                            /*, {EVO_ITEM, ITEM_MAIN_PUTRIDE, SPECIES_ROTTENIA}*),
 },
 
 [SPECIES_ROTTENIA] =
@@ -4656,7 +4651,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_FAST,
      
-    .abilities = {ABILITY_GLUTTONY,/*ABILITY_LACERATION, */ ABILITY_DAMP , ABILITY_INFILTRATOR},
+    .abilities = {ABILITY_GLUTTONY,/*ABILITY_LACERATION, * ABILITY_DAMP , ABILITY_INFILTRATOR},
      
     .speciesName = _("Rottenia"),
     .categoryName = _("Tenia"),
@@ -4890,7 +4885,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {/*ABILITY_NARCOLEPSIE,*/ ABILITY_ARENA_TRAP, /*ABILITY_DEGENERATE*/},
+    .abilities = {/*ABILITY_NARCOLEPSIE,*/ ABILITY_ARENA_TRAP, /*ABILITY_DEGENERATE*},
      
     .speciesName = _("Sleepompik"),
     .categoryName = _("Paralysie"),
@@ -4947,7 +4942,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {/*ABILITY_NARCOLEPSIE,*/ ABILITY_ARENA_TRAP, /*ABILITY_DEGENERATE*/},
+    .abilities = {/*ABILITY_NARCOLEPSIE,*/ ABILITY_ARENA_TRAP, /*ABILITY_DEGENERATE*},
      
     .speciesName = _("Ominousleh"),
     .categoryName = _("Paralysie"),
@@ -5004,7 +4999,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {/*ABILITY_NARCOLEPSIE,*/ ABILITY_ARENA_TRAP, /*ABILITY_DEGENERATE*/},
+    .abilities = {/*ABILITY_NARCOLEPSIE,*/ ABILITY_ARENA_TRAP, /*ABILITY_DEGENERATE*},
      
     .speciesName = _("Mandelman"),
     .categoryName = _("Paralysie"),
@@ -6139,7 +6134,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_FAST,
      
-    .abilities = {/*ABILITY_TIKTOKER,*/ ABILITY_EMERGENCY_EXIT},
+    .abilities = {/*ABILITY_TIKTOKER,* ABILITY_EMERGENCY_EXIT},
      
     .speciesName = _("Finkfok"),
     .categoryName = _("Intangible"),
@@ -6316,7 +6311,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_ERRATIC,
      
-    .abilities = {/*ABILITY_MAIS_PUTAIN,*/ABILITY_RUN_AWAY},
+    .abilities = {/*ABILITY_MAIS_PUTAIN,*ABILITY_RUN_AWAY},
      
     .speciesName = _("STOOPID"),
     .categoryName = _("Fils De Pute"),
@@ -6381,7 +6376,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_FAST,
      
-    .abilities = {/*ABILITY_IMMONDICE*/ABILITY_DAMP},
+    .abilities = {/*ABILITY_IMMONDICE*ABILITY_DAMP},
      
     .speciesName = _("Beublop"),
     .categoryName = _("Blobfish"),
@@ -6476,7 +6471,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .teachableLearnset = sBulbasaurTeachableLearnset,
     .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
 },
-*/
+*
 //P_FAMILY_BEUBLOP
 
 //P_FAMILY_POTIPWET
@@ -6732,7 +6727,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {/*ABILITY_VAMPIRE*/ABILITY_CUTE_CHARM, ABILITY_PRANKSTER, ABILITY_MERCILESS},
+    .abilities = {/*ABILITY_VAMPIRE*ABILITY_CUTE_CHARM, ABILITY_PRANKSTER, ABILITY_MERCILESS},
      
     .speciesName = _("Daemonix"),
     .categoryName = _("Démon"),
@@ -6789,7 +6784,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     .friendship = STANDARD_FRIENDSHIP,
     .growthRate = GROWTH_MEDIUM_SLOW,
      
-    .abilities = {/*ABILITY_VAMPIRE*/ABILITY_CUTE_CHARM, ABILITY_MERCILESS, ABILITY_LEVITATE},
+    .abilities = {/*ABILITY_VAMPIRE*ABILITY_CUTE_CHARM, ABILITY_MERCILESS, ABILITY_LEVITATE},
      
     .speciesName = _("Achathena"),
     .categoryName = _("Succube"),
@@ -7652,7 +7647,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 },
 
 //P_FAMILY_PERCYBORG
-*/
+*
 //P_FAMILY_WICHU
 
 [SPECIES_WICHU] =
@@ -7890,7 +7885,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 },
 
 //P_FAMILY_INCARNAPOT
-*/
+*
 //P_FAMILY_FIGGON
 
 [SPECIES_FIGGON] =
