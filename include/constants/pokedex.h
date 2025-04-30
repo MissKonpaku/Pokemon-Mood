@@ -1448,7 +1448,7 @@ enum {
     HOENN_DEX_PROBELLE,                           
     HOENN_DEX_POME,                             
     HOENN_DEX_POMDARPI,                             
-    HOENN_DEX_KEROCORN,                             
+    HOENN_DEX_KEROCORN,                              
     HOENN_DEX_CROACORN,                             
     HOENN_DEX_CROAQUILLE,                             
     HOENN_DEX_CHIMESPRIT,                             

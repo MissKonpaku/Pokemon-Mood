@@ -1639,7 +1639,7 @@
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
 //DOOMDEX G1
-/*
+
 #define SPECIES_LILICHEN                                1524
 #define SPECIES_NOBLICHEN                               SPECIES_LILICHEN + 1
 #define SPECIES_MONARCHEN                               SPECIES_LILICHEN + 2
@@ -1691,182 +1691,182 @@
 #define SPECIES_PLOUFFY                                 SPECIES_LILICHEN + 48
 #define SPECIES_COINQWACK                               SPECIES_LILICHEN + 49
 #define SPECIES_COLBOUEE                                SPECIES_LILICHEN + 50
-#define SPECIES_PLOPETIT
-#define SPECIES_BUBULLON
-#define SPECIES_HEMOGLEZAR
-#define SPECIES_SANGLODON
-#define SPECIES_FEUVALIER
-#define SPECIES_AGOHENIE
-#define SPECIES_KATCHINA
-#define SPECIES_ELKATCHINA
-#define SPECIES_ALWY
-#define SPECIES_VEROPHYLA
-#define SPECIES_VERACINA
-#define SPECIES_SQUALIL
-#define SPECIES_SQUALAVA
-#define SPECIES_MAGMALODON
-#define SPECIES_MANTAMI
-#define SPECIES_TOURBIMANTA
-#define SPECIES_ANCAT
-#define SPECIES_PSALMEURTRI
-#define SPECIES_CHEEPOUF
-#define SPECIES_CHEESETAH
-#define SPECIES_KHEPRISUN
-#define SPECIES_GESTICOT
-#define SPECIES_TERRAKAMI
-#define SPECIES_VEROTE
-#define SPECIES_ROTTENIA
-#define SPECIES_BOH
-#define SPECIES_EUARK
-#define SPECIES_OHHAERK
-#define SPECIES_SLEEPOMPIK
-#define SPECIES_OMINOUSLEH
-#define SPECIES_MANDELMAN
-#define SPECIES_CILANG
-#define SPECIES_COMPILEX
-#define SPECIES_RESNAKE
-#define SPECIES_PYTHAGON
-#define SPECIES_FILOURS
-#define SPECIES_POUPOURS
-#define SPECIES_FORBEAR
-#define SPECIES_WIGINI
-#define SPECIES_WIGELLE
-#define SPECIES_WIGOUDI
-#define SPECIES_PUYOTAN
-#define SPECIES_POKI
-#define SPECIES_POKIKI
-#define SPECIES_POKIKIKI
-#define SPECIES_FLINGUN
-#define SPECIES_KILLENCIEU
-#define SPECIES_FLINKALASH
-#define SPECIES_MASKAPPY
-#define SPECIES_DEPREMASK
-#define SPECIES_FINKFOK
-#define SPECIES_LEGZ
-#define SPECIES_MAGNIFEET
-#define SPECIES_STOOPID
-#define SPECIES_POTIPWET
-#define SPECIES_FLOPWETWET
-#define SPECIES_BEUBLOP_CUTE
-#define SPECIES_COCOQUILLE
-#define SPECIES_PALMYPINCE
-#define SPECIES_MAYSUGEKI
-#define SPECIES_EAU
-#define SPECIES_EAUACIER
-#define SPECIES_LILIBANA
-#define SPECIES_HIGANLILY
-#define SPECIES_FEU
-#define SPECIES_FEUPOISON
-#define SPECIES_DAEMONIX
-#define SPECIES_ACHAETHENA
-#define SPECIES_INCUBALMA
-#define SPECIES_PHANTASM
-#define SPECIES_SHROOMALICE
-#define SPECIES_DENKID
-#define SPECIES_DENKIGAN
-#define SPECIES_JAMUSH
-#define SPECIES_MYCELLUM
-#define SPECIES_BERMUDINE
-#define SPECIES_KHELPIVAL
-#define SPECIES_BLOBUSTER
-#define SPECIES_DRILLOUP
-#define SPECIES_PERCYBORG
-#define SPECIES_WICHU
-#define SPECIES_INCARNAPOT
-#define SPECIES_VASAGE
-#define SPECIES_acier-psy
-#define SPECIES_acier-psy
-#define SPECIES_FIGGON
-#define SPECIES_SALADRAKE
-#define SPECIES_AUBERJAW
-#define SPECIES_COLZADON
-#define SPECIES_EMPRISM
-#define SPECIES_PRISMUNTER
-#define SPECIES_OCTONIMBUS
-#define SPECIES_ATMOCTOPUS
-#define SPECIES_LIMACIDE
-#define SPECIES_GLAUGOON
-#define SPECIES_PHLOTOXICO
-#define SPECIES_WUFUR
-#define SPECIES_NUNCHAKOS
-#define SPECIES_POLIPOUPON
-#define SPECIES_PERDUSE
-#define SPECIES_MEDERIVE
-#define SPECIES_ILLUFOX
-#define SPECIES_SPERENARD
-#define SPECIES_MOUCHIPS
-#define SPECIES_GIGANILLE
-#define SPECIES_PROBELLE
-#define SPECIES_POME
-#define SPECIES_POMDARPI
-#define SPECIES_KEROCORN
-#define SPECIES_CROACORN
-#define SPECIES_CROAQUILLE
-#define SPECIES_CHIMESPRIT
-#define SPECIES_INDORMON
-#define SPECIES_INVOCAMON
-#define SPECIES_SHERURAN
-#define SPECIES_SHERUCROC
-#define SPECIES_GOTINALVE
-#define SPECIES_SYNAPTI
-#define SPECIES_GLACYNAPSE
-#define SPECIES_TERMALIN
-#define SPECIES_TERMITORIAL
-#define SPECIES_TERBABAIN
-#define SPECIES_FOURUGLA
-#define SPECIES_YETIDIOT
-#define SPECIES_GLAKAME
-#define SPECIES_KAMEPHALE
-#define SPECIES_MOUMOUTROP
-#define SPECIES_TUNDRAGON
-#define SPECIES_BLASTAILES
-#define SPECIES_BEAUVY
-#define SPECIES_ROSTIER
-#define SPECIES_METALICA
-#define SPECIES_POPCORNE
-#define SPECIES_EQUESTRIA
-#define SPECIES_PEGAZUR
-#define SPECIES_PUTRAVEN
-#define SPECIES_NECROVORIS
-#define SPECIES_ROCHIERE
-#define SPECIES_OSTENSSY
-#define SPECIES_RANCOSSOR
-#define SPECIES_MOSSEMEROS
-#define SPECIES_VEUVOILE
-#define SPECIES_JAIMAILLE
-#define SPECIES_ARMIS
-#define SPECIES_ACCALMITE
-#define SPECIES_AXOMINOT
-#define SPECIES_AXOLORD
-#define SPECIES_TROMPLANTE
-#define SPECIES_PADAMIDON
-#define SPECIES_PSYCHOBAT
-#define SPECIES_CHIROPSY
-#define SPECIES_GYAOON
-#define SPECIES_COUVETEAU
-#define SPECIES_LOUVERNAL
-#define SPECIES_LARVAMBRE
-#define SPECIES_AGGRESTIK
-#define SPECIES_ALIGRATOR
-#define SPECIES_VIRULOX
-#define SPECIES_RANSOMITE
-#define SPECIES_WORMANES
-#define SPECIES_NYMFICHU
-#define SPECIES_MEMENTOS
-#define SPECIES_APPRENPTI
-#define SPECIES_GARDILISK
-#define SPECIES_DRALEXANDER
-#define SPECIES_TRISANGEL
-#define SPECIES_OLIVIL
-#define SPECIES_PALMIL
-#define SPECIES_FIGUIL
-#define SPECIES_PROTYRA
-#define SPECIES_MECAREX
-#define SPECIES_OMECATYRA
-#define SPECIES_PROGREX
-#define SPECIES_MILOBELUS
-#define SPECIES_JUJUBIEL
-
+#define SPECIES_PLOPETIT                                SPECIES_LILICHEN + 51 
+#define SPECIES_BUBULLON                                SPECIES_LILICHEN + 52
+#define SPECIES_HEMOGLEZAR                              SPECIES_LILICHEN + 53
+#define SPECIES_SANGLODON                               SPECIES_LILICHEN + 54
+#define SPECIES_FEUVALIER                               SPECIES_LILICHEN + 55
+#define SPECIES_AGOHENIE                                SPECIES_LILICHEN + 56
+#define SPECIES_KATCHINA                                SPECIES_LILICHEN + 57
+#define SPECIES_ELKATCHINA                              SPECIES_LILICHEN + 58
+#define SPECIES_ALWY                                    SPECIES_LILICHEN + 59
+#define SPECIES_VEROPHYLA                               SPECIES_LILICHEN + 60
+#define SPECIES_VERACINA                                SPECIES_LILICHEN + 61
+#define SPECIES_SQUALIL                                 SPECIES_LILICHEN + 62
+#define SPECIES_SQUALAVA                                SPECIES_LILICHEN + 63
+#define SPECIES_MAGMALODON                              SPECIES_LILICHEN + 64
+#define SPECIES_MANTAMI                                 SPECIES_LILICHEN + 65
+#define SPECIES_TOURBIMANTA                             SPECIES_LILICHEN + 66
+#define SPECIES_ANCAT                                   SPECIES_LILICHEN + 67
+#define SPECIES_PSALMEURTRI                             SPECIES_LILICHEN + 68
+#define SPECIES_CHEEPOUF                                SPECIES_LILICHEN + 69
+#define SPECIES_CHEESETAH                               SPECIES_LILICHEN + 70
+#define SPECIES_KHEPRISUN                               SPECIES_LILICHEN + 71
+#define SPECIES_GESTICOT                                SPECIES_LILICHEN + 72
+#define SPECIES_TERRAKAMI                               SPECIES_LILICHEN + 73
+#define SPECIES_VEROTE                                  SPECIES_LILICHEN + 74
+#define SPECIES_ROTTENIA                                SPECIES_LILICHEN + 75
+#define SPECIES_BOH                                     SPECIES_LILICHEN + 76
+#define SPECIES_EUARK                                   SPECIES_LILICHEN + 77
+#define SPECIES_OHHAERK                                 SPECIES_LILICHEN + 78
+#define SPECIES_SLEEPOMPIK                              SPECIES_LILICHEN + 79
+#define SPECIES_OMINOUSLEH                              SPECIES_LILICHEN + 80
+#define SPECIES_MANDELMAN                               SPECIES_LILICHEN + 81
+#define SPECIES_CILANG                                  SPECIES_LILICHEN + 82
+#define SPECIES_COMPILEX                                SPECIES_LILICHEN + 83
+#define SPECIES_RESNAKE                                 SPECIES_LILICHEN + 84
+#define SPECIES_PYTHAGON                                SPECIES_LILICHEN + 85
+#define SPECIES_FILOURS                                 SPECIES_LILICHEN + 86
+#define SPECIES_POUPOURS                                SPECIES_LILICHEN + 87
+#define SPECIES_FORBEAR                                 SPECIES_LILICHEN + 88
+#define SPECIES_WIGINI                                  SPECIES_LILICHEN + 89
+#define SPECIES_WIGELLE                                 SPECIES_LILICHEN + 90
+#define SPECIES_WIGOUDI                                 SPECIES_LILICHEN + 91
+#define SPECIES_PUYOTAN                                 SPECIES_LILICHEN + 92
+#define SPECIES_POKI                                    SPECIES_LILICHEN + 93
+#define SPECIES_POKIKI                                  SPECIES_LILICHEN + 94
+#define SPECIES_POKIKIKI                                SPECIES_LILICHEN + 95
+#define SPECIES_FLINGUN                                 SPECIES_LILICHEN + 96
+#define SPECIES_KILLENCIEU                              SPECIES_LILICHEN + 97
+#define SPECIES_FLINKALASH                              SPECIES_LILICHEN + 98
+#define SPECIES_MASKAPPY                                SPECIES_LILICHEN + 99
+#define SPECIES_DEPREMASK                               SPECIES_LILICHEN + 100
+#define SPECIES_FINKFOK                                 SPECIES_LILICHEN + 101
+#define SPECIES_LEGZ                                    SPECIES_LILICHEN + 102
+#define SPECIES_MAGNIFEET                               SPECIES_LILICHEN + 103
+#define SPECIES_STOOPID                                 SPECIES_LILICHEN + 104
+#define SPECIES_POTIPWET                                SPECIES_LILICHEN + 105
+#define SPECIES_FLOPWETWET                              SPECIES_LILICHEN + 106
+#define SPECIES_BEUBLOP_CUTE                            SPECIES_LILICHEN + 107
+#define SPECIES_COCOQUILLE                              SPECIES_LILICHEN + 108
+#define SPECIES_PALMYPINCE                              SPECIES_LILICHEN + 109
+#define SPECIES_MAYSUGEKI                               SPECIES_LILICHEN + 110
+#define SPECIES_EAU                                     SPECIES_LILICHEN + 111
+#define SPECIES_EAUACIER                                SPECIES_LILICHEN + 112
+#define SPECIES_LILIBANA                                SPECIES_LILICHEN + 113
+#define SPECIES_HIGANLILY                               SPECIES_LILICHEN + 114
+#define SPECIES_FEU                                     SPECIES_LILICHEN + 115
+#define SPECIES_FEUPOISON                               SPECIES_LILICHEN + 116
+#define SPECIES_DAEMONIX                                SPECIES_LILICHEN + 117
+#define SPECIES_ACHAETHENA                              SPECIES_LILICHEN + 118
+#define SPECIES_INCUBALMA                               SPECIES_LILICHEN + 119
+#define SPECIES_PHANTASM                                SPECIES_LILICHEN + 120
+#define SPECIES_SHROOMALICE                             SPECIES_LILICHEN + 121
+#define SPECIES_DENKID                                  SPECIES_LILICHEN + 122
+#define SPECIES_DENKIGAN                                SPECIES_LILICHEN + 123
+#define SPECIES_JAMUSH                                  SPECIES_LILICHEN + 124
+#define SPECIES_MYCELLUM                                SPECIES_LILICHEN + 125
+#define SPECIES_BERMUDINE                               SPECIES_LILICHEN + 126
+#define SPECIES_KHELPIVAL                               SPECIES_LILICHEN + 127
+#define SPECIES_BLOBUSTER                               SPECIES_LILICHEN + 128
+#define SPECIES_DRILLOUP                                SPECIES_LILICHEN + 129
+#define SPECIES_PERCYBORG                               SPECIES_LILICHEN + 130
+#define SPECIES_WICHU                                   SPECIES_LILICHEN + 131
+#define SPECIES_INCARNAPOT                              SPECIES_LILICHEN + 132
+#define SPECIES_VASAGE                                  SPECIES_LILICHEN + 133
+#define SPECIES_acierpsy                                SPECIES_LILICHEN + 134
+#define SPECIES_acierpsy                                SPECIES_LILICHEN + 135
+#define SPECIES_FIGGON                                  SPECIES_LILICHEN + 136
+#define SPECIES_SALADRAKE                               SPECIES_LILICHEN + 137
+#define SPECIES_AUBERJAW                                SPECIES_LILICHEN + 138
+#define SPECIES_COLZADON                                SPECIES_LILICHEN + 139
+#define SPECIES_EMPRISM                                 SPECIES_LILICHEN + 140
+#define SPECIES_PRISMUNTER                              SPECIES_LILICHEN + 141
+#define SPECIES_OCTONIMBUS                              SPECIES_LILICHEN + 142
+#define SPECIES_ATMOCTOPUS                              SPECIES_LILICHEN + 143
+#define SPECIES_LIMACIDE                                SPECIES_LILICHEN + 144
+#define SPECIES_GLAUGOON                                SPECIES_LILICHEN + 145
+#define SPECIES_PHLOTOXICO                              SPECIES_LILICHEN + 146
+#define SPECIES_WUFUR                                   SPECIES_LILICHEN + 147
+#define SPECIES_NUNCHAKOS                               SPECIES_LILICHEN + 148
+#define SPECIES_POLIPOUPON                              SPECIES_LILICHEN + 149
+#define SPECIES_PERDUSE                                 SPECIES_LILICHEN + 150
+#define SPECIES_MEDERIVE                                SPECIES_LILICHEN + 151
+#define SPECIES_ILLUFOX                                 SPECIES_LILICHEN + 152
+#define SPECIES_SPERENARD                               SPECIES_LILICHEN + 153
+#define SPECIES_MOUCHIPS                                SPECIES_LILICHEN + 154
+#define SPECIES_GIGANILLE                               SPECIES_LILICHEN + 155
+#define SPECIES_PROBELLE                                SPECIES_LILICHEN + 156
+#define SPECIES_POME                                    SPECIES_LILICHEN + 157
+#define SPECIES_POMDARPI                                SPECIES_LILICHEN + 158
+#define SPECIES_KEROCORN                                SPECIES_LILICHEN + 159
+#define SPECIES_CROACORN                                SPECIES_LILICHEN + 160
+#define SPECIES_CROAQUILLE                              SPECIES_LILICHEN + 161
+#define SPECIES_CHIMESPRIT                              SPECIES_LILICHEN + 162
+#define SPECIES_INDORMON                                SPECIES_LILICHEN + 163
+#define SPECIES_INVOCAMON                               SPECIES_LILICHEN + 164
+#define SPECIES_SHERURAN                                SPECIES_LILICHEN + 165
+#define SPECIES_SHERUCROC                               SPECIES_LILICHEN + 166
+#define SPECIES_GOTINALVE                               SPECIES_LILICHEN + 167
+#define SPECIES_SYNAPTI                                 SPECIES_LILICHEN + 168
+#define SPECIES_GLACYNAPSE                              SPECIES_LILICHEN + 169
+#define SPECIES_TERMALIN                                SPECIES_LILICHEN + 170
+#define SPECIES_TERMITORIAL                             SPECIES_LILICHEN + 171
+#define SPECIES_TERBABAIN                               SPECIES_LILICHEN + 172
+#define SPECIES_FOURUGLA                                SPECIES_LILICHEN + 173
+#define SPECIES_YETIDIOT                                SPECIES_LILICHEN + 174
+#define SPECIES_GLAKAME                                 SPECIES_LILICHEN + 175
+#define SPECIES_KAMEPHALE                               SPECIES_LILICHEN + 176
+#define SPECIES_MOUMOUTROP                              SPECIES_LILICHEN + 177
+#define SPECIES_TUNDRAGON                               SPECIES_LILICHEN + 178
+#define SPECIES_BLASTAILES                              SPECIES_LILICHEN + 179
+#define SPECIES_BEAUVY                                  SPECIES_LILICHEN + 180
+#define SPECIES_ROSTIER                                 SPECIES_LILICHEN + 181
+#define SPECIES_METALICA                                SPECIES_LILICHEN + 182
+#define SPECIES_POPCORNE                                SPECIES_LILICHEN + 183
+#define SPECIES_EQUESTRIA                               SPECIES_LILICHEN + 184
+#define SPECIES_PEGAZUR                                 SPECIES_LILICHEN + 185
+#define SPECIES_PUTRAVEN                                SPECIES_LILICHEN + 186
+#define SPECIES_NECROVORIS                              SPECIES_LILICHEN + 187
+#define SPECIES_ROCHIERE                                SPECIES_LILICHEN + 188
+#define SPECIES_OSTENSSY                                SPECIES_LILICHEN + 189
+#define SPECIES_RANCOSSOR                               SPECIES_LILICHEN + 190
+#define SPECIES_MOSSEMEROS                              SPECIES_LILICHEN + 191
+#define SPECIES_VEUVOILE                                SPECIES_LILICHEN + 192
+#define SPECIES_JAIMAILLE                               SPECIES_LILICHEN + 193
+#define SPECIES_ARMIS                                   SPECIES_LILICHEN + 194
+#define SPECIES_ACCALMITE                               SPECIES_LILICHEN + 195
+#define SPECIES_AXOMINOT                                SPECIES_LILICHEN + 196
+#define SPECIES_AXOLORD                                 SPECIES_LILICHEN + 197
+#define SPECIES_TROMPLANTE                              SPECIES_LILICHEN + 198
+#define SPECIES_PADAMIDON                               SPECIES_LILICHEN + 199
+#define SPECIES_PSYCHOBAT                               SPECIES_LILICHEN + 200
+#define SPECIES_CHIROPSY                                SPECIES_LILICHEN + 201
+#define SPECIES_GYAOON                                  SPECIES_LILICHEN + 202
+#define SPECIES_COUVETEAU                               SPECIES_LILICHEN + 203
+#define SPECIES_LOUVERNAL                               SPECIES_LILICHEN + 204
+#define SPECIES_LARVAMBRE                               SPECIES_LILICHEN + 205
+#define SPECIES_AGGRESTIK                               SPECIES_LILICHEN + 206
+#define SPECIES_ALIGRATOR                               SPECIES_LILICHEN + 207
+#define SPECIES_VIRULOX                                 SPECIES_LILICHEN + 208
+#define SPECIES_RANSOMITE                               SPECIES_LILICHEN + 209
+#define SPECIES_WORMANES                                SPECIES_LILICHEN + 210
+#define SPECIES_NYMFICHU                                SPECIES_LILICHEN + 211
+#define SPECIES_MEMENTOS                                SPECIES_LILICHEN + 212
+#define SPECIES_APPRENPTI                               SPECIES_LILICHEN + 213
+#define SPECIES_GARDILISK                               SPECIES_LILICHEN + 214
+#define SPECIES_DRALEXANDER                             SPECIES_LILICHEN + 215
+#define SPECIES_TRISANGEL                               SPECIES_LILICHEN + 216
+#define SPECIES_OLIVIL                                  SPECIES_LILICHEN + 217
+#define SPECIES_PALMIL                                  SPECIES_LILICHEN + 218
+#define SPECIES_FIGUIL                                  SPECIES_LILICHEN + 219
+#define SPECIES_PROTYRA                                 SPECIES_LILICHEN + 220
+#define SPECIES_MECAREX                                 SPECIES_LILICHEN + 221
+#define SPECIES_OMECATYRA                               SPECIES_LILICHEN + 222
+#define SPECIES_PROGREX                                 SPECIES_LILICHEN + 223
+#define SPECIES_MILOBELLUS                              SPECIES_LILICHEN + 224
+#define SPECIES_JUJUBIEL                                SPECIES_LILICHEN + 225
+/*
 //MOYEN AGE
 
 //DOOMDEX G2
