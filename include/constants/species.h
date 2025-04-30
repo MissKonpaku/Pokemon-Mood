@@ -1755,8 +1755,8 @@
 #define SPECIES_EAUACIER                                SPECIES_LILICHEN + 112
 #define SPECIES_LILIBANA                                SPECIES_LILICHEN + 113
 #define SPECIES_HIGANLILY                               SPECIES_LILICHEN + 114
-#define SPECIES_FEU                                     SPECIES_LILICHEN + 115
-#define SPECIES_FEUPOISON                               SPECIES_LILICHEN + 116
+#define SPECIES_MERACHAN                                SPECIES_LILICHEN + 115
+#define SPECIES_MERAGAZ                                 SPECIES_LILICHEN + 116
 #define SPECIES_DAEMONIX                                SPECIES_LILICHEN + 117
 #define SPECIES_ACHAETHENA                              SPECIES_LILICHEN + 118
 #define SPECIES_INCUBALMA                               SPECIES_LILICHEN + 119
@@ -1818,7 +1818,7 @@
 #define SPECIES_MOUMOUTROP                              SPECIES_LILICHEN + 175
 #define SPECIES_TUNDRAGON                               SPECIES_LILICHEN + 176
 #define SPECIES_BLASTAILES                              SPECIES_LILICHEN + 177
-#define SPECIES_ROSTIER                                 SPECIES_LILICHEN + 178
+#define SPECIES_WAKYWACOUP                              SPECIES_LILICHEN + 178
 #define SPECIES_METALICA                                SPECIES_LILICHEN + 179
 #define SPECIES_POPCORNE                                SPECIES_LILICHEN + 180
 #define SPECIES_EQUESTRIA                               SPECIES_LILICHEN + 181
