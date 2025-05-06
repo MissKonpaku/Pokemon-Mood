@@ -26735,7 +26735,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
-/*
+
 //PLACEHOLDER
     const u32 gMonFrontPic_Placeholder[] = INCBIN_U32("graphics/doomdex/Placeholder/front.4bpp.lz");
     const u32 gMonPalette_Placeholder[] = INCBIN_U32("graphics/doomdex/Placeholder/normal.gbapal.lz");
@@ -27504,5 +27504,5 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Mycellum[] = INCBIN_U8("graphics/doomdex/mycellum/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Mycellum[] = INCBIN_U8("graphics/doomdex/mycellum/footprint.1bpp");
-/**/
+/**
 */

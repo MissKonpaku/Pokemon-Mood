@@ -192,4 +192,5 @@ void SetSpriteCB_MonAnimDummy(struct Sprite *sprite);
 #define ANIM_SHAKE_GLOW_WHITE_SLOW              152
 #define ANIM_SHAKE_GLOW_PURPLE_SLOW             153
 
+
 #endif // GUARD_POKEMON_ANIMATION_H

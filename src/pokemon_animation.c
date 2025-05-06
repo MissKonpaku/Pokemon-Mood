@@ -673,6 +673,8 @@ static void ResetSpriteAfterAnim(struct Sprite *sprite)
 #endif // BUGFIX
 }
 
+
+
 static void Anim_CircularStretchTwice(struct Sprite *sprite)
 {
     if (sprite->data[2] == 0)
