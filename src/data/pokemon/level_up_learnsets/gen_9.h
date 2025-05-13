@@ -22314,3 +22314,5344 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 };
 #endif //P_FAMILY_PECHARUNT
 
+static const struct LevelUpMove sLilichenLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 4, MOVE_GROWTH),
+    LEVEL_UP_MOVE( 6, MOVE_LEAFAGE),
+    LEVEL_UP_MOVE( 9, MOVE_POISON_POWDER),
+    LEVEL_UP_MOVE( 9, MOVE_SLEEP_POWDER),
+    LEVEL_UP_MOVE( 13, MOVE_RAZOR_FEAF),
+    LEVEL_UP_MOVE( 17, MOVE_LEECH_SEED),
+    LEVEL_UP_MOVE( 21, MOVE_BITE),
+    LEVEL_UP_MOVE( 26, MOVE_INGRAIN),
+    LEVEL_UP_MOVE( 26, MOVE_SYNTHESIS),
+    LEVEL_UP_MOVE( 30, MOVE_HORN_LEECH),
+    LEVEL_UP_MOVE( 35, MOVE_WOOD_HAMMER),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sNoblichenLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 4, MOVE_GROWTH),
+    LEVEL_UP_MOVE( 6, MOVE_LEAFAGE),
+    LEVEL_UP_MOVE( 10, MOVE_POISON_POWDER),
+    LEVEL_UP_MOVE( 10, MOVE_SLEEP_POWDER),
+    LEVEL_UP_MOVE( 14, MOVE_RAZOR_FEAF),
+    LEVEL_UP_MOVE( 16, MOVE_ACID_SPRAY),
+    LEVEL_UP_MOVE( 18, MOVE_LEECH_SEED),
+    LEVEL_UP_MOVE( 22, MOVE_BITE),
+    LEVEL_UP_MOVE( 27, MOVE_INGRAIN),
+    LEVEL_UP_MOVE( 27, MOVE_SYNTHESIS),
+    LEVEL_UP_MOVE( 31, MOVE_HORN_LEECH),
+    LEVEL_UP_MOVE( 36, MOVE_WOOD_HAMMER),
+    LEVEL_UP_MOVE( 40, MOVE_TOXIC),
+    LEVEL_UP_MOVE( 45, MOVE_SLUDGE_BOMB),
+    LEVEL_UP_MOVE( 54, MOVE_POWER_WHIP),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sMonarchenLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 1, MOVE_GROWTH),
+    LEVEL_UP_MOVE( 1, MOVE_WOOD_HAMMER),
+    LEVEL_UP_MOVE( 6, MOVE_LEAFAGE),
+    LEVEL_UP_MOVE( 12, MOVE_POISON_POWDER),
+    LEVEL_UP_MOVE( 12, MOVE_SLEEP_POWDER),
+    LEVEL_UP_MOVE( 15, MOVE_RAZOR_FEAF),
+    LEVEL_UP_MOVE( 18, MOVE_ACID_SPRAY),
+    LEVEL_UP_MOVE( 20, MOVE_LEECH_SEED),
+    LEVEL_UP_MOVE( 24, MOVE_BITE),
+    LEVEL_UP_MOVE( 28, MOVE_INGRAIN),
+    LEVEL_UP_MOVE( 28, MOVE_SYNTHESIS),
+    LEVEL_UP_MOVE( 34, MOVE_HORN_LEECH),
+    LEVEL_UP_MOVE( 36, MOVE_WOOD_HAMMER),
+    LEVEL_UP_MOVE( 41, MOVE_TOXIC),
+    LEVEL_UP_MOVE( 46, MOVE_SLUDGE_BOMB),
+    LEVEL_UP_MOVE( 51, MOVE_CRUNCH),
+    LEVEL_UP_MOVE( 62, MOVE_POWER_WHIP),
+    LEVEL_UP_END
+};
+/*
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove s LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_MOVE( 1, MOVE_),
+    LEVEL_UP_END
+};
+*/
