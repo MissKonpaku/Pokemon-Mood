@@ -28,6 +28,7 @@ Thumbs.db
 build/
 .DS_Store
 *.ddump
+tools/poryscript
 .idea/
 porymap.*.cfg
 prefabs.json
