@@ -1841,11 +1841,11 @@
 #define SPECIES_PSYCHOBAT                               SPECIES_LILICHEN + 198
 #define SPECIES_CHIROPSY                                SPECIES_LILICHEN + 199
 #define SPECIES_GYAOON                                  SPECIES_LILICHEN + 200
-#define SPECIES_COUVETEAU                               SPECIES_LILICHEN + 201
-#define SPECIES_LOUVERNAL                               SPECIES_LILICHEN + 202
+#define SPECIES_PRIMITRONC                              SPECIES_LILICHEN + 201
+#define SPECIES_FILICOLITH                              SPECIES_LILICHEN + 202
 #define SPECIES_LARVAMBRE                               SPECIES_LILICHEN + 203
 #define SPECIES_AGGRESTIK                               SPECIES_LILICHEN + 204
-#define SPECIES_ALIGRATOR                               SPECIES_LILICHEN + 205
+#define SPECIES_STATISORUS                              SPECIES_LILICHEN + 205
 #define SPECIES_VIRULOX                                 SPECIES_LILICHEN + 206
 #define SPECIES_RANSOMITE                               SPECIES_LILICHEN + 207
 #define SPECIES_WORMANES                                SPECIES_LILICHEN + 208
