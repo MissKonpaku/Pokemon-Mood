@@ -22595,7 +22595,7 @@ static const struct LevelUpMove sScabutoLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sFukkunyLevelUpLearnset[] = {
+static const struct LevelUpMove sFukunnyLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 4, MOVE_POWDER_SNOW),

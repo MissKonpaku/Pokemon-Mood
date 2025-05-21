@@ -26777,7 +26777,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Monarchen[] = INCBIN_U8("graphics/doomdex/monarchen/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/*
+
     const u32 gMonFrontPic_Beember[] = INCBIN_U32("graphics/doomdex/beember/Front.4bpp.lz");
     const u32 gMonPalette_Beember[] = INCBIN_U32("graphics/doomdex/beember/normal.gbapal.lz");
     const u32 gMonBackPic_Beember[] = INCBIN_U32("graphics/doomdex/beember/Back.4bpp.lz");
@@ -26801,7 +26801,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Acidopt[] = INCBIN_U8("graphics/doomdex/acidopt/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/acidopt/footprint.1bpp");
-/*
+
     const u32 gMonFrontPic_Woopeel[] = INCBIN_U32("graphics/doomdex/woopeel/Front.4bpp.lz");
     const u32 gMonPalette_Woopeel[] = INCBIN_U32("graphics/doomdex/woopeel/normal.gbapal.lz");
     const u32 gMonBackPic_Woopeel[] = INCBIN_U32("graphics/doomdex/woopeel/Back.4bpp.lz");
@@ -26825,7 +26825,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Horrifeel[] = INCBIN_U8("graphics/doomdex/horrifeel/icon.4bpp");
     //#if P_FOOTPRINTS
     // const u8 gMonFootprint_[] = INCBIN_U8("graphics/doomdex/x/footprint.1bpp");
-/*
+
     const u32 gMonFrontPic_Caterpile[] = INCBIN_U32("graphics/doomdex/caterpile/Front.4bpp.lz");
     const u32 gMonPalette_Caterpile[] = INCBIN_U32("graphics/doomdex/caterpile/normal.gbapal.lz");
     const u32 gMonBackPic_Caterpile[] = INCBIN_U32("graphics/doomdex/caterpile/Back.4bpp.lz");
@@ -26849,7 +26849,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Lampiposa[] = INCBIN_U8("graphics/doomdex/lampiposa/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Lampiposa[] = INCBIN_U8("graphics/doomdex/lampiposa/footprint.1bpp");
-/*
+
     const u32 gMonFrontPic_Scarabebe[] = INCBIN_U32("graphics/doomdex/scarabebe/Front.4bpp.lz");
     const u32 gMonPalette_Scarabebe[] = INCBIN_U32("graphics/doomdex/scarabebe/normal.gbapal.lz");
     const u32 gMonBackPic_Scarabebe[] = INCBIN_U32("graphics/doomdex/scarabebe/Back.4bpp.lz");
