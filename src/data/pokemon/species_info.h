@@ -100,7 +100,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .speciesName = _("??????????"),
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_NONE,
+         //.natDexNum = NATIONAL_DEX_NONE,
         .categoryName = _("Unknown"),
         .height = 0,
         .weight = 0,
@@ -206,7 +206,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_NOBLICHEN}),
         //-------------------------------------------------------------//
         .cryId = CRY_NONE,
-        //.natDexNum = NATIONAL_DEX_LILICHEN,
+        // //.natDexNum = NATIONAL_DEX_LILICHEN,
         .pokemonScale = 356,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -259,7 +259,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_MONARCHEN}),
         //-------------------------------------------------------------//
         .cryId = CRY_NONE,
-        //.natDexNum = NATIONAL_DEX_NOBLICHEN,
+        // //.natDexNum = NATIONAL_DEX_NOBLICHEN,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -315,7 +315,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "vie."),
         //-------------------------------------------------------------//
         .cryId = CRY_NONE,
-        //.natDexNum = NATIONAL_DEX_MONARCHEN,
+        // //.natDexNum = NATIONAL_DEX_MONARCHEN,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -375,7 +375,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Souvent la cible des pokémon oiseaux,\n"
             "il se défend en projetant des flammes\n"
             "sur ses adversaires pour pouvoir fuir."),
-        //.natDexNum = NATIONAL_DEX_BEEMBER,
+        // //.natDexNum = NATIONAL_DEX_BEEMBER,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 255,
@@ -423,7 +423,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 11,
         .weight = 190,
         //data
-        //.natDexNum = NATIONAL_DEX_DETOPTERE,
+        // //.natDexNum = NATIONAL_DEX_DETOPTERE,
         .evYield_SpAttack = 2,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_BUG),
         .bodyColor = BODY_COLOR_RED,
@@ -491,7 +491,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "arrive à se déplacer avec agilité durant\n"
             "ses combats. La puissance de frappe de\n"
             "son canon est phénoménale."),
-        //.natDexNum = NATIONAL_DEX_ACIDOPTE,
+        // //.natDexNum = NATIONAL_DEX_ACIDOPTE,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 255,
@@ -552,7 +552,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "imprudents ont perdu la vie en se\n"
             "baignant trop près d'eux, victimes\n"
             "de décharges électriques."),
-        //.natDexNum = NATIONAL_DEX_WOOPEEL,
+        // //.natDexNum = NATIONAL_DEX_WOOPEEL,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 255,
@@ -611,7 +611,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "En plongeant sa queue dans l’eau il déverse\n"
             "de l’électricité qui fait remonter des\n"
             "poissons grillés à la surface."),
-        //.natDexNum = NATIONAL_DEX_CRUEEL,        
+        // //.natDexNum = NATIONAL_DEX_CRUEEL,        
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 255,
@@ -670,7 +670,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Ce chasseur patient ne laisse aucune\n"
             "chance à ses victimes. Sa deuxième\n"
             "bouche possède son propre estomac."),
-        //.natDexNum = NATIONAL_DEX_HORRIFEEL,
+        // //.natDexNum = NATIONAL_DEX_HORRIFEEL,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 255,
@@ -730,7 +730,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Ces insectes branchent leurs antennes\n"
             "en forme de câble à des arbres pour \n"
             "s'y connecter et charger leurs énergie."),
-        //.natDexNum = NATIONAL_DEX_CATERPILE,
+        // //.natDexNum = NATIONAL_DEX_CATERPILE,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -788,7 +788,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "sur pattes, elles sont capables de\n"
             "délivrer de l'électricité jusqu'à" 
             "5000 volts"),
-        //.natDexNum = NATIONAL_DEX_COCAMPER,
+        // //.natDexNum = NATIONAL_DEX_COCAMPER,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -846,7 +846,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Lampiposa possède, a savoir la génération\n"
             "de la lumière que la fibre optique a pu\n"
             "voir le jour dans nos ménages."),
-        //.natDexNum = NATIONAL_DEX_LAMPIPOSA,
+        // //.natDexNum = NATIONAL_DEX_LAMPIPOSA,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -906,7 +906,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        //.natDexNum = NATIONAL_DEX_SCARABEBE,
+        // //.natDexNum = NATIONAL_DEX_SCARABEBE,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -963,7 +963,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        //.natDexNum = NATIONAL_DEX_SCARACIER,
+        // //.natDexNum = NATIONAL_DEX_SCARACIER,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1021,7 +1021,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        //.natDexNum = NATIONAL_DEX_SCABUTO,
+        // //.natDexNum = NATIONAL_DEX_SCABUTO,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1081,7 +1081,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        //.natDexNum = NATIONAL_DEX_FUKUNNY,
+        // //.natDexNum = NATIONAL_DEX_FUKUNNY,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1138,7 +1138,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        //.natDexNum = NATIONAL_DEX_USAGUNNY,
+        // //.natDexNum = NATIONAL_DEX_USAGUNNY,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1195,7 +1195,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        //.natDexNum = NATIONAL_DEX_YUKIGORI,
+        // //.natDexNum = NATIONAL_DEX_YUKIGORI,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1256,7 +1256,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_GRALIBRI,
+         //.natDexNum = NATIONAL_DEX_GRALIBRI,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1313,7 +1313,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_STALIBRI,
+         //.natDexNum = NATIONAL_DEX_STALIBRI,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1370,7 +1370,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_ZARDOPIUM,
+         //.natDexNum = NATIONAL_DEX_ZARDOPIUM,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1431,7 +1431,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_STALLA,
+         //.natDexNum = NATIONAL_DEX_STALLA,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1489,7 +1489,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_STARLING,
+         //.natDexNum = NATIONAL_DEX_STARLING,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1546,7 +1546,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_GLADIVA,
+         //.natDexNum = NATIONAL_DEX_GLADIVA,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1606,7 +1606,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_ZAPEK,
+         //.natDexNum = NATIONAL_DEX_ZAPEK,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1663,7 +1663,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Placeholder\n"
             " \n"
             " "),
-        .natDexNum = NATIONAL_DEX_PIKORAGE,
+         //.natDexNum = NATIONAL_DEX_PIKORAGE,
         .pokemonScale = 255,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -1715,7 +1715,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_DRAGON),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_COCKALYPSE,
+         //.natDexNum = NATIONAL_DEX_COCKALYPSE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -1775,7 +1775,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2, EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_CAVIACHAT,
+         //.natDexNum = NATIONAL_DEX_CAVIACHAT,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -1832,7 +1832,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2, EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_CALIKEAU,
+         //.natDexNum = NATIONAL_DEX_CALIKEAU,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -1889,7 +1889,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2, EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_NAUTICAT,
+         //.natDexNum = NATIONAL_DEX_NAUTICAT,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -1949,7 +1949,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_WATER_1),
         .bodyColor = BODY_COLOR_GREEN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PLANKTEUY,
+         //.natDexNum = NATIONAL_DEX_PLANKTEUY,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2009,7 +2009,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE, EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_MELODIE,
+         //.natDexNum = NATIONAL_DEX_MELODIE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2066,7 +2066,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE, EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_MELODRAME,
+         //.natDexNum = NATIONAL_DEX_MELODRAME,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2131,7 +2131,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
 
         .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_COPESPINE}),
-        .natDexNum = NATIONAL_DEX_BLIPPER,
+         //.natDexNum = NATIONAL_DEX_BLIPPER,
         
         .cryId = CRY_NONE,
         .pokemonScale = 356,
@@ -2192,7 +2192,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_BLOPELLER}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_COPESPINE,
+         //.natDexNum = NATIONAL_DEX_COPESPINE,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2248,7 +2248,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_BLOPELLER,
+         //.natDexNum = NATIONAL_DEX_BLOPELLER,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2306,7 +2306,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TAUPETI,
+         //.natDexNum = NATIONAL_DEX_TAUPETI,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2363,7 +2363,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TAUPASSAGE,
+         //.natDexNum = NATIONAL_DEX_TAUPASSAGE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2420,7 +2420,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TAUPERE,
+         //.natDexNum = NATIONAL_DEX_TAUPERE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2480,7 +2480,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_GERBUZZ,
+         //.natDexNum = NATIONAL_DEX_GERBUZZ,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2537,7 +2537,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TESLANTEN,
+         //.natDexNum = NATIONAL_DEX_TESLANTEN,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2597,7 +2597,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_GALEMIMI,
+         //.natDexNum = NATIONAL_DEX_GALEMIMI,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2654,7 +2654,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_GALEM,
+         //.natDexNum = NATIONAL_DEX_GALEM,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2711,7 +2711,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_WARDELITH,
+         //.natDexNum = NATIONAL_DEX_WARDELITH,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2771,7 +2771,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_GROUNDER,
+         //.natDexNum = NATIONAL_DEX_GROUNDER,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2831,7 +2831,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_SNIFOUY,
+         //.natDexNum = NATIONAL_DEX_SNIFOUY,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2888,7 +2888,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FISTFOUY,
+         //.natDexNum = NATIONAL_DEX_FISTFOUY,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -2948,7 +2948,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_NEKOFEE,
+         //.natDexNum = NATIONAL_DEX_NEKOFEE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3008,7 +3008,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_WATER_1),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PLOUFFY,
+         //.natDexNum = NATIONAL_DEX_PLOUFFY,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3065,7 +3065,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_WATER_1),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_COINQWACK,
+         //.natDexNum = NATIONAL_DEX_COINQWACK,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3122,7 +3122,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_WATER_1),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_COLBOUEE,
+         //.natDexNum = NATIONAL_DEX_COLBOUEE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3182,7 +3182,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_HEMOGLEZAR,
+         //.natDexNum = NATIONAL_DEX_HEMOGLEZAR,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3239,7 +3239,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_SANGLODON,
+         //.natDexNum = NATIONAL_DEX_SANGLODON,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3299,7 +3299,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
         .bodyColor = BODY_COLOR_GREEN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_COCOQUILLE,
+         //.natDexNum = NATIONAL_DEX_COCOQUILLE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3356,7 +3356,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PALMYPINCE,
+         //.natDexNum = NATIONAL_DEX_PALMYPINCE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3422,7 +3422,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_BUBULLON}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PLOPETIT,
+         //.natDexNum = NATIONAL_DEX_PLOPETIT,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3480,7 +3480,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_BUBULLON,
+         //.natDexNum = NATIONAL_DEX_BUBULLON,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3538,7 +3538,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FEUVALIER,
+         //.natDexNum = NATIONAL_DEX_FEUVALIER,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3595,7 +3595,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_AGOHENIE,
+         //.natDexNum = NATIONAL_DEX_AGOHENIE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3655,7 +3655,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_PINK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_KATCHINA,
+         //.natDexNum = NATIONAL_DEX_KATCHINA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3712,7 +3712,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_PINK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_ELKATCHINA,
+         //.natDexNum = NATIONAL_DEX_ELKATCHINA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3772,7 +3772,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
         .bodyColor = BODY_COLOR_GREEN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_ALWY,
+         //.natDexNum = NATIONAL_DEX_ALWY,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3829,7 +3829,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
         .bodyColor = BODY_COLOR_GREEN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_VEROPHYLA,
+         //.natDexNum = NATIONAL_DEX_VEROPHYLA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3886,7 +3886,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
         .bodyColor = BODY_COLOR_GREEN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_VERACINA,
+         //.natDexNum = NATIONAL_DEX_VERACINA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -3946,7 +3946,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_SQUALIL,
+         //.natDexNum = NATIONAL_DEX_SQUALIL,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4003,7 +4003,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_SQUALAVA,
+         //.natDexNum = NATIONAL_DEX_SQUALAVA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4061,7 +4061,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_MAGMALODON,
+         //.natDexNum = NATIONAL_DEX_MAGMALODON,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4122,7 +4122,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_CHAROSABLE,
+         //.natDexNum = NATIONAL_DEX_CHAROSABLE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4181,7 +4181,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_DUNESTIN,
+         //.natDexNum = NATIONAL_DEX_DUNESTIN,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4241,7 +4241,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_ANCAT,
+         //.natDexNum = NATIONAL_DEX_ANCAT,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4298,7 +4298,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PSALMEURTRI,
+         //.natDexNum = NATIONAL_DEX_PSALMEURTRI,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4365,7 +4365,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         
         .cryId = CRY_NONE,
         
-        .natDexNum = NATIONAL_DEX_CHEEPOUF,
+         //.natDexNum = NATIONAL_DEX_CHEEPOUF,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4422,7 +4422,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         
         .cryId = CRY_NONE,
         
-        .natDexNum = NATIONAL_DEX_CHEESETAH,
+         //.natDexNum = NATIONAL_DEX_CHEESETAH,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4483,7 +4483,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         
         .cryId = CRY_NONE,
         
-        .natDexNum = NATIONAL_DEX_KHEPRISUN,
+         //.natDexNum = NATIONAL_DEX_KHEPRISUN,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4544,7 +4544,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         
         .cryId = CRY_NONE,
         
-        .natDexNum = NATIONAL_DEX_MAYSUGEKI,
+         //.natDexNum = NATIONAL_DEX_MAYSUGEKI,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4600,7 +4600,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG, EGG_GROUP_MONSTER),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_VEROTE,
+         //.natDexNum = NATIONAL_DEX_VEROTE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4658,7 +4658,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG, EGG_GROUP_MONSTER),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_ROTTENIA,
+         //.natDexNum = NATIONAL_DEX_ROTTENIA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4718,7 +4718,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_BOH,
+         //.natDexNum = NATIONAL_DEX_BOH,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4775,7 +4775,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_EUARK,
+         //.natDexNum = NATIONAL_DEX_EUARK,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4832,7 +4832,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_OHHAERK,
+         //.natDexNum = NATIONAL_DEX_OHHAERK,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4892,7 +4892,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_SLEEPOMPIK,
+         //.natDexNum = NATIONAL_DEX_SLEEPOMPIK,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -4949,7 +4949,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_OMINOUSLEH,
+         //.natDexNum = NATIONAL_DEX_OMINOUSLEH,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -5006,7 +5006,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_MANDELMAN,
+         //.natDexNum = NATIONAL_DEX_MANDELMAN,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -5072,7 +5072,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_UPGRADE, SPECIES_COMPILEX}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_CILANG,
+         //.natDexNum = NATIONAL_DEX_CILANG,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5130,7 +5130,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_COMPILEX,
+         //.natDexNum = NATIONAL_DEX_COMPILEX,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5192,7 +5192,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_UPGRADE, SPECIES_PYTHAGON}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_RESNAKE,
+         //.natDexNum = NATIONAL_DEX_RESNAKE,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5248,7 +5248,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PYTHAGON,
+         //.natDexNum = NATIONAL_DEX_PYTHAGON,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5310,7 +5310,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_POUPOURS}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FILOURS,
+         //.natDexNum = NATIONAL_DEX_FILOURS,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5370,7 +5370,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_FORBEAR}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_POUPOURS,
+         //.natDexNum = NATIONAL_DEX_POUPOURS,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5428,7 +5428,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FORBEAR,
+         //.natDexNum = NATIONAL_DEX_FORBEAR,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5492,7 +5492,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_WIGELLE}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_WIGINI,
+         //.natDexNum = NATIONAL_DEX_WIGINI,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5551,7 +5551,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 43, SPECIES_WIGOUDI}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_WIGELLE,
+         //.natDexNum = NATIONAL_DEX_WIGELLE,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5609,7 +5609,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_WIGOUDI,
+         //.natDexNum = NATIONAL_DEX_WIGOUDI,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5665,7 +5665,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON, EGG_GROUP_MONSTER),
         .bodyColor = BODY_COLOR_BLUE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PUYOTAN,
+         //.natDexNum = NATIONAL_DEX_PUYOTAN,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -5722,7 +5722,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON, EGG_GROUP_MONSTER),
         .bodyColor = BODY_COLOR_BLUE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PUYOMAX,
+         //.natDexNum = NATIONAL_DEX_PUYOMAX,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -5788,7 +5788,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_POKIKI}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_POKI,
+         //.natDexNum = NATIONAL_DEX_POKI,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5847,7 +5847,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_POKIKIKI}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_POKIKI,
+         //.natDexNum = NATIONAL_DEX_POKIKI,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5905,7 +5905,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_POKIKIKI,
+         //.natDexNum = NATIONAL_DEX_POKIKIKI,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5969,7 +5969,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 27, SPECIES_KILLENCIEU}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FLINGUN,
+         //.natDexNum = NATIONAL_DEX_FLINGUN,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6027,7 +6027,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 47, SPECIES_FLINKALASH}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_KILLENCIEU,
+         //.natDexNum = NATIONAL_DEX_KILLENCIEU,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6084,7 +6084,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
 
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FLINKALASH,
+         //.natDexNum = NATIONAL_DEX_FLINKALASH,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6141,7 +6141,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FINKFOK,
+         //.natDexNum = NATIONAL_DEX_FINKFOK,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6201,7 +6201,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS, EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_LEGZ,
+         //.natDexNum = NATIONAL_DEX_LEGZ,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6258,7 +6258,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS, EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_MAGNIFEET,
+         //.natDexNum = NATIONAL_DEX_MAGNIFEET,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6323,7 +6323,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_STOOPID,
+         //.natDexNum = NATIONAL_DEX_STOOPID,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6383,7 +6383,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2, EGG_GROUP_MONSTER),
         .bodyColor = BODY_COLOR_PINK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_BEUBLOP,
+         //.natDexNum = NATIONAL_DEX_BEUBLOP,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6439,7 +6439,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6500,7 +6500,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_POTIPWET,
+         //.natDexNum = NATIONAL_DEX_POTIPWET,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6557,7 +6557,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FLOPWETWET,
+         //.natDexNum = NATIONAL_DEX_FLOPWETWET,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6617,7 +6617,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON, EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_GESTICOT,
+         //.natDexNum = NATIONAL_DEX_GESTICOT,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6674,7 +6674,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON, EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_BROWN,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TERRAKAMI,
+         //.natDexNum = NATIONAL_DEX_TERRAKAMI,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6734,7 +6734,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE, EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_DAEMONIX,
+         //.natDexNum = NATIONAL_DEX_DAEMONIX,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6791,7 +6791,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE, EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_PINK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_ACHAETHENA,
+         //.natDexNum = NATIONAL_DEX_ACHAETHENA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6851,7 +6851,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE, EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_PHANTASM,
+         //.natDexNum = NATIONAL_DEX_PHANTASM,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6909,7 +6909,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
         .bodyColor = BODY_COLOR_PINK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_SHRUMALICE,
+         //.natDexNum = NATIONAL_DEX_SHRUMALICE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -6969,7 +6969,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY, EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_DENKID,
+         //.natDexNum = NATIONAL_DEX_DENKID,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7026,7 +7026,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY, EGG_GROUP_AMORPHOUS),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_DENKIGAN,
+         //.natDexNum = NATIONAL_DEX_DENKIGAN,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7085,7 +7085,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_JAMUSH,
+         //.natDexNum = NATIONAL_DEX_JAMUSH,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7143,7 +7143,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_FIELD),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_MYCELLUM,
+         //.natDexNum = NATIONAL_DEX_MYCELLUM,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7202,7 +7202,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7259,7 +7259,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7320,7 +7320,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7381,7 +7381,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7438,7 +7438,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7495,7 +7495,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7556,7 +7556,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7613,7 +7613,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7674,7 +7674,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY),
         .bodyColor = BODY_COLOR_YELLOW,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_WICHU,
+         //.natDexNum = NATIONAL_DEX_WICHU,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7734,7 +7734,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7791,7 +7791,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7854,7 +7854,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7912,7 +7912,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_FIGGON,
+         //.natDexNum = NATIONAL_DEX_FIGGON,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7970,7 +7970,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_DRAGON),
         .bodyColor = BODY_COLOR_PINK,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_SALADRAKE,
+         //.natDexNum = NATIONAL_DEX_SALADRAKE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8027,7 +8027,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_DRAGON),
         .bodyColor = BODY_COLOR_PURPLE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_AUBERJAW,
+         //.natDexNum = NATIONAL_DEX_AUBERJAW,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8093,7 +8093,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -8153,7 +8153,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -8211,7 +8211,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8268,7 +8268,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8354,7 +8354,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8415,7 +8415,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8472,7 +8472,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8533,7 +8533,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8594,7 +8594,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8651,7 +8651,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8712,7 +8712,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8773,7 +8773,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8830,7 +8830,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8887,7 +8887,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8948,7 +8948,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9005,7 +9005,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9072,7 +9072,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9132,7 +9132,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9192,7 +9192,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9250,7 +9250,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9307,7 +9307,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9368,7 +9368,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9425,7 +9425,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9482,7 +9482,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9549,7 +9549,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9613,7 +9613,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9673,7 +9673,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9737,7 +9737,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9797,7 +9797,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9855,7 +9855,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9912,7 +9912,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -9968,7 +9968,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10028,7 +10028,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10089,7 +10089,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10146,7 +10146,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10207,7 +10207,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS, EGG_GROUP_MINERAL),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_BEBETA,
+         //.natDexNum = NATIONAL_DEX_BEBETA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10264,7 +10264,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS, EGG_GROUP_MINERAL),
         .bodyColor = BODY_COLOR_GRAY,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_OMEGAMMA,
+         //.natDexNum = NATIONAL_DEX_OMEGAMMA,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10324,7 +10324,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TERMALIN,
+         //.natDexNum = NATIONAL_DEX_TERMALIN,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10382,7 +10382,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TERMITORIAL,
+         //.natDexNum = NATIONAL_DEX_TERMITORIAL,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10438,7 +10438,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
         .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_TERBABAIN,
+         //.natDexNum = NATIONAL_DEX_TERBABAIN,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10498,7 +10498,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10555,7 +10555,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10616,7 +10616,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10673,7 +10673,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10740,7 +10740,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -10798,7 +10798,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10855,7 +10855,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10916,7 +10916,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -10976,7 +10976,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11032,7 +11032,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11088,7 +11088,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11149,7 +11149,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11206,7 +11206,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11273,7 +11273,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -11331,7 +11331,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11388,7 +11388,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11445,7 +11445,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11506,7 +11506,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11563,7 +11563,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11620,7 +11620,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11681,7 +11681,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11738,7 +11738,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11803,7 +11803,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
 
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -11860,7 +11860,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
 
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -11916,7 +11916,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -11977,7 +11977,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12034,7 +12034,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12095,7 +12095,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12152,7 +12152,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12213,7 +12213,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12274,7 +12274,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12331,7 +12331,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12392,7 +12392,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12449,7 +12449,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12506,7 +12506,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12567,7 +12567,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12624,7 +12624,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12681,7 +12681,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12748,7 +12748,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -12812,7 +12812,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -12876,7 +12876,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -12934,7 +12934,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -12991,7 +12991,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -13048,7 +13048,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -13105,7 +13105,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -13172,7 +13172,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -13236,7 +13236,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -13297,7 +13297,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
 
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -13472,7 +13472,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("??????????"),
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_NONE,
+         //.natDexNum = NATIONAL_DEX_NONE,
         .categoryName = _("Unknown"),
         .height = 0,
         .weight = 0,
@@ -13545,7 +13545,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(),
         .bodyColor = BODY_COLOR_,
         .cryId = CRY_NONE,
-        .natDexNum = NATIONAL_DEX_,
+         //.natDexNum = NATIONAL_DEX_,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
