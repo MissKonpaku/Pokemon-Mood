@@ -231,7 +231,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //-------------------------------------------------------------//
     },
     
-    [SPECIES_NOBLICHEN] =
+    [SPECIES_NOBLICHEN] = 
     {
         .baseHP        = 65,
         .baseAttack    = 69,
@@ -1225,7 +1225,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     //P_FAMILY_FUKUNNY
 
     // P_FAMILY_GRALIBRI
-    /*
+    
     [SPECIES_GRALIBRI] =
     {
         .baseHP        = 40,
@@ -1418,7 +1418,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*},
+        .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*/},
         
         .speciesName = _("Stalla"),
         .categoryName = _("Cristal"),
@@ -1476,7 +1476,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*},
+        .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*/},
         
         .speciesName = _("Starling"),
         .categoryName = _("Nourrice"),
@@ -1533,7 +1533,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*},
+        .abilities = {ABILITY_SNOW_WARNING, ABILITY_ICE_BODY, /*ABILITY_CRISTALINE*/},
         
         .speciesName = _("Gladiva"),
         .categoryName = _("Diva"),
@@ -1573,7 +1573,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 
     //P_FAMILY_STALLA
-
+/*
     //P_FAMILY_ZAPEK
 
     [SPECIES_ZAPEK] =
