@@ -112,7 +112,7 @@
 #define P_FAMILY_GOLDEEN                 P_GEN_1_POKEMON
 #define P_FAMILY_STARYU                  P_GEN_1_POKEMON
 #define P_FAMILY_MR_MIME                 P_GEN_1_POKEMON
-#define P_FAMILY_SCYTHER                 P_GEN_1_POKEMON
+#define P_FAMILY_SCYTHER                 P_GEN_1_POKEMON 
 #define P_FAMILY_JYNX                    P_GEN_1_POKEMON
 #define P_FAMILY_ELECTABUZZ              P_GEN_1_POKEMON
 #define P_FAMILY_MAGMAR                  P_GEN_1_POKEMON
