@@ -1724,7 +1724,7 @@
 #define SPECIES_MANDELMAN                               SPECIES_LILICHEN + 81
 #define SPECIES_CILANG                                  SPECIES_LILICHEN + 82
 #define SPECIES_COMPILEX                                SPECIES_LILICHEN + 83
-#define SPECIES_RESNAKE                                 SPECIES_LILICHEN + 84
+#define SPECIES_SCRIPTILE                                 SPECIES_LILICHEN + 84
 #define SPECIES_PYTHAGON                                SPECIES_LILICHEN + 85
 #define SPECIES_FILOURS                                 SPECIES_LILICHEN + 86
 #define SPECIES_POUPOURS                                SPECIES_LILICHEN + 87
@@ -1760,7 +1760,7 @@
 #define SPECIES_MERAGAZ                                 SPECIES_LILICHEN + 117
 #define SPECIES_DAEMONIX                                SPECIES_LILICHEN + 118
 #define SPECIES_ACHAETHENA                              SPECIES_LILICHEN + 119
-#define SPECIES_INCUBOVRAX                              SPECIES_LILICHEN + 120
+#define SPECIES_BEELZEROS                               SPECIES_LILICHEN + 120
 #define SPECIES_PHANTASM                                SPECIES_LILICHEN + 121
 #define SPECIES_SHROOMALICE                             SPECIES_LILICHEN + 122
 #define SPECIES_DENKID                                  SPECIES_LILICHEN + 123
