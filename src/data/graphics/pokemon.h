@@ -27601,6 +27601,150 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Wichu[] = INCBIN_U8("custom/doomdex/wichu/footprint.1bpp");
 /**/
+    const u32 gMonFrontPic_Figgon[] = INCBIN_U32("custom/doomdex/figgon/front.4bpp.lz");
+    const u16 gMonPalette_Figgon[] = INCBIN_U16("custom/doomdex/figgon/normal.gbapal");
+    const u32 gMonBackPic_Figgon[] = INCBIN_U32("custom/doomdex/figgon/back.4bpp.lz");
+    const u16 gMonShinyPalette_Figgon[] = INCBIN_U16("custom/doomdex/figgon/shiny.gbapal");
+    const u8 gMonIcon_Figgon[] = INCBIN_U8("custom/doomdex/figgon/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Figgon[] = INCBIN_U8("custom/doomdex/figgon/footprint.1bpp");
+
+    const u32 gMonFrontPic_Saladrake[] = INCBIN_U32("custom/doomdex/saladrake/Front.4bpp.lz");
+    const u16 gMonPalette_Saladrake[] = INCBIN_U16("custom/doomdex/saladrake/normal.gbapal");
+    const u32 gMonBackPic_Saladrake[] = INCBIN_U32("custom/doomdex/saladrake/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Saladrake[] = INCBIN_U16("custom/doomdex/saladrake/shiny.gbapal");
+    const u8 gMonIcon_Saladrake[] = INCBIN_U8("custom/doomdex/saladrake/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Saladrake[] = INCBIN_U8("custom/doomdex/saladrake/footprint.1bpp");
+
+    const u32 gMonFrontPic_Auberjaw[] = INCBIN_U32("custom/doomdex/auberjaw/Front.4bpp.lz");
+    const u16 gMonPalette_Auberjaw[] = INCBIN_U16("custom/doomdex/auberjaw/normal.gbapal");
+    const u32 gMonBackPic_Auberjaw[] = INCBIN_U32("custom/doomdex/auberjaw/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Auberjaw[] = INCBIN_U16("custom/doomdex/auberjaw/shiny.gbapal");
+    const u8 gMonIcon_Auberjaw[] = INCBIN_U8("custom/doomdex/auberjaw/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Auberjaw[] = INCBIN_U8("custom/doomdex/auberjaw/footprint.1bpp");
+/**/
+    const u32 gMonFrontPic_Fourugla[] = INCBIN_U32("custom/doomdex/fourugla/front.4bpp.lz");
+    const u16 gMonPalette_Fourugla[] = INCBIN_U16("custom/doomdex/fourugla/normal.gbapal");
+    const u32 gMonBackPic_Fourugla[] = INCBIN_U32("custom/doomdex/fourugla/back.4bpp.lz");
+    const u16 gMonShinyPalette_Fourugla[] = INCBIN_U16("custom/doomdex/fourugla/shiny.gbapal");
+    //const u8 gMonIcon_Fourugla[] = INCBIN_U8("custom/doomdex/fourugla/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Fourugla[] = INCBIN_U8("custom/doomdex/fourugla/footprint.1bpp");  
+
+    const u32 gMonFrontPic_Yetidiot[] = INCBIN_U32("custom/doomdex/yetidiot/front.4bpp.lz");
+    const u16 gMonPalette_Yetidiot[] = INCBIN_U16("custom/doomdex/yetidiot/normal.gbapal");
+    const u32 gMonBackPic_Yetidiot[] = INCBIN_U32("custom/doomdex/yetidiot/back.4bpp.lz");
+    const u16 gMonShinyPalette_Yetidiot[] = INCBIN_U16("custom/doomdex/yetidiot/shiny.gbapal");
+    const u8 gMonIcon_Yetidiot[] = INCBIN_U8("custom/doomdex/yetidiot/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Yetidiot[] = INCBIN_U8("custom/doomdex/yetidiot/footprint.1bpp");
+/**/
+    const u32 gMonFrontPic_Emprism[] = INCBIN_U32("custom/doomdex/emprism/Front.4bpp.lz");
+    const u16 gMonPalette_Emprism[] = INCBIN_U16("custom/doomdex/emprism/normal.gbapal");
+    const u32 gMonBackPic_Emprism[] = INCBIN_U32("custom/doomdex/emprism/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Emprism[] = INCBIN_U16("custom/doomdex/emprism/shiny.gbapal");
+    const u8 gMonIcon_Emprism[] = INCBIN_U8("custom/doomdex/emprism/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Emprism[] = INCBIN_U8("custom/doomdex/Emprism/footprint.1bpp");  
+/**/
+    const u32 gMonFrontPic_Octonimbus[] = INCBIN_U32("custom/doomdex/octonimbus/Front.4bpp.lz");
+    const u16 gMonPalette_Octonimbus[] = INCBIN_U16("custom/doomdex/octonimbus/normal.gbapal");
+    const u32 gMonBackPic_Octonimbus[] = INCBIN_U32("custom/doomdex/octonimbus/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Octonimbus[] = INCBIN_U16("custom/doomdex/octonimbus/shiny.gbapal");
+    const u8 gMonIcon_Octonimbus[] = INCBIN_U8("custom/doomdex/octonimbus/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Octonimbus[] = INCBIN_U8("custom/doomdex/octonimbus/footprint.1bpp"); 
+/**/
+    //const u32 gMonFrontPic_Limacide[] = INCBIN_U32("custom/doomdex/limacide/Front.4bpp.lz");
+    //const u16 gMonPalette_Limacide[] = INCBIN_U16("custom/doomdex/limacide/normal.gbapal");
+    //const u32 gMonBackPic_Limacide[] = INCBIN_U32("custom/doomdex/limacide/Back.4bpp.lz");
+    //const u16 gMonShinyPalette_Limacide[] = INCBIN_U16("custom/doomdex/limacide/shiny.gbapal");
+    //const u8 gMonIcon_Limacide[] = INCBIN_U8("custom/doomdex/limacide/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Limacide[] = INCBIN_U8("custom/doomdex/limacide/footprint.1bpp"); 
+
+    const u32 gMonFrontPic_Glaugoon[] = INCBIN_U32("custom/doomdex/glaugoon/Front.4bpp.lz");
+    const u16 gMonPalette_Glaugoon[] = INCBIN_U16("custom/doomdex/glaugoon/normal.gbapal");
+    const u32 gMonBackPic_Glaugoon[] = INCBIN_U32("custom/doomdex/glaugoon/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Glaugoon[] = INCBIN_U16("custom/doomdex/glaugoon/shiny.gbapal");
+    //const u8 gMonIcon_Glaugoon[] = INCBIN_U8("custom/doomdex/glaugoon/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Glaugoon[] = INCBIN_U8("custom/doomdex/glaugoon/footprint.1bpp"); 
+/**/
+    const u32 gMonFrontPic_Phlotoxico[] = INCBIN_U32("custom/doomdex/phlotoxico/Front.4bpp.lz");
+    const u16 gMonPalette_Phlotoxico[] = INCBIN_U16("custom/doomdex/phlotoxico/normal.gbapal");
+    const u32 gMonBackPic_Phlotoxico[] = INCBIN_U32("custom/doomdex/phlotoxico/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Phlotoxico[] = INCBIN_U16("custom/doomdex/phlotoxico/shiny.gbapal");
+    const u8 gMonIcon_Phlotoxico[] = INCBIN_U8("custom/doomdex/phlotoxico/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Phlotoxico[] = INCBIN_U8("custom/doomdex/phlotoxico/footprint.1bpp"); 
+/**/
+    const u32 gMonFrontPic_Wufur[] = INCBIN_U32("custom/doomdex/wufur/Front.4bpp.lz");
+    const u16 gMonPalette_Wufur[] = INCBIN_U16("custom/doomdex/wufur/normal.gbapal");
+    const u32 gMonBackPic_Wufur[] = INCBIN_U32("custom/doomdex/wufur/back.4bpp.lz");
+    const u16 gMonShinyPalette_Wufur[] = INCBIN_U16("custom/doomdex/wufur/shiny.gbapal");
+    //const u8 gMonIcon_Wufur[] = INCBIN_U8("custom/doomdex/wufur/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Wufur[] = INCBIN_U8("custom/doomdex/wufur/footprint.1bpp"); 
+    
+    const u32 gMonFrontPic_Nunchakos[] = INCBIN_U32("custom/doomdex/nunchakos/Front.4bpp.lz");
+    const u16 gMonPalette_Nunchakos[] = INCBIN_U16("custom/doomdex/nunchakos/normal.gbapal");
+    const u32 gMonBackPic_Nunchakos[] = INCBIN_U32("custom/doomdex/nunchakos/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Nunchakos[] = INCBIN_U16("custom/doomdex/nunchakos/shiny.gbapal");
+    const u8 gMonIcon_Nunchakos[] = INCBIN_U8("custom/doomdex/nunchakos/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Nunchakos[] = INCBIN_U8("custom/doomdex/nunchakos/footprint.1bpp"); 
+/**/
+    //const u32 gMonFrontPic_Polipoupon[] = INCBIN_U32("custom/doomdex/polipoupon/Front.4bpp.lz");
+    //const u16 gMonPalette_Polipoupon[] = INCBIN_U16("custom/doomdex/polipoupon/normal.gbapal");
+    //const u32 gMonBackPic_Polipoupon[] = INCBIN_U32("custom/doomdex/polipoupon/Back.4bpp.lz");
+    //const u16 gMonShinyPalette_Polipoupon[] = INCBIN_U16("custom/doomdex/polipoupon/shiny.gbapal");
+    //const u8 gMonIcon_Nunchakos[] = INCBIN_U8("custom/doomdex/polipoupon/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Nunchakos[] = INCBIN_U8("custom/doomdex/polipoupon/footprint.1bpp"); 
+
+    //const u32 gMonFrontPic_Armeduse[] = INCBIN_U32("custom/doomdex/armeduse/front.4bpp.lz");
+    //const u16 gMonPalette_Armeduse[] = INCBIN_U16("custom/doomdex/armeduse/normal.gbapal");
+    //const u32 gMonBackPic_Armeduse[] = INCBIN_U32("custom/doomdex/armeduse/back.4bpp.lz");
+    //const u16 gMonShinyPalette_Armeduse[] = INCBIN_U16("custom/doomdex/armeduse/shiny.gbapal");
+    //const u8 gMonIcon_Armeduse[] = INCBIN_U8("custom/doomdex/armeduse/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Armeduse[] = INCBIN_U8("custom/doomdex/armeduse/footprint.1bpp"); 
+
+    const u32 gMonFrontPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/front.4bpp.lz");
+    const u16 gMonPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/normal.gbapal");
+    const u32 gMonBackPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/back.4bpp.lz");
+    const u16 gMonShinyPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/shiny.gbapal");
+    const u8 gMonIcon_Mederive[] = INCBIN_U8("custom/doomdex/mederive/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Mederive[] = INCBIN_U8("custom/doomdex/mederive/footprint.1bpp"); 
+/**/
+    //const u32 gMonFrontPic_Mouchips[] = INCBIN_U32("custom/doomdex/mouchips/front.4bpp.lz");
+    const u16 gMonPalette_Mouchips[] = INCBIN_U16("custom/doomdex/mouchips/normal.gbapal");
+    const u32 gMonBackPic_Mouchips[] = INCBIN_U32("custom/doomdex/mouchips/back.4bpp.lz");
+    const u16 gMonShinyPalette_Mouchips[] = INCBIN_U16("custom/doomdex/mouchips/shiny.gbapal");
+    const u8 gMonIcon_Mouchips[] = INCBIN_U8("custom/doomdex/mouchips/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Mouchips[] = INCBIN_U8("custom/doomdex/mouchips/footprint.1bpp"); 
+
+    //const u32 gMonFrontPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/front.4bpp.lz");
+    //const u16 gMonPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/normal.gbapal");
+    //const u32 gMonBackPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/back.4bpp.lz");
+    //const u16 gMonShinyPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/shiny.gbapal");
+    //const u8 gMonIcon_Mederive[] = INCBIN_U8("custom/doomdex/mederive/icon.4bpp");
+    ////#if P_FOOTPRINTS
+    ////const u8 gMonFootprint_Mederive[] = INCBIN_U8("custom/doomdex/mederive/footprint.1bpp"); 
+//
+    //const u32 gMonFrontPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/front.4bpp.lz");
+    //const u16 gMonPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/normal.gbapal");
+    //const u32 gMonBackPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/back.4bpp.lz");
+    //const u16 gMonShinyPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/shiny.gbapal");
+    //const u8 gMonIcon_Mederive[] = INCBIN_U8("custom/doomdex/mederive/icon.4bpp");
+    ////#if P_FOOTPRINTS
+    ////const u8 gMonFootprint_Mederive[] = INCBIN_U8("custom/doomdex/mederive/footprint.1bpp"); 
+/**/
     const u32 gMonFrontPic_Jaimaille[] = INCBIN_U32("custom/doomdex/jaimaille/front.4bpp.lz");
     const u16 gMonPalette_Jaimaille[] = INCBIN_U16("custom/doomdex/jaimaille/normal.gbapal");
     const u32 gMonBackPic_Jaimaille[] = INCBIN_U32("custom/doomdex/jaimaille/back.4bpp.lz");
@@ -27609,21 +27753,21 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Jaimaille[] = INCBIN_U8("custom/doomdex/jaimaille/footprint.1bpp");
 
-    //const u32 gMonFrontPic_Gyaoon[] = INCBIN_U32("custom/doomdex/gyaoon/Front.4bpp.lz");
-    //const u16 gMonPalette_Gyaoon[] = INCBIN_U16("custom/doomdex/gyaoon/normal.gbapal");
-    //const u32 gMonBackPic_Gyaoon[] = INCBIN_U32("custom/doomdex/gyaoon/back.4bpp.lz");
-    //const u16 gMonShinyPalette_Gyaoon[] = INCBIN_U16("custom/doomdex/gyaoon/shiny.gbapal");
-    //const u8 gMonIcon_Gyaoon[] = INCBIN_U8("custom/doomdex/gyaoon/icon.4bpp");
+    //const u32 gMonFrontPic_Armis[] = INCBIN_U32("custom/doomdex/armis/Front.4bpp.lz");
+    //const u16 gMonPalette_Armis[] = INCBIN_U16("custom/doomdex/armis/normal.gbapal");
+    //const u32 gMonBackPic_Armis[] = INCBIN_U32("custom/doomdex/armis/back.4bpp.lz");
+    //const u16 gMonShinyPalette_Armis[] = INCBIN_U16("custom/doomdex/armis/shiny.gbapal");
+    //const u8 gMonIcon_Armis[] = INCBIN_U8("custom/doomdex/armis/icon.4bpp");
     //#if P_FOOTPRINTS
-    //const u8 gMonFootprint_Gyaoon[] = INCBIN_U8("custom/doomdex/gyaoon/footprint.1bpp");
+    //const u8 gMonFootprint_Armis[] = INCBIN_U8("custom/doomdex/armis/footprint.1bpp");
 
-    //const u32 gMonFrontPic_Gyaoon[] = INCBIN_U32("custom/doomdex/gyaoon/Front.4bpp.lz");
-    //const u16 gMonPalette_Gyaoon[] = INCBIN_U16("custom/doomdex/gyaoon/normal.gbapal");
-    //const u32 gMonBackPic_Gyaoon[] = INCBIN_U32("custom/doomdex/gyaoon/back.4bpp.lz");
-    //const u16 gMonShinyPalette_Gyaoon[] = INCBIN_U16("custom/doomdex/gyaoon/shiny.gbapal");
-    //const u8 gMonIcon_Gyaoon[] = INCBIN_U8("custom/doomdex/gyaoon/icon.4bpp");
+    //const u32 gMonFrontPic_Accalmite[] = INCBIN_U32("custom/doomdex/accalmite/Front.4bpp.lz");
+    //const u16 gMonPalette_Accalmite[] = INCBIN_U16("custom/doomdex/accalmite/normal.gbapal");
+    //const u32 gMonBackPic_Accalmite[] = INCBIN_U32("custom/doomdex/accalmite/back.4bpp.lz");
+    //const u16 gMonShinyPalette_Accalmite[] = INCBIN_U16("custom/doomdex/accalmite/shiny.gbapal");
+    //const u8 gMonIcon_Accalmite[] = INCBIN_U8("custom/doomdex/accalmite/icon.4bpp");
     //#if P_FOOTPRINTS
-    //const u8 gMonFootprint_Gyaoon[] = INCBIN_U8("custom/doomdex/gyaoon/footprint.1bpp");
+    //const u8 gMonFootprint_Accalmite[] = INCBIN_U8("custom/doomdex/accalmite/footprint.1bpp");
 /**/
     const u32 gMonFrontPic_Gyaoon[] = INCBIN_U32("custom/doomdex/gyaoon/Front.4bpp.lz");
     const u16 gMonPalette_Gyaoon[] = INCBIN_U16("custom/doomdex/gyaoon/normal.gbapal");

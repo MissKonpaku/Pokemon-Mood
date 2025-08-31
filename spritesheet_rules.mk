@@ -8,7 +8,7 @@ $(OBJEVENTGFXDIR)/custom/object_event/people/doom/png/walking.4bpp: %.4bpp: %.pn
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/custom/object_event/people/doom/png/running.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
+	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #POKEMON MOOD
 
 $(OBJEVENTGFXDIR)/people/brendan/walking.4bpp: %.4bpp: %.png

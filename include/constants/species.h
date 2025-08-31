@@ -1724,7 +1724,7 @@
 #define SPECIES_MANDELMAN                               SPECIES_LILICHEN + 81
 #define SPECIES_CILANG                                  SPECIES_LILICHEN + 82
 #define SPECIES_COMPILEX                                SPECIES_LILICHEN + 83
-#define SPECIES_SCRIPTILE                                 SPECIES_LILICHEN + 84
+#define SPECIES_SCRIPTILE                               SPECIES_LILICHEN + 84
 #define SPECIES_PYTHAGON                                SPECIES_LILICHEN + 85
 #define SPECIES_FILOURS                                 SPECIES_LILICHEN + 86
 #define SPECIES_POUPOURS                                SPECIES_LILICHEN + 87

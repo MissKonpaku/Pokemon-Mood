@@ -1,5 +1,5 @@
 /*POKEMON MOOD*/
-/*
+
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Doom = { 
     .tileTag = 0xFFFF,
     .paletteTag = OBJ_EVENT_PAL_TAG_DOOM,
@@ -18,7 +18,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Doom = {
     .images = sPicTable_Doom,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
-*/
+
 /*POKEMON MOOD*/
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {
     .tileTag = TAG_NONE,

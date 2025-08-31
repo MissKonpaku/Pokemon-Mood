@@ -7530,69 +7530,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
-
-    [SPECIES_POTERNE]  
-    {
-        .baseHP        = ,
-        .baseAttack    = ,
-        .baseDefense   = ,
-        .baseSpAttack  = ,
-        .baseSpDefense = ,
-        .baseSpeed     = ,
-        .types = MON_TYPES(),
-
-        .catchRate = ,
-        .expYield = ,
-        .evYield_SpAttack = ,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = MON_EGG_GROUPS(),
-        .abilities = { ABILITY_NONE, ABILITY_NONE, ABILITY_NONE },
-        .bodyColor = BODY_COLOR_,
-        .speciesName = _(""),
-        .categoryName = _(""),
-        .height = ,
-        .weight = ,
-
-        .description = COMPOUND_STRING(
-            " \n"
-            "Placeholder\n"
-            " \n"
-            " "),
-
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
-        
-        .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
-        .pokemonScale = 356,
-        .pokemonOffset = 17,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-
-        .frontPic = gMonFrontPic_Placeholder,
-        .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
-         
-        .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
-        .backPic = gMonBackPic_Placeholder,
-        .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
-        .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 4,
-        
-        .levelUpLearnset = sLilichenLevelUpLearnset,
-        //.teachableLearnset = sLilichenTeachableLearnset,
-        
-        
-    },
-
     //P_FAMILY_INCARNAPOT
-    *
+*/
     //P_FAMILY_FIGGON
 
     [SPECIES_FIGGON] =
@@ -7612,7 +7551,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_STRONG_JAW, ABILITY_LEAF_GUARD, ABILITY_HARVEST},
+        .abilities = {ABILITY_STRONG_JAW, ABILITY_HARVEST, ABILITY_LEAF_GUARD},
         
         .speciesName = _("Figgon"),
         .categoryName = _("Plantoeuf"),
@@ -7634,17 +7573,17 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Figgon,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Figgon,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
+        .palette = gMonPalette_Figgon,
+        .shinyPalette = gMonShinyPalette_Figgon,
+        .iconSprite = gMonIcon_Figgon,
         .iconPalIndex = 0,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
@@ -7669,7 +7608,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_STRONG_JAW, ABILITY_LEAF_GUARD, ABILITY_HARVEST},
+        .abilities = {ABILITY_STRONG_JAW, ABILITY_HARVEST, ABILITY_LEAF_GUARD},
         
         .speciesName = _("Saladrake"),
         .categoryName = _("Aubergine"),
@@ -7692,18 +7631,18 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Saladrake,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Saladrake,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 0,
+        .palette = gMonPalette_Saladrake,
+        .shinyPalette = gMonShinyPalette_Saladrake,
+        .iconSprite = gMonIcon_Saladrake,
+        .iconPalIndex = 1,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
@@ -7727,7 +7666,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_STRONG_JAW, ABILITY_LEAF_GUARD, ABILITY_HARVEST},
+        .abilities = {ABILITY_STRONG_JAW, ABILITY_HARVEST, ABILITY_LEAF_GUARD},
         
         .speciesName = _("Auberjaw"),
         .categoryName = _("Grobergine"),
@@ -7749,51 +7688,51 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Auberjaw,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Auberjaw,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 0,
+        .palette = gMonPalette_Auberjaw,
+        .shinyPalette = gMonShinyPalette_Auberjaw,
+        .iconSprite = gMonIcon_Auberjaw,
+        .iconPalIndex = 2,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
     },
 
     //P_FAMILY_SALADRAKE
-    /*
+    
     //P_FAMILY_FOURUGLA
 
     [SPECIES_FOURUGLA] = 
     {
-        .baseHP        = ,
-        .baseAttack    = ,
-        .baseDefense   = ,
-        .baseSpAttack  = ,
-        .baseSpDefense = ,
-        .baseSpeed     = ,
-        .types = MON_TYPES(),
+        .baseHP        = 50,
+        .baseAttack    = 70,
+        .baseDefense   = 70,
+        .baseSpAttack  = 10,
+        .baseSpDefense = 70,
+        .baseSpeed     = 35,
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_ICE),
 
-        .catchRate = ,
-        .expYield = ,
-        .evYield_SpAttack = ,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .catchRate = 170,
+        .expYield = 72,
+        .evYield_SpDefense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = MON_EGG_GROUPS(),
-        .abilities = { ABILITY_NONE, ABILITY_NONE, ABILITY_NONE },
-        .bodyColor = BODY_COLOR_,
-        .speciesName = _(""),
-        .categoryName = _(""),
-        .height = ,
-        .weight = ,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_MONSTER),
+        .abilities = { /*ABILITY_SIMPLETON,*/ ABILITY_SIMPLE, ABILITY_UNAWARE },
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("Fourugla"),
+        .categoryName = _("Peluche"),
+        .height = 8,
+        .weight = 50,
 
         .description = COMPOUND_STRING(
             " \n"
@@ -7801,28 +7740,28 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " \n"
             " "),
 
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 45, SPECIES_YETIDIOT}),
         
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_FOURUGLA,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
 
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Fourugla,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
         .frontPicYOffset = 13,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Fourugla,
         .backPicSize = MON_COORDS_SIZE(56, 40),
         .backPicYOffset = 13,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
+        .palette = gMonPalette_Fourugla,
+        .shinyPalette = gMonShinyPalette_Fourugla,
         .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 4,
+        .iconPalIndex = 0,
         
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
@@ -7832,57 +7771,55 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_YETIDIOT] = 
     {
-        .baseHP        = ,
-        .baseAttack    = ,
-        .baseDefense   = ,
-        .baseSpAttack  = ,
-        .baseSpDefense = ,
-        .baseSpeed     = ,
-        .types = MON_TYPES(),
+        .baseHP        = 70,
+        .baseAttack    = 130,
+        .baseDefense   = 120,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 120,
+        .baseSpeed     = 40,
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_ICE),
 
-        .catchRate = ,
-        .expYield = ,
-        .evYield_SpAttack = ,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .catchRate = 100,
+        .expYield = 100,
+        .evYield_Attack = 3,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = MON_EGG_GROUPS(),
-        .abilities = { ABILITY_NONE, ABILITY_NONE, ABILITY_NONE },
-        .bodyColor = BODY_COLOR_,
-        .speciesName = _(""),
-        .categoryName = _(""),
-        .height = ,
-        .weight = ,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_MONSTER),
+        .abilities = { /*ABILITY_NONE,*/ ABILITY_SIMPLE, ABILITY_UNAWARE },
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("Yétidiot"),
+        .categoryName = _("Idiot"),
+        .height = 30,
+        .weight = 2500,
 
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
             " \n"
             " "),
-
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
         
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_YETIDIOT,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
 
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Yetidiot,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
         .frontPicYOffset = 13,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Yetidiot,
         .backPicSize = MON_COORDS_SIZE(56, 40),
         .backPicYOffset = 13,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 4,
+        .palette = gMonPalette_Yetidiot,
+        .shinyPalette = gMonShinyPalette_Yetidiot,
+        .iconSprite = gMonIcon_Yetidiot,
+        .iconPalIndex = 0,
         
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
@@ -7892,9 +7829,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     //P_FAMILY_FOURUGLA
 
-    //P_FAMILY_PRISMITI
+    //P_FAMILY_EMPRISM
 
-    [SPECIES_PRISMITI] =
+    [SPECIES_EMPRISM] =
     {
         .baseHP        = 20,
         .baseAttack    = 33,
@@ -7903,13 +7840,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 55,
         .baseSpeed     = 70,
         .types = MON_TYPES(TYPE_ROCK, TYPE_PSYCHIC),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 145,
+        .expYield = 100,
         
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_SLOW,
         
         .abilities = {ABILITY_FOREWARN, ABILITY_LEVITATE, ABILITY_MAGIC_GUARD},
         
@@ -7918,11 +7855,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 1.1,
         .weight = 1000,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_Speed = 1,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL, EGG_GROUP_MONSTER),
+        .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_EMPRISM,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -7933,53 +7870,53 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Emprism,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Emprism,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
+        .palette = gMonPalette_Emprism,
+        .shinyPalette = gMonShinyPalette_Emprism,
+        .iconSprite = gMonIcon_Emprism,
         .iconPalIndex = 0,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_SHINY_STONE, SPECIES_PRISMUNTER}),
     },
 
     [SPECIES_PRISMUNTER] =
     {
         .baseHP        = 65,
-        .baseAttack    = 82,
-        .baseDefense   = 100,
+        .baseAttack    = 72,
+        .baseDefense   = 92,
         .baseSpAttack  = 105,
         .baseSpDefense = 50,
         .baseSpeed     = 141,
         .types = MON_TYPES(TYPE_ROCK, TYPE_PSYCHIC),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 80,
+        .expYield = 136,
         
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_SLOW,
         
         .abilities = {ABILITY_FOREWARN, ABILITY_PRISM_ARMOR, ABILITY_MAGIC_GUARD},
         
-        .speciesName = _("Prsimunter"),
+        .speciesName = _("Prismunter"),
         .categoryName = _("Chasseur"),
         .height = 21.6,
         .weight = 1350,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_Speed = 2,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL, EGG_GROUP_MONSTER),
+        .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_PRISMUNTER,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8005,7 +7942,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
 
     //P_FAMILY_PRISMITI anciennement Gemo et Galaxithe rip
@@ -8020,14 +7956,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpAttack  = 70,
         .baseSpDefense = 60,
         .baseSpeed     = 90,
-        .types = MON_TYPES(TYPE_GHOST, TYPE_FLYING),
-        .catchRate = ,
-        .expYield = ,
+        .types = MON_TYPES(TYPE_FLYING),
+        .catchRate = 155,
+        .expYield = 78,
         
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_FAST,
         
         .abilities = {ABILITY_CLOUD_NINE},
         
@@ -8035,9 +7971,40 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .categoryName = _("Poulpociel"),
         .height = 8,
         .weight = 10,
+        //data
+        .evYield_SpAttack = 1,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3, EGG_GROUP_AMORPHOUS),
+        .bodyColor = BODY_COLOR_WHITE,
+        .cryId = CRY_NONE,
+         .natDexNum = NATIONAL_DEX_OCTORAGE,
+        .description = COMPOUND_STRING(
+            " \n"
+            "Placeholder\n"
+            " \n"
+            " "),
+        .pokemonScale = 255,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        //graphics
+        .frontPic = gMonFrontPic_Octonimbus,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+         
+        .backPic = gMonBackPic_Octonimbus,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_Octonimbus,
+        .shinyPalette = gMonShinyPalette_Octonimbus,
+        .iconSprite = gMonIcon_Octonimbus,
+        .iconPalIndex = 2,
+        //learnsets
+        .levelUpLearnset = sLilichenLevelUpLearnset,
+        //.teachableLearnset = sLilichenTeachableLearnset,
     },
 
-    [SPECIES_ATMOCTOPUS] =
+    [SPECIES_OCTORAGE] =
     {
         .baseHP        = 80,
         .baseAttack    = 52,
@@ -8045,14 +8012,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpAttack  = 103,
         .baseSpDefense = 98,
         .baseSpeed     = 76,
-        .types = MON_TYPES(TYPE_GHOST, TYPE_FLYING),
-        .catchRate = ,
-        .expYield = ,
+        .types = MON_TYPES(TYPE_FLYING, TYPE_ELECTRIC),
+        .catchRate = 50,
+        .expYield = 137,
         
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_FAST,
         
         .abilities = {ABILITY_DRIZZLE, ABILITY_SNOW_WARNING, ABILITY_CLOUD_NINE},
         
@@ -8061,11 +8028,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 400,
         .weight = 50,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_SpAttack = 2,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3, EGG_GROUP_AMORPHOUS),
+        .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_OCTORAGE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8091,7 +8058,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
 
     //P_FAMILY_OCTONIMBUS
@@ -8107,26 +8073,26 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 50,
         .baseSpeed     = 32,
         .types = MON_TYPES(TYPE_WATER),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 170,
+        .expYield = 82,
         
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_POISON_POINT, ABILITY_GOOEY, ABILITY_POISON_HEAL},
+        .abilities = {ABILITY_POISON_POINT, ABILITY_HYDRATION, ABILITY_GOOEY},
         
         .speciesName = _("Limacide"),
         .categoryName = _("Limace"),
         .height = 3,
         .weight = 20,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_SpAttack = 1,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3, EGG_GROUP_DRAGON),
+        .bodyColor = BODY_COLOR_BLUE,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_LIMACIDE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8152,38 +8118,38 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_GLAUGOON}),
     },
 
     [SPECIES_GLAUGOON] =
     {
         .baseHP        = 85,
-        .baseAttack    = 72,
-        .baseDefense   = 85,
-        .baseSpAttack  = 125,
-        .baseSpDefense = 76,
-        .baseSpeed     = 83,
+        .baseAttack    = 47,
+        .baseDefense   = 70,
+        .baseSpAttack  = 127,
+        .baseSpDefense = 70,
+        .baseSpeed     = 91,
         .types = MON_TYPES(TYPE_WATER, TYPE_DRAGON),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 45,
+        .expYield = 143,
         
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_SLOW,
         
-        .abilities = {ABILITY_POISON_POINT, ABILITY_GOOEY, ABILITY_POISON_HEAL},
+        .abilities = {ABILITY_POISON_POINT, ABILITY_HYDRATION, ABILITY_GOOEY},
         
         .speciesName = _("Glaugoon"),
         .categoryName = _("Ange de Mer"),
         .height = 10,
         .weight = 70,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_SpAttack = 3,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3, EGG_GROUP_DRAGON),
+        .bodyColor = BODY_COLOR_BLUE,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_GLAUGOON,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8194,22 +8160,21 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Glaugoon,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Glaugoon,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
+        .palette = gMonPalette_Glaugoon,
+        .shinyPalette = gMonShinyPalette_Glaugoon,
         .iconSprite = gMonIcon_QuestionMark,
         .iconPalIndex = 0,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
 
     //P_FAMILY_LIMACIDE
@@ -8219,20 +8184,19 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_PHLOTOXICO] =
     {
         .baseHP        = 100,
-        .baseAttack    = 37,
-        .baseDefense   = 81,
-        .baseSpAttack  = 92,
-        .baseSpDefense = 99,
+        .baseAttack    = 40,
+        .baseDefense   = 100,
+        .baseSpAttack  = 75,
+        .baseSpDefense = 80,
         .baseSpeed     = 5,
         .types = MON_TYPES(TYPE_POISON, TYPE_WATER),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 50,
+        .expYield = 200,
         
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .genderRatio = MON_GENDERLESS,
+        .eggCycles = 30,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
-        
+        .growthRate = GROWTH_MEDIUM_SLOW,
         .abilities = {ABILITY_WATER_ABSORB, ABILITY_POISON_POINT, ABILITY_WATER_BUBBLE},
         
         .speciesName = _("Phlotoxico"),
@@ -8240,11 +8204,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 9,
         .weight = 50,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_HP = 2,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
+        .bodyColor = BODY_COLOR_BLUE,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_PHLOTOXICO,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8255,22 +8219,21 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Phlotoxico,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Phlotoxico,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
+        .palette = gMonPalette_Phlotoxico,
+        .shinyPalette = gMonShinyPalette_Phlotoxico,
+        .iconSprite = gMonIcon_Phlotoxico,
         .iconPalIndex = 0,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
 
     //P_FAMILY_PHLOTOXICO
@@ -8286,13 +8249,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 50,
         .baseSpeed     = 80,
         .types = MON_TYPES(TYPE_FIGHTING),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 255,
+        .expYield = 84,
         
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .genderRatio = MON_MALE,
+        .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_FAST,
         
         .abilities = {ABILITY_KEEN_EYE, ABILITY_RIVALRY, ABILITY_HUSTLE},
         
@@ -8301,11 +8264,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 5,
         .weight = 90,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_Attack = 1,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
+        .bodyColor = BODY_COLOR_BLUE,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_WUFUR,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8316,22 +8279,22 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Wufur,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Wufur,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
+        .palette = gMonPalette_Wufur,
+        .shinyPalette = gMonShinyPalette_Wufur,
         .iconSprite = gMonIcon_QuestionMark,
         .iconPalIndex = 0,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_NUNCHAKOS, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD})}),
     },
 
     [SPECIES_NUNCHAKOS] =
@@ -8343,13 +8306,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpDefense = 71,
         .baseSpeed     = 94,
         .types = MON_TYPES(TYPE_DARK, TYPE_FIGHTING),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 100,
+        .expYield = 139,
         
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .genderRatio = MON_MALE,
+        .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_FAST,
         
         .abilities = {ABILITY_KEEN_EYE, ABILITY_RIVALRY, ABILITY_HUSTLE},
         
@@ -8358,11 +8321,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 15,
         .weight = 720,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_Attack = 2,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
+        .bodyColor = BODY_COLOR_BLUE,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_NUNCHAKOS,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8373,118 +8336,56 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Nunchakos,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Nunchakos,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
+        .palette = gMonPalette_Nunchakos,
+        .shinyPalette = gMonShinyPalette_Nunchakos,
+        .iconSprite = gMonIcon_Nunchakos,
         .iconPalIndex = 0,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
 
     //P_FAMILY_WUFUR
 
-    //P_FAMILY_CAESABLESS
+    //P_FAMILY_POLIPOUPON
 
-    [SPECIES_CAESABLESS] =
-    {
-        .baseHP        = 126,
-        .baseAttack    = 69,
-        .baseDefense   = 69,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 116,
-        .baseSpeed     = 60,
-        .types = MON_TYPES(TYPE_WATER, TYPE_FAIRY),
-        .catchRate = ,
-        .expYield = ,
-        
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
-        
-        .abilities = {ABILITY_WATER_ABSORB, ABILITY_HYDRATION, ABILITY_CLEAR_BODY},
-        
-        .speciesName = _("Caesabless"),
-        .categoryName = _("Great Fairy"),
-        .height = 16,
-        .weight = 800,
-        //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
-        .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
-        .description = COMPOUND_STRING(
-            " \n"
-            "Placeholder\n"
-            " \n"
-            " "),
-        .pokemonScale = 255,
-        .pokemonOffset = 0,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        //graphics
-        .frontPic = gMonFrontPic_Placeholder,
-        .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
-         
-        .backPic = gMonBackPic_Placeholder,
-        .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
-        .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 0,
-        //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
-        //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
-    },
-
-    //P_FAMILY_CAESABLESS
-
-    //P_FAMILY_HAPIDUSE
-
-    [SPECIES_HAPIDUSE] =
+    [SPECIES_POLIPOUPON] =
     {
         .baseHP        = 80,
-        .baseAttack    = 30,
+        .baseAttack    = 5,
         .baseDefense   = 30,
-        .baseSpAttack  = 30,
+        .baseSpAttack  = 50,
         .baseSpDefense = 30,
         .baseSpeed     = 90,
         .types = MON_TYPES(TYPE_WATER),
-        .catchRate = ,
-        .expYield = ,
+        .catchRate = 235,
+        .expYield = 36,
         
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .genderRatio = PERCENT_FEMALE(87.5),
+        .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_FAST,
         
         .abilities = {ABILITY_CUTE_CHARM, ABILITY_STATIC, ABILITY_WATER_VEIL},
         
-        .speciesName = _("Hapiduse"),
+        .speciesName = _("Polipoupon"),
         .categoryName = _("Polype"),
         .height = 1,
         .weight = 1,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_HP = 1,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
+        .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_POLIPOUPON,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8510,38 +8411,40 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_MEDERIVE, CONDITIONS({IF_ATK_LT_DEF})},
+                                {EVO_LEVEL, 35, SPECIES_ARMEDUSE, CONDITIONS({IF_ATK_GT_DEF})}),
     },
 
-    [SPECIES_PERDUSE] =
+    [SPECIES_ARMEDUSE] =
     {
-        .baseHP        = 98,
-        .baseAttack    = 80,
+        .baseHP        = 71,
+        .baseAttack    = 100,
         .baseDefense   = 70,
-        .baseSpAttack  = 71,
-        .baseSpDefense = 88,
-        .baseSpeed     = 46,
-        .types = MON_TYPES(TYPE_POISON, TYPE_WATER),
-        .catchRate = ,
-        .expYield = ,
+        .baseSpAttack  = 95,
+        .baseSpDefense = 60,
+        .baseSpeed     = 94,
+        .types = MON_TYPES(TYPE_WATER, TYPE_FIGHTING),
+        .catchRate = 127,
+        .expYield = 146,
         
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .genderRatio = PERCENT_FEMALE(87.5),
+        .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_FAST,
         
-        .abilities = {ABILITY_CUTE_CHARM, ABILITY_STATIC, ABILITY_WATER_VEIL},
+        .abilities = {ABILITY_CUTE_CHARM, ABILITY_STATIC, /*ABILITY_MUSCLE_MEMORY*/},
         
-        .speciesName = _("Perduse"),
-        .categoryName = _("Méduse"),
+        .speciesName = _("Arméduse"),
+        .categoryName = _("Bastontacule"),
         .height = 9,
         .weight = 150,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_Speed = 1,
+        .evYield_Attack = 2,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
+        .bodyColor = BODY_COLOR_WHITE,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_ARMEDUSE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8567,38 +8470,38 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
 
     [SPECIES_MEDERIVE] =
     {
-        .baseHP        = 119,
-        .baseAttack    = 80,
-        .baseDefense   = 80,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 10,
-        .baseSpeed     = 81,
-        .types = MON_TYPES(TYPE_POISON, TYPE_GHOST),
-        .catchRate = ,
-        .expYield = ,
+        .baseHP        = 116,
+        .baseAttack    = 32,
+        .baseDefense   = 74,
+        .baseSpAttack  = 117,
+        .baseSpDefense = 80,
+        .baseSpeed     = 71,
+        .types = MON_TYPES(TYPE_PSYCHIC, TYPE_GHOST),
+        .catchRate = 75,
+        .expYield = 194,
         
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .genderRatio = PERCENT_FEMALE(87.5),
+        .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_,
+        .growthRate = GROWTH_MEDIUM_FAST,
         
-        .abilities = {ABILITY_CUTE_CHARM, ABILITY_STATIC, ABILITY_WATER_VEIL},
+        .abilities = {ABILITY_WATER_VEIL, ABILITY_STATIC, /*ABILITY_ABYSSES*/},
         
         .speciesName = _("Medérive"),
         .categoryName = _("Méduse Voile"),
         .height = 150,
         .weight = 1340,
         //data
-        .evYield_ = ,
-        .eggGroups = MON_EGG_GROUPS(),
-        .bodyColor = BODY_COLOR_,
+        .evYield_HP = 1,
+        .evYield_SpAttack = 2,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
+        .bodyColor = BODY_COLOR_BLACK,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_MEDERIVE,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8609,26 +8512,24 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .trainerScale = 256,
         .trainerOffset = 0,
         //graphics
-        .frontPic = gMonFrontPic_Placeholder,
+        .frontPic = gMonFrontPic_Mederive,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
          
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Mederive,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 0,
+        .palette = gMonPalette_Mederive,
+        .shinyPalette = gMonShinyPalette_Mederive,
+        .iconSprite = gMonIcon_Mederive,
+        .iconPalIndex = 2,
         //learnsets
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE}),
     },
-
-    //P_FAMILY_HAPIDUSE
-
+    //P_FAMILY_POLIPOUPON
+/*
     //P_FAMILY_ILLUFOX
 
     [SPECIES_ILLUFOX] =
@@ -8746,33 +8647,33 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 
     //P_FAMILY_ILLUFOX
-
+*/
     //P_FAMILY_MOUCHIPS
 
     [SPECIES_MOUCHIPS] = 
     {
-        .baseHP        = ,
-        .baseAttack    = ,
-        .baseDefense   = ,
-        .baseSpAttack  = ,
-        .baseSpDefense = ,
-        .baseSpeed     = ,
-        .types = MON_TYPES(),
+        .baseHP        = 50,
+        .baseAttack    = 25,
+        .baseDefense   = 50,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 50,
+        .baseSpeed     = 45,
+        .types = MON_TYPES(TYPE_BUG, TYPE_GROUND),
 
-        .catchRate = ,
-        .expYield = ,
-        .evYield_SpAttack = ,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = ,
+        .catchRate = 180,
+        .expYield = 63,
+        .evYield_SpAttack = 1,
+        .genderRatio = PERCENT_FEMALE(10),
+        .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = MON_EGG_GROUPS(),
-        .abilities = { ABILITY_NONE, ABILITY_NONE, ABILITY_NONE },
-        .bodyColor = BODY_COLOR_,
-        .speciesName = _(""),
-        .categoryName = _(""),
-        .height = ,
-        .weight = ,
+        .growthRate = GROWTH_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
+        .abilities = { ABILITY_STALL, ABILITY_NONE, ABILITY_GRASS_PELT },
+        .bodyColor = BODY_COLOR_GREEN,
+        .speciesName = _("Mouchips"),
+        .categoryName = _("Mouchenille"),
+        .height = 1.3,
+        .weight = 2.5,
 
         .description = COMPOUND_STRING(
             " \n"
@@ -8780,10 +8681,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " \n"
             " "),
 
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_GIGANILLE, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD }, {IF_GENDER, MON_MALE})}),
         
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_,
+         .natDexNum = NATIONAL_DEX_MOUCHIPS,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -8794,21 +8695,19 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPicYOffset = 13,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
-        .backPic = gMonBackPic_Placeholder,
+        .backPic = gMonBackPic_Mouchips,
         .backPicSize = MON_COORDS_SIZE(56, 40),
         .backPicYOffset = 13,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
-        .palette = gMonPalette_Placeholder,
-        .shinyPalette = gMonShinyPalette_Placeholder,
-        .iconSprite = gMonIcon_QuestionMark,
+        .palette = gMonPalette_Mouchips,
+        .shinyPalette = gMonShinyPalette_Mouchips,
+        .iconSprite = gMonIcon_Mouchips,
         .iconPalIndex = 4,
         
         .levelUpLearnset = sLilichenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
-        
-        
     },
-
+/*
     [SPECIES_GIGANILLE] = 
     {
         .baseHP        = ,
