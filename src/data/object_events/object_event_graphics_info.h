@@ -1,7 +1,7 @@
 /*POKEMON MOOD*/
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Doom = { 
-    .tileTag = 0xFFFF,
+    .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_DOOM,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512,
