@@ -140,6 +140,58 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_None,
     },
 
+    /*
+    [MOVE_EXAMPLE] =
+    {
+        .name = COMPOUND_STRING("-"),
+        .description = COMPOUND_STRING(""),
+        .effect = EFFECT_HIT,
+        .power = 0,
+        .type = TYPE_,
+        .accuracy = 0,
+        .pp = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .criticalHitStage = 1, //si ça a un taux de critique
+        .punchingMove = TRUE, //si ça doit être affecté par poing de fer
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_None,
+    },
+    */
+
+    [MOVE_DRAGON_BLADE] = 
+    {
+        .name = COMPOUND_STRING("Dragon Blade"),
+        .description = COMPOUND_STRING(
+            "Un violent coup capable\n"
+            "de couper l'acier."),
+        .effect = EFFECT_SUPER_EFFECTIVE_ON_ARG,
+        .argument = { .type = TYPE_STEEL },
+
+        .power = 100,
+        .type = TYPE_STEEL,
+        .accuracy = 85,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+
+        .makesContact = TRUE,
+        .slicingMove = TRUE,
+
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = FALSE,
+
+        .battleAnimScript = gBattleAnimMove_Pound,
+    },
+
     [MOVE_POUND] =
     {
         .name = COMPOUND_STRING("Pound"),
@@ -14664,6 +14716,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "types. May cause freezing."),
         #endif
         .effect = EFFECT_SUPER_EFFECTIVE_ON_ARG,
+        .argument = { .type = TYPE_WATER },
         .power = 70,
         .type = TYPE_ICE,
         .accuracy = 100,
@@ -14671,7 +14724,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
-        .argument = { .type = TYPE_WATER },
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE,
             .chance = 10,

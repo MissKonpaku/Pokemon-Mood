@@ -85,12 +85,12 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FUKUNNY"
+                "species": "SPECIES_GARDILISK"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_GRALIBRI"
+                "species": "SPECIES_GARDILISK"
               },
               {
                 "min_level": 2,
@@ -418,37 +418,37 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_POAMECON"
+                "species": "SPECIES_CAVIACHAT"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_POAMECON"
+                "species": "SPECIES_CAVIACHAT"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_KHELPIVAL"
+                "species": "SPECIES_CAVIACHAT"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_POAMECON"
+                "species": "SPECIES_CAVIACHAT"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_POAMECON"
+                "species": "SPECIES_CAVIACHAT"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_POAMECON"
+                "species": "SPECIES_CAVIACHAT"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_POAMECON"
+                "species": "SPECIES_CAVIACHAT"
               }
             ]
           }
