@@ -9,7 +9,13 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
         .battleScript = BattleScript_EffectPlaceholder,
         .battleTvScore = 0,
     },
-
+/*
+    [EFFECT_OIL_UP] = 
+    {
+        .battleScript = BattleScript_EffectOilUp,
+        .battleTvScore = 1,
+    },
+*/
     [EFFECT_HIT] =
     {
         .battleScript = BattleScript_EffectHit,

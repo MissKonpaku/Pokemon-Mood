@@ -141,11 +141,12 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
 
     /*
-    [MOVE_EXAMPLE] =
+    [MOVE_] =
     {
         .name = COMPOUND_STRING("-"),
         .description = COMPOUND_STRING(""),
         .effect = EFFECT_HIT,
+
         .power = 0,
         .type = TYPE_,
         .accuracy = 0,
@@ -153,9 +154,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+
         .makesContact = TRUE,
         .criticalHitStage = 1, //si ça a un taux de critique
         .punchingMove = TRUE, //si ça doit être affecté par poing de fer
+        .bitingMove = TRUE, //si affecté par Strong Jaw
+        .slicingMove = TRUE, //si affecté par Sharpness
+
         .metronomeBanned = TRUE,
         .mirrorMoveBanned = TRUE,
         .sketchBanned = TRUE,
@@ -163,7 +168,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_None,
     },
     */
-
+    //POKEMON MOOD CUSTOM MOVE
     [MOVE_DRAGON_BLADE] = 
     {
         .name = COMPOUND_STRING("Dragon Blade"),
@@ -189,8 +194,319 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .sketchBanned = TRUE,
         .assistBanned = FALSE,
 
-        .battleAnimScript = gBattleAnimMove_Pound,
+        .battleAnimScript = gBattleAnimMove_FuryCutter,
     },
+
+    [MOVE_CARNIPLANT] =
+    {
+        .name = COMPOUND_STRING("Carniplante"),
+        .description = COMPOUND_STRING(
+            "Chance de paralysie, de\n"
+            "troille ou d'empoisonnement\n"),
+        .effect = EFFECT_HIT,
+
+        .power = 85,
+        .type = TYPE_GRASS,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+
+        .makesContact = TRUE,
+        .bitingMove = TRUE, 
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_FLINCH,
+            .chance = 20,
+        },{
+            .moveEffect = MOVE_EFFECT_POISON,
+            .chance = 10,
+        },{
+            .moveEffect = MOVE_EFFECT_PARALYSIS,
+            .chance = 10,
+        }),
+
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = FALSE,
+
+        .battleAnimScript = gBattleAnimMove_PoisonFang,
+    },
+
+    [MOVE_MULTI_PRISES] =
+    {
+        .name = COMPOUND_STRING("Multi-Prises"),
+        .description = COMPOUND_STRING(
+            "Touche 2 à 5 fois\n"
+            "l'adversaire."
+            ),
+        .effect = EFFECT_MULTI_HIT,
+
+        .power = 25,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 90,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+
+        .makesContact = FALSE,
+
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_ThunderShock,
+    },
+
+    [MOVE_QUICK_SLICE] =
+    {
+        .name = COMPOUND_STRING("Quick Slice"),
+        .description = COMPOUND_STRING(
+            "Un coup de d'épée maîtrisé\n"
+            "aussi rapide que l'éclair."),
+        .effect = EFFECT_HIT,
+
+        .power = 40,
+        .type = TYPE_STEEL,
+        .accuracy = 100,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 1,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+
+        .makesContact = TRUE,
+        .slicingMove = TRUE, //si affecté par Sharpness
+
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_Slash,
+    },
+/*
+    [MOVE_OIL_UP] =
+    {
+        .name = COMPOUND_STRING("Dégraissage"),
+        .description = COMPOUND_STRING(
+            "Débarasse les impuretés, doublant\n"
+            "sa vitesse et soigne son statut"
+        ),
+        .effect = EFFECT_OIL_UP,
+        .power = 0,
+        .type = TYPE_STEEL,
+        .accuracy = 0,
+        .pp = 5,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_ShiftGear,
+    },
+
+*/
+    [MOVE_BRAIN_DAMAGE] = 
+    {
+        .name = COMPOUND_STRING("Brain Damage"),
+        .description = COMPOUND_STRING(
+            "Blesse gravement le\n"
+            "le cerveau du lanceur."
+        ),
+        .effect = EFFECT_RECOIL,
+        .argument = { .recoilPercentage = 50 },
+
+        .power = 150,
+        .type = TYPE_PSYCHIC,
+        .accuracy = 80,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+
+        .makesContact = TRUE,
+
+        .battleAnimScript = gBattleAnimMove_ZenHeadbutt,
+    },
+
+    [MOVE_BRAIN_FREEZE] =
+    {
+        .name = COMPOUND_STRING("Brain Freeze"),
+        .description = COMPOUND_STRING(
+            "Blesse gravement le\n"
+            "le cerveau du lanceur."
+        ),
+        .effect = EFFECT_RECOIL,
+        .argument = { .recoilPercentage = 33 },
+        .additionalEffects = ADDITIONAL_EFFECTS ({
+            .moveEffect = MOVE_EFFECT_FROSTBITE,
+            .chance = 10,
+        }),
+
+        .power = 120,
+        .type = TYPE_ICE,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+
+        .makesContact = TRUE,
+        
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_ZenHeadbutt,
+    },
+
+    [MOVE_ENGELURE] = 
+    {
+        .name = COMPOUND_STRING("Engelure"),
+        .description = COMPOUND_STRING(
+            "Le lanceur brûle par\n"
+            "le froid l'adversaire"
+        ),
+        .effect = EFFECT_NON_VOLATILE_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_FROSTBITE },
+
+        .power = 0,
+        .type = TYPE_ICE,
+        .accuracy = 85,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+
+        .battleAnimScript = gBattleAnimMove_IcyWind,
+    },
+    
+    [MOVE_DRACHE_TOXIQUE] =
+    {
+        .name = COMPOUND_STRING("Drache Toxique"),
+        .description = COMPOUND_STRING(
+            "Le lanceur envoie un\n"
+            "déluche de pics toxiques"),
+        .effect = EFFECT_HIT,
+        .additionalEffects = ADDITIONAL_EFFECTS ({
+            .moveEffect = EFFECT_TOXIC_SPIKES,
+            .chance = 100,
+        }),
+        .power = 65,
+        .type = TYPE_POISON,
+        .accuracy = 90,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        
+        .battleAnimScript = gBattleAnimMove_MortalSpin,
+    },
+
+    [MOVE_JUMPSCARE] =
+    {
+        .name = COMPOUND_STRING("Jumpscare"),
+        .description = COMPOUND_STRING(
+            "Surgit de nulle part d'un.\n"
+            "coup. Attaque Prioritaire."),
+        .priority = 1,
+        .effect = EFFECT_FIRST_TURN_ONLY,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_FLINCH,
+            .chance = 100,
+        }),
+        
+        .power = 40,
+        .type = TYPE_GHOST,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .soundMove = TRUE,
+       
+        .battleAnimScript = gBattleAnimMove_FakeOut,
+        .validApprenticeMove = TRUE,
+    },
+
+    [MOVE_SOUL_BLAST] =
+    {
+        .name = COMPOUND_STRING("Soul Blast"),
+        .description = COMPOUND_STRING(
+            "Blesse gravement l'âme\n"
+            "du lanceur."
+        ),
+        .effect = EFFECT_RECOIL,
+        .argument = { .recoilPercentage = 50 },
+
+        .power = 130,
+        .type = TYPE_GHOST,
+        .accuracy = 100,
+        .pp = 5,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+
+        .battleAnimScript = gBattleAnimMove_PhotonGeyser,
+    },    
+
+    [MOVE_SUCCUBY_KISS] = 
+    {
+        .name = COMPOUND_STRING("Succuby Kiss"),
+        .description = COMPOUND_STRING(
+            "Bisous d'une succube. Draine la\n"
+            "moitié des dégâts infligés."
+        ),
+        .effect = EFFECT_ABSORB,
+        .argument = { .absorbPercentage = 50 },
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_INFATUATE_SIDE,
+            .chance = 30,
+        }),
+        .power = 75,
+        .type = TYPE_DARK,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+
+        .battleAnimScript = gBattleAnimMove_LovelyKiss,
+    },
+
+    [MOVE_BONDAGE] = 
+    {
+        .name = COMPOUND_STRING("Bondage"),
+        .description = COMPOUND_STRING(
+            "Le lanceur flagelle l'adversaire\n" 
+            "et le ligote 4 à 5 tours"
+        ),
+        .effect = EFFECT_HIT,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_WRAP,
+        }),
+
+        .power = 25,
+        .type = TYPE_DARK,
+        .accuracy = 85,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+
+        .makesContact = TRUE,
+
+        .metronomeBanned = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
+        .assistBanned = TRUE,
+        .battleAnimScript = gBattleAnimMove_Wrap,
+    },
+    //POKEMON MOOD CUSTOM MOVE
 
     [MOVE_POUND] =
     {
@@ -546,10 +862,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Cuts the foe with sharp\n"
             "scythes, claws, etc."),
         .effect = EFFECT_HIT,
-        .power = 50,
-        .type = TYPE_NORMAL,
+        .power = 65,
+        .type = TYPE_STEEL,
         .accuracy = 95,
-        .pp = 30,
+        .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
@@ -1769,12 +2085,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Fires a rainbow-colored\n"
             "beam that may lower Attack."),
         .effect = EFFECT_HIT,
-        .power = 65,
+        .power = 75,
         .type = TYPE_ICE,
         .accuracy = 100,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
+        .pulseMove = TRUE,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ATK_MINUS_1,
@@ -1964,7 +2281,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "then slams the foe."),
         .effect = EFFECT_HIT,
         .power = 80,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
@@ -3549,7 +3866,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "strike 2 to 5 times."),
         .effect = EFFECT_MULTI_HIT,
         .power = 20,
-        .type = TYPE_NORMAL,
+        .type = TYPE_STEEL,
         .accuracy = 100,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
@@ -4004,20 +4321,20 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
             "Looses a powerful blast of\n"
             "light that cuts accuracy."),
-        .effect = EFFECT_ACCURACY_DOWN,
-        .power = 0,
-        .type = TYPE_NORMAL,
-        .accuracy = B_UPDATED_MOVE_DATA >= GEN_4 ? 100 : 70,
+        .effect = EFFECT_HIT,
+        .additionalEffects = ADDITIONAL_EFFECTS ({
+            .moveEffect = MOVE_EFFECT_ACC_MINUS_1,
+            .chance = 100,
+        }),
+        .power = 20,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 100,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .category = DAMAGE_CATEGORY_STATUS,
-        .zMove = { .effect = Z_EFFECT_EVSN_UP_1 },
+        .category = DAMAGE_CATEGORY_SPECIAL,
+
         .magicCoatAffected = TRUE,
-        .contestEffect = CONTEST_EFFECT_SHIFT_JUDGE_ATTENTION,
-        .contestCategory = CONTEST_CATEGORY_BEAUTY,
-        .contestComboStarterId = 0,
-        .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_Flash,
         .validApprenticeMove = TRUE,
     },
@@ -14742,7 +15059,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Lets out a charming cry\n"
             "that cannot be evaded."),
         .effect = EFFECT_HIT,
-        .power = 40,
+        .power = 55,
         .type = TYPE_FAIRY,
         .accuracy = 0,
         .pp = 15,
@@ -17843,7 +18160,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Double power if the user\n"
             "moves before the target."),
         .effect = EFFECT_BOLT_BEAK,
-        .power = 85,
+        .power = 75,
         .type = TYPE_ELECTRIC,
         .accuracy = 100,
         .pp = 10,
