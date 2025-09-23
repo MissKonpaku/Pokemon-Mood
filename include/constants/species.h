@@ -1733,7 +1733,7 @@
 #define SPECIES_WIGINI                                  SPECIES_LILICHEN + 90
 #define SPECIES_WIGELLE                                 SPECIES_LILICHEN + 91
 #define SPECIES_WIGOUDI                                 SPECIES_LILICHEN + 92
-#define SPECIES_BEBEMANON                               SPECIES_LILICHEN + 93
+#define SPECIES_FROUSALE                              SPECIES_LILICHEN + 93
 #define SPECIES_FLAMANON                                SPECIES_LILICHEN + 94 
 #define SPECIES_GUITARE_BLINDE                          SPECIES_LILICHEN + 95 
 #define SPECIES_PUYOTAN                                 SPECIES_LILICHEN + 96 

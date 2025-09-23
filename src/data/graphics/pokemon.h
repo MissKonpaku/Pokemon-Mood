@@ -18,7 +18,7 @@ const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/ico
 #endif //P_FOOTPRINTS
 const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_mark/overworld.4bpp");
 
-#if P_FAMILY_BULBASAUR
+#if P_FAMILY_BULBASAUR 
 #if !P_GBA_STYLE_SPECIES_GFX
     const u32 gMonFrontPic_Bulbasaur[] = INCBIN_U32("graphics/pokemon/bulbasaur/anim_front.4bpp.lz");
     const u16 gMonPalette_Bulbasaur[] = INCBIN_U16("graphics/pokemon/bulbasaur/normal.gbapal");
@@ -27290,10 +27290,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Magmalodon[] = INCBIN_U8("custom/doomdex/magmalodon/footprint.1bpp");
 /**/
-    //const u32 gMonFrontPic_Verote[] = INCBIN_U32("custom/doomdex/verote/Front.4bpp.lz");
-    //const u16 gMonPalette_Verote[] = INCBIN_U16("custom/doomdex/verote/normal.gbapal");
-    //const u32 gMonBackPic_Verote[] = INCBIN_U32("custom/doomdex/verote/Back.4bpp.lz");
-    //const u16 gMonShinyPalette_Verote[] = INCBIN_U16("custom/doomdex/verote/shiny.gbapal");
+    const u32 gMonFrontPic_Verote[] = INCBIN_U32("custom/doomdex/verote/front.4bpp.lz");
+    const u16 gMonPalette_Verote[] = INCBIN_U16("custom/doomdex/verote/normal.gbapal");
+    const u32 gMonBackPic_Verote[] = INCBIN_U32("custom/doomdex/verote/back.4bpp.lz");
+    const u16 gMonShinyPalette_Verote[] = INCBIN_U16("custom/doomdex/verote/shiny.gbapal");
     //const u8 gMonIcon_[] = INCBIN_U8("custom/doomdex/verote/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Verote[] = INCBIN_U8("custom/doomdex/verote/footprint.1bpp");
@@ -27353,21 +27353,21 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonIcon_Ohhaerk[] = INCBIN_U8("custom/doomdex/ohhaerk/icon.4bpp");
     //#if P_FOOTPRINTS
 /**/
-    //const u32 gMonFrontPic_Sleepompik[] = INCBIN_U32("custom/doomdex/euark/front.4bpp.lz");
-    //const u16 gMonPalette_Sleepompik[] = INCBIN_U16("custom/doomdex/euark/normal.gbapal");
-    //const u32 gMonBackPic_Sleepompik[] = INCBIN_U32("custom/doomdex/euark/Back.4bpp.lz");
-    //const u16 gMonShinyPalette_Sleepompik[] = INCBIN_U16("custom/doomdex/euark/shiny.gbapal");
-    //const u8 gMonIcon_Sleepompik[] = INCBIN_U8("custom/doomdex/euark/icon.4bpp");
+    const u32 gMonFrontPic_Sleepompik[] = INCBIN_U32("custom/doomdex/sleepompik/front.4bpp.lz");
+    const u16 gMonPalette_Sleepompik[] = INCBIN_U16("custom/doomdex/sleepompik/normal.gbapal");
+    const u32 gMonBackPic_Sleepompik[] = INCBIN_U32("custom/doomdex/sleepompik/back.4bpp.lz");
+    const u16 gMonShinyPalette_Sleepompik[] = INCBIN_U16("custom/doomdex/sleepompik/shiny.gbapal");
+    //const u8 gMonIcon_Sleepompik[] = INCBIN_U8("custom/doomdex/sleepompik/icon.4bpp");
     //#if P_FOOTPRINTS
-    //const u8 gMonFootprint_Sleepompik[] = INCBIN_U8("custom/doomdex/euark/footprint.1bpp");
+    //const u8 gMonFootprint_Sleepompik[] = INCBIN_U8("custom/doomdex/sleepompik/footprint.1bpp");
 
-    //const u32 gMonFrontPic_Ominousleh[] = INCBIN_U32("custom/doomdex/Ominousleh/Front.4bpp.lz");
-    //const u16 gMonPalette_Ominousleh[] = INCBIN_U16("custom/doomdex/Ominousleh/normal.gbapal");
-    //const u32 gMonBackPic_Ominousleh[] = INCBIN_U32("custom/doomdex/Ominousleh/back.4bpp.lz");
-    //const u16 gMonShinyPalette_Ominousleh[] = INCBIN_U16("custom/doomdex/Ominousleh/shiny.gbapal");
-    //const u8 gMonIcon_Ominousleh[] = INCBIN_U8("custom/doomdex/Ominousleh/icon.4bpp");
+    const u32 gMonFrontPic_Ominousleh[] = INCBIN_U32("custom/doomdex/ominousleh/front.4bpp.lz");
+    const u16 gMonPalette_Ominousleh[] = INCBIN_U16("custom/doomdex/ominousleh/normal.gbapal");
+    const u32 gMonBackPic_Ominousleh[] = INCBIN_U32("custom/doomdex/ominousleh/back.4bpp.lz");
+    const u16 gMonShinyPalette_Ominousleh[] = INCBIN_U16("custom/doomdex/ominousleh/shiny.gbapal");
+    //const u8 gMonIcon_Ominousleh[] = INCBIN_U8("custom/doomdex/ominousleh/icon.4bpp");
     //#if P_FOOTPRINTS
-    //const u8 gMonFootprint_Ominousleh[] = INCBIN_U8("custom/doomdex/Ominousleh/footprint.1bpp");
+    //const u8 gMonFootprint_Ominousleh[] = INCBIN_U8("custom/doomdex/ominousleh/footprint.1bpp");
 
     const u32 gMonFrontPic_Mandelman[] = INCBIN_U32("custom/doomdex/mandelman/Front.4bpp.lz");
     const u16 gMonPalette_Mandelman[] = INCBIN_U16("custom/doomdex/mandelman/normal.gbapal");
@@ -27377,13 +27377,13 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Mandelman[] = INCBIN_U8("custom/doomdex/mandelman/footprint.1bpp");
 /**/
-    //const u32 gMonFrontPic_Scriptile[] = INCBIN_U32("custom/doomdex/Scriptile/Front.4bpp.lz");
-    //const u16 gMonPalette_Scriptile[] = INCBIN_U16("custom/doomdex/Scriptile/normal.gbapal");
-    //const u32 gMonBackPic_Scriptile[] = INCBIN_U32("custom/doomdex/Scriptile/Back.4bpp.lz");
-    //const u16 gMonShinyPalette_Scriptile[] = INCBIN_U16("custom/doomdex/Scriptile/shiny.gbapal");
-    //const u8 gMonIcon_Scriptile[] = INCBIN_U8("custom/doomdex/Scriptile/icon.4bpp");
+    const u32 gMonFrontPic_Scriptile[] = INCBIN_U32("custom/doomdex/scriptile/front.4bpp.lz");
+    const u16 gMonPalette_Scriptile[] = INCBIN_U16("custom/doomdex/scriptile/normal.gbapal");
+    const u32 gMonBackPic_Scriptile[] = INCBIN_U32("custom/doomdex/scriptile/back.4bpp.lz");
+    const u16 gMonShinyPalette_Scriptile[] = INCBIN_U16("custom/doomdex/scriptile/shiny.gbapal");
+    //const u8 gMonIcon_Scriptile[] = INCBIN_U8("custom/doomdex/scriptile/icon.4bpp");
     //#if P_FOOTPRINTS
-    //const u8 gMonFootprint_Scriptile[] = INCBIN_U8("custom/doomdex/Scriptile/footprint.1bpp");
+    //const u8 gMonFootprint_Scriptile[] = INCBIN_U8("custom/doomdex/scriptile/footprint.1bpp");
 
     const u32 gMonFrontPic_Pythagon[] = INCBIN_U32("custom/doomdex/pythagon/front.4bpp.lz");
     const u16 gMonPalette_Pythagon[] = INCBIN_U16("custom/doomdex/pythagon/normal.gbapal");
@@ -27486,7 +27486,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonBackPic_Flopwetwet[] = INCBIN_U32("custom/doomdex/flopwetwet/Back.4bpp.lz");
     const u16 gMonShinyPalette_Flopwetwet[] = INCBIN_U16("custom/doomdex/flopwetwet/shiny.gbapal");
     const u8 gMonIcon_Flopwetwet[] = INCBIN_U8("custom/doomdex/flopwetwet/icon.4bpp");
-    //#if P_FOOTPRINTS
+    //#if P_FOOTPRINTS 
     //const u8 gMonFootprint_Flopwetwet[] = INCBIN_U8("custom/doomdex/x/footprint.1bpp");
 /**/
     const u32 gMonFrontPic_Gesticot[] = INCBIN_U32("custom/doomdex/gesticot/front.4bpp.lz");
@@ -27523,7 +27523,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 
     const u32 gMonFrontPic_Beelzeros[] = INCBIN_U32("custom/doomdex/beelzeros/front.4bpp.lz");
     const u16 gMonPalette_Beelzeros[] = INCBIN_U16("custom/doomdex/beelzeros/normal.gbapal");
-    //const u32 gMonBackPic_Beelzeros[] = INCBIN_U32("custom/doomdex/beelzeros/Back.4bpp.lz");
+    const u32 gMonBackPic_Beelzeros[] = INCBIN_U32("custom/doomdex/beelzeros/back.4bpp.lz");
     const u16 gMonShinyPalette_Beelzeros[] = INCBIN_U16("custom/doomdex/beelzeros/shiny.gbapal");
     //const u8 gMonIcon_Beelzeros[] = INCBIN_U8("custom/doomdex/beelzeros/icon.4bpp");
     //#if P_FOOTPRINTS
@@ -27641,6 +27641,16 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Yetidiot[] = INCBIN_U8("custom/doomdex/yetidiot/footprint.1bpp");
 /**/
+/**/
+    const u32 gMonFrontPic_Blastailes[] = INCBIN_U32("custom/doomdex/blastailes/front.4bpp.lz");
+    const u16 gMonPalette_Blastailes[] = INCBIN_U16("custom/doomdex/blastailes/normal.gbapal");
+    const u32 gMonBackPic_Blastailes[] = INCBIN_U32("custom/doomdex/blastailes/back.4bpp.lz");
+    const u16 gMonShinyPalette_Blastailes[] = INCBIN_U16("custom/doomdex/blastailes/shiny.gbapal");
+    const u8 gMonIcon_Blastailes[] = INCBIN_U8("custom/doomdex/blastailes/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Blastailes[] = INCBIN_U8("custom/doomdex/blastailes/footprint.1bpp");
+
+/**/
     const u32 gMonFrontPic_Emprism[] = INCBIN_U32("custom/doomdex/emprism/Front.4bpp.lz");
     const u16 gMonPalette_Emprism[] = INCBIN_U16("custom/doomdex/emprism/normal.gbapal");
     const u32 gMonBackPic_Emprism[] = INCBIN_U32("custom/doomdex/emprism/Back.4bpp.lz");
@@ -27657,11 +27667,11 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Octonimbus[] = INCBIN_U8("custom/doomdex/octonimbus/footprint.1bpp"); 
 /**/
-    //const u32 gMonFrontPic_Limacide[] = INCBIN_U32("custom/doomdex/limacide/Front.4bpp.lz");
-    //const u16 gMonPalette_Limacide[] = INCBIN_U16("custom/doomdex/limacide/normal.gbapal");
-    //const u32 gMonBackPic_Limacide[] = INCBIN_U32("custom/doomdex/limacide/Back.4bpp.lz");
-    //const u16 gMonShinyPalette_Limacide[] = INCBIN_U16("custom/doomdex/limacide/shiny.gbapal");
-    //const u8 gMonIcon_Limacide[] = INCBIN_U8("custom/doomdex/limacide/icon.4bpp");
+    const u32 gMonFrontPic_Limacide[] = INCBIN_U32("custom/doomdex/limacide/front.4bpp.lz");
+    const u16 gMonPalette_Limacide[] = INCBIN_U16("custom/doomdex/limacide/normal.gbapal");
+    const u32 gMonBackPic_Limacide[] = INCBIN_U32("custom/doomdex/limacide/back.4bpp.lz");
+    const u16 gMonShinyPalette_Limacide[] = INCBIN_U16("custom/doomdex/limacide/shiny.gbapal");
+    const u8 gMonIcon_Limacide[] = INCBIN_U8("custom/doomdex/limacide/icon.4bpp");
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Limacide[] = INCBIN_U8("custom/doomdex/limacide/footprint.1bpp"); 
 
@@ -27721,7 +27731,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Mederive[] = INCBIN_U8("custom/doomdex/mederive/footprint.1bpp"); 
 /**/
-    //const u32 gMonFrontPic_Mouchips[] = INCBIN_U32("custom/doomdex/mouchips/front.4bpp.lz");
+    const u32 gMonFrontPic_Mouchips[] = INCBIN_U32("custom/doomdex/mouchips/front.4bpp.lz");
     const u16 gMonPalette_Mouchips[] = INCBIN_U16("custom/doomdex/mouchips/normal.gbapal");
     const u32 gMonBackPic_Mouchips[] = INCBIN_U32("custom/doomdex/mouchips/back.4bpp.lz");
     const u16 gMonShinyPalette_Mouchips[] = INCBIN_U16("custom/doomdex/mouchips/shiny.gbapal");
@@ -27729,21 +27739,125 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Mouchips[] = INCBIN_U8("custom/doomdex/mouchips/footprint.1bpp"); 
 
-    //const u32 gMonFrontPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/front.4bpp.lz");
-    //const u16 gMonPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/normal.gbapal");
-    //const u32 gMonBackPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/back.4bpp.lz");
-    //const u16 gMonShinyPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/shiny.gbapal");
-    //const u8 gMonIcon_Mederive[] = INCBIN_U8("custom/doomdex/mederive/icon.4bpp");
+    const u32 gMonFrontPic_Giganille[] = INCBIN_U32("custom/doomdex/giganille/front.4bpp.lz");
+    const u16 gMonPalette_Giganille[] = INCBIN_U16("custom/doomdex/giganille/normal.gbapal");
+    const u32 gMonBackPic_Giganille[] = INCBIN_U32("custom/doomdex/giganille/back.4bpp.lz");
+    const u16 gMonShinyPalette_Giganille[] = INCBIN_U16("custom/doomdex/giganille/shiny.gbapal");
+    const u8 gMonIcon_Giganille[] = INCBIN_U8("custom/doomdex/giganille/icon.4bpp");
     ////#if P_FOOTPRINTS
-    ////const u8 gMonFootprint_Mederive[] = INCBIN_U8("custom/doomdex/mederive/footprint.1bpp"); 
-//
-    //const u32 gMonFrontPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/front.4bpp.lz");
-    //const u16 gMonPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/normal.gbapal");
-    //const u32 gMonBackPic_Mederive[] = INCBIN_U32("custom/doomdex/mederive/back.4bpp.lz");
-    //const u16 gMonShinyPalette_Mederive[] = INCBIN_U16("custom/doomdex/mederive/shiny.gbapal");
-    //const u8 gMonIcon_Mederive[] = INCBIN_U8("custom/doomdex/mederive/icon.4bpp");
+    ////const u8 gMonFootprint_Giganille[] = INCBIN_U8("custom/doomdex/giganille/footprint.1bpp"); 
+
+    const u32 gMonFrontPic_Probelle[] = INCBIN_U32("custom/doomdex/probelle/front.4bpp.lz");
+    const u16 gMonPalette_Probelle[] = INCBIN_U16("custom/doomdex/probelle/normal.gbapal");
+    const u32 gMonBackPic_Probelle[] = INCBIN_U32("custom/doomdex/probelle/back.4bpp.lz");
+    const u16 gMonShinyPalette_Probelle[] = INCBIN_U16("custom/doomdex/probelle/shiny.gbapal");
+    const u8 gMonIcon_Probelle[] = INCBIN_U8("custom/doomdex/probelle/icon.4bpp");
     ////#if P_FOOTPRINTS
-    ////const u8 gMonFootprint_Mederive[] = INCBIN_U8("custom/doomdex/mederive/footprint.1bpp"); 
+    ////const u8 gMonFootprint_Probelle[] = INCBIN_U8("custom/doomdex/probelle/footprint.1bpp"); 
+/**/
+    const u32 gMonFrontPic_Pome[] = INCBIN_U32("custom/doomdex/pome/front.4bpp.lz");
+    const u16 gMonPalette_Pome[] = INCBIN_U16("custom/doomdex/pome/normal.gbapal");
+    const u32 gMonBackPic_Pome[] = INCBIN_U32("custom/doomdex/pome/back.4bpp.lz");
+    const u16 gMonShinyPalette_Pome[] = INCBIN_U16("custom/doomdex/pome/shiny.gbapal");
+    const u8 gMonIcon_Pome[] = INCBIN_U8("custom/doomdex/pome/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Pome[] = INCBIN_U8("custom/doomdex/pome/footprint.1bpp"); 
+
+    const u32 gMonFrontPic_Pomdarpi[] = INCBIN_U32("custom/doomdex/pomdarpi/front.4bpp.lz");
+    const u16 gMonPalette_Pomdarpi[] = INCBIN_U16("custom/doomdex/pomdarpi/normal.gbapal");
+    const u32 gMonBackPic_Pomdarpi[] = INCBIN_U32("custom/doomdex/pomdarpi/back.4bpp.lz");
+    const u16 gMonShinyPalette_Pomdarpi[] = INCBIN_U16("custom/doomdex/pomdarpi/shiny.gbapal");
+    const u8 gMonIcon_Pomdarpi[] = INCBIN_U8("custom/doomdex/pomdarpi/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Pomdarpi[] = INCBIN_U8("custom/doomdex/pomdarpi/footprint.1bpp");
+/**/
+    const u32 gMonFrontPic_Kerocorn[] = INCBIN_U32("custom/doomdex/kerocorn/Front.4bpp.lz");
+    const u16 gMonPalette_Kerocorn[] = INCBIN_U16("custom/doomdex/kerocorn/normal.gbapal");
+    const u32 gMonBackPic_Kerocorn[] = INCBIN_U32("custom/doomdex/kerocorn/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Kerocorn[] = INCBIN_U16("custom/doomdex/kerocorn/shiny.gbapal");
+    //const u8 gMonIcon_Kerocorn[] = INCBIN_U8("custom/doomdex/kerocorn/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Kerocorn[] = INCBIN_U8("custom/doomdex/kerocorn/footprint.1bpp");     
+/**/
+    const u32 gMonFrontPic_Metalica[] = INCBIN_U32("custom/doomdex/metalica/Front.4bpp.lz");
+    const u16 gMonPalette_Metalica[] = INCBIN_U16("custom/doomdex/metalica/normal.gbapal");
+    const u32 gMonBackPic_Metalica[] = INCBIN_U32("custom/doomdex/metalica/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Metalica[] = INCBIN_U16("custom/doomdex/metalica/shiny.gbapal");
+    const u8 gMonIcon_Metalica[] = INCBIN_U8("custom/doomdex/metalica/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Metalica[] = INCBIN_U8("custom/doomdex/metalica/footprint.1bpp");
+/**/
+    const u32 gMonFrontPic_Invocamon[] = INCBIN_U32("custom/doomdex/invocamon/front.4bpp.lz");
+    const u16 gMonPalette_Invocamon[] = INCBIN_U16("custom/doomdex/invocamon/normal.gbapal");
+    const u32 gMonBackPic_Invocamon[] = INCBIN_U32("custom/doomdex/invocamon/back.4bpp.lz");
+    const u16 gMonShinyPalette_Invocamon[] = INCBIN_U16("custom/doomdex/invocamon/shiny.gbapal");
+    //const u8 gMonIcon_Invocamon[] = INCBIN_U8("custom/doomdex/invocamon/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Invocamon[] = INCBIN_U8("custom/doomdex/invocamon/footprint.1bpp");
+/**/
+    const u32 gMonFrontPic_Sheruran[] = INCBIN_U32("custom/doomdex/sheruran/Front.4bpp.lz");
+    const u16 gMonPalette_Sheruran[] = INCBIN_U16("custom/doomdex/sheruran/normal.gbapal");
+    const u32 gMonBackPic_Sheruran[] = INCBIN_U32("custom/doomdex/sheruran/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Sheruran[] = INCBIN_U16("custom/doomdex/sheruran/shiny.gbapal");
+    const u8 gMonIcon_Sheruran[] = INCBIN_U8("custom/doomdex/sheruran/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Sheruran[] = INCBIN_U8("custom/doomdex/sheruran/footprint.1bpp");
+
+    const u32 gMonFrontPic_Sherucroc[] = INCBIN_U32("custom/doomdex/sherucroc/front.4bpp.lz");
+    const u16 gMonPalette_Sherucroc[] = INCBIN_U16("custom/doomdex/sherucroc/normal.gbapal");
+    const u32 gMonBackPic_Sherucroc[] = INCBIN_U32("custom/doomdex/sherucroc/back.4bpp.lz");
+    const u16 gMonShinyPalette_Sherucroc[] = INCBIN_U16("custom/doomdex/sherucroc/shiny.gbapal");
+    const u8 gMonIcon_Sherucroc[] = INCBIN_U8("custom/doomdex/sherucroc/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Sherucroc[] = INCBIN_U8("custom/doomdex/sherucroc/footprint.1bpp");
+/**/
+    const u32 gMonFrontPic_Synapti[] = INCBIN_U32("custom/doomdex/synapti/Front.4bpp.lz");
+    const u16 gMonPalette_Synapti[] = INCBIN_U16("custom/doomdex/synapti/normal.gbapal");
+    const u32 gMonBackPic_Synapti[] = INCBIN_U32("custom/doomdex/synapti/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Synapti[] = INCBIN_U16("custom/doomdex/synapti/shiny.gbapal");
+    const u8 gMonIcon_Synapti[] = INCBIN_U8("custom/doomdex/synapti/icon.4bpp");
+    
+    const u32 gMonFrontPic_Glacynapse[] = INCBIN_U32("custom/doomdex/glacynapse/Front.4bpp.lz");
+    const u16 gMonPalette_Glacynapse[] = INCBIN_U16("custom/doomdex/glacynapse/normal.gbapal");
+    const u32 gMonBackPic_Glacynapse[] = INCBIN_U32("custom/doomdex/glacynapse/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Glacynapse[] = INCBIN_U16("custom/doomdex/glacynapse/shiny.gbapal");
+    const u8 gMonIcon_Glacynapse[] = INCBIN_U8("custom/doomdex/glacynapse/icon.4bpp");
+/**/
+    const u32 gMonFrontPic_Dracoton[] = INCBIN_U32("custom/doomdex/dracoton/front.4bpp.lz");
+    const u16 gMonPalette_Dracoton[] = INCBIN_U16("custom/doomdex/dracoton/normal.gbapal");
+    const u32 gMonBackPic_Dracoton[] = INCBIN_U32("custom/doomdex/dracoton/back.4bpp.lz");
+    const u16 gMonShinyPalette_Dracoton[] = INCBIN_U16("custom/doomdex/dracoton/shiny.gbapal");
+    //const u8 gMonIcon_Dracoton[] = INCBIN_U8("custom/doomdex/dracoton/icon.4bpp");
+
+    const u32 gMonFrontPic_Tundragon[] = INCBIN_U32("custom/doomdex/tundragon/front.4bpp.lz");
+    const u16 gMonPalette_Tundragon[] = INCBIN_U16("custom/doomdex/tundragon/normal.gbapal");
+    const u32 gMonBackPic_Tundragon[] = INCBIN_U32("custom/doomdex/tundragon/back.4bpp.lz");
+    const u16 gMonShinyPalette_Tundragon[] = INCBIN_U16("custom/doomdex/tundragon/shiny.gbapal");
+    //const u8 gMonIcon_Tundragon[] = INCBIN_U8("custom/doomdex/tundragon/icon.4bpp");
+/**/
+    const u32 gMonFrontPic_Ostenssy[] = INCBIN_U32("custom/doomdex/ostenssy/Front.4bpp.lz");
+    const u16 gMonPalette_Ostenssy[] = INCBIN_U16("custom/doomdex/ostenssy/normal.gbapal");
+    const u32 gMonBackPic_Ostenssy[] = INCBIN_U32("custom/doomdex/ostenssy/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Ostenssy[] = INCBIN_U16("custom/doomdex/ostenssy/shiny.gbapal");
+    const u8 gMonIcon_Ostenssy[] = INCBIN_U8("custom/doomdex/ostenssy/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Ostenssy[] = INCBIN_U8("custom/doomdex/ostenssy/footprint.1bpp");
+    
+    const u32 gMonFrontPic_Rancossor[] = INCBIN_U32("custom/doomdex/rancossor/Front.4bpp.lz");
+    const u16 gMonPalette_Rancossor[] = INCBIN_U16("custom/doomdex/rancossor/normal.gbapal");
+    const u32 gMonBackPic_Rancossor[] = INCBIN_U32("custom/doomdex/rancossor/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Rancossor[] = INCBIN_U16("custom/doomdex/rancossor/shiny.gbapal");
+    const u8 gMonIcon_Rancossor[] = INCBIN_U8("custom/doomdex/rancossor/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Rancossor[] = INCBIN_U8("custom/doomdex/rancossor/footprint.1bpp");
+
+    const u32 gMonFrontPic_Mossemeros[] = INCBIN_U32("custom/doomdex/mossemeros/Front.4bpp.lz");
+    const u16 gMonPalette_Mossemeros[] = INCBIN_U16("custom/doomdex/mossemeros/normal.gbapal");
+    const u32 gMonBackPic_Mossemeros[] = INCBIN_U32("custom/doomdex/mossemeros/Back.4bpp.lz");
+    const u16 gMonShinyPalette_Mossemeros[] = INCBIN_U16("custom/doomdex/mossemeros/shiny.gbapal");
+    const u8 gMonIcon_Mossemeros[] = INCBIN_U8("custom/doomdex/mossemeros/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Mossemeros[] = INCBIN_U8("custom/doomdex/mossemeros/footprint.1bpp");
 /**/
     const u32 gMonFrontPic_Jaimaille[] = INCBIN_U32("custom/doomdex/jaimaille/front.4bpp.lz");
     const u16 gMonPalette_Jaimaille[] = INCBIN_U16("custom/doomdex/jaimaille/normal.gbapal");
@@ -27817,6 +27931,22 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Mementos[] = INCBIN_U8("custom/doomdex/mementos/footprint.1bpp");
 /**/
+    const u32 gMonFrontPic_Apprenpti[] = INCBIN_U32("custom/doomdex/apprenpti/front.4bpp.lz");
+    const u16 gMonPalette_Apprenpti[] = INCBIN_U16("custom/doomdex/apprenpti/normal.gbapal");
+    const u32 gMonBackPic_Apprenpti[] = INCBIN_U32("custom/doomdex/apprenpti/back.4bpp.lz");
+    const u16 gMonShinyPalette_Apprenpti[] = INCBIN_U16("custom/doomdex/apprenpti/shiny.gbapal");
+    //const u8 gMonIcon_Apprenpti[] = INCBIN_U8("custom/doomdex/apprenpti/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Apprenpti[] = INCBIN_U8("custom/doomdex/apprenpti/footprint.1bpp");
+
+    const u32 gMonFrontPic_Reptueur[] = INCBIN_U32("custom/doomdex/reptueur/front.4bpp.lz");
+    const u16 gMonPalette_Reptueur[] = INCBIN_U16("custom/doomdex/reptueur/normal.gbapal");
+    const u32 gMonBackPic_Reptueur[] = INCBIN_U32("custom/doomdex/reptueur/back.4bpp.lz");
+    const u16 gMonShinyPalette_Reptueur[] = INCBIN_U16("custom/doomdex/reptueur/shiny.gbapal");
+    //const u8 gMonIcon_Reptueur[] = INCBIN_U8("custom/doomdex/reptueur/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Reptueur[] = INCBIN_U8("custom/doomdex/reptueur/footprint.1bpp");
+
     const u32 gMonFrontPic_Gardilisk[] = INCBIN_U32("custom/doomdex/gardilisk/front.4bpp.lz");
     const u16 gMonPalette_Gardilisk[] = INCBIN_U16("custom/doomdex/gardilisk/normal.gbapal");
     const u32 gMonBackPic_Gardilisk[] = INCBIN_U32("custom/doomdex/gardilisk/back.4bpp.lz");
@@ -27831,7 +27961,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPalette_Lumini[] = INCBIN_U16("custom/doomdex/lumini/shiny.gbapal");
     const u8 gMonIcon_Lumini[] = INCBIN_U8("custom/doomdex/lumini/icon.4bpp");
     //#if P_FOOTPRINTS
-    //const u8 gMonFootprint_Celestial[] = INCBIN_U8("custom/doomdex/lumini/footprint.1bpp");
+    //const u8 gMonFootprint_Lumini[] = INCBIN_U8("custom/doomdex/lumini/footprint.1bpp");
 
     const u32 gMonFrontPic_Parademise[] = INCBIN_U32("custom/doomdex/parademise/front.4bpp.lz");
     const u16 gMonPalette_Parademise[] = INCBIN_U16("custom/doomdex/parademise/normal.gbapal");
