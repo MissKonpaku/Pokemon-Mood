@@ -18,8 +18,8 @@ const u8 gText_ExpandedPlaceholder_Archie[] = _("ARCHIE");
 const u8 gText_ExpandedPlaceholder_Maxie[] = _("MAXIE");
 const u8 gText_ExpandedPlaceholder_Kyogre[] = _("KYOGRE");
 const u8 gText_ExpandedPlaceholder_Groudon[] = _("GROUDON");
-const u8 gText_ExpandedPlaceholder_Brendan[] = _("BRENDAN");
-const u8 gText_ExpandedPlaceholder_May[] = _("MAY");
+const u8 gText_ExpandedPlaceholder_Brendan[] = _("Doom");
+const u8 gText_ExpandedPlaceholder_May[] = _("Osage");
 const u8 gText_EggNickname[] = _("EGG");
 const u8 gText_Pokemon[] = _("POKéMON");
 const u8 gText_Player[] = _("PLAYER"); // Unused
@@ -1003,6 +1003,11 @@ const u8 gText_BattleStyleShift[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SHIFT");
 const u8 gText_BattleStyleSet[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SET");
 const u8 gText_SoundMono[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}MONO");
 const u8 gText_SoundStereo[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}STEREO");
+//Mode Langue EN_FR strings
+const u8 gText_Language[] = _("Language");
+const u8 gText_LanguageEn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}English");
+const u8 gText_LanguageFr[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Français");
+//*/
 const u8 gText_FrameType[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE");
 const u8 gText_FrameTypeNumber[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}");
 const u8 gText_ButtonTypeNormal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL");

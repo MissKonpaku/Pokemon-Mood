@@ -257,6 +257,11 @@ extern const u8 gText_BattleStyleShift[];
 extern const u8 gText_BattleStyleSet[];
 extern const u8 gText_SoundMono[];
 extern const u8 gText_SoundStereo[];
+//Ajout mode langue
+extern const u8 gText_Language[];
+extern const u8 gText_LanguageEn[];
+extern const u8 gText_LanguageFr[];
+//*/
 extern const u8 gText_FrameTypeNumber[];
 extern const u8 gText_FrameType[];
 extern const u8 gText_ButtonTypeNormal[];
