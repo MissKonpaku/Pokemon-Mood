@@ -20,7 +20,7 @@ const u8 gText_ExpandedPlaceholder_Kyogre[] = _("KYOGRE");
 const u8 gText_ExpandedPlaceholder_Groudon[] = _("GROUDON");
 const u8 gText_ExpandedPlaceholder_Brendan[] = _("Doom");
 const u8 gText_ExpandedPlaceholder_May[] = _("Osage");
-const u8 gText_EggNickname[] = _("EGG");
+const u8 gText_EggNickname[] = _("EGG"); 
 const u8 gText_Pokemon[] = _("POKéMON");
 const u8 gText_Player[] = _("PLAYER"); // Unused
 const u8 gText_Pokedex[] = _("POKéDEX"); // Unused
@@ -124,7 +124,7 @@ const u8 gText_BirchInTrouble[] = _("PROF. BIRCH is in trouble!\nRelease a POKé
 const u8 gText_ConfirmStarterChoice[] = _("Do you choose this POKéMON?");
 const u8 gText_Pokemon4[] = _("POKéMON"); // Unused
 const u8 gText_FlyToWhere[] = _("FLY to where?");
-const u8 gMenuText_Use[] = _("USE");
+const u8 gMenuText_Use[] = _("Use");
 const u8 gMenuText_Toss[] = _("TOSS");
 const u8 gMenuText_Register[] = _("REGISTER");
 const u8 gMenuText_Give[] = _("GIVE");
@@ -1007,6 +1007,15 @@ const u8 gText_SoundStereo[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}STEREO");
 const u8 gText_Language[] = _("Language");
 const u8 gText_LanguageEn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}English");
 const u8 gText_LanguageFr[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Français");
+//Mode difficulté
+const u8 gText_Difficulty[] = _("Difficulty");
+const u8 gText_DifficultyEasy[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy");
+const u8 gText_DifficultyNormal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal");
+const u8 gText_DifficultyHard[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Hard");
+//Page d'option
+const u8 gText_SmallDot[] = _("·");
+const u8 gText_LargeDot[] = _("{EMOJI_CIRCLE}");
+const u8 gText_PageNav[] = _("{L_BUTTON}{R_BUTTON} PAGE");
 //*/
 const u8 gText_FrameType[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE");
 const u8 gText_FrameTypeNumber[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}");

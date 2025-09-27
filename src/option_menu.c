@@ -1,3 +1,4 @@
+//Gestion des pages par devolov thanks to him
 #include "global.h"
 #include "option_menu.h"
 #include "bg.h"
@@ -9,12 +10,15 @@
 #include "scanline_effect.h"
 #include "sprite.h"
 #include "strings.h"
+#include "string_util.h"
 #include "task.h"
 #include "text.h"
 #include "text_window.h"
 #include "window.h"
 #include "gba/m4a_internal.h"
 #include "constants/rgb.h"
+#include "constants/vars.h"
+#include "event_data.h"
 
 #define tMenuSelection data[0]
 #define tTextSpeed data[1]
@@ -27,6 +31,20 @@
 #define tLanguage data[7]
 //*/
 
+// Task data
+enum
+{
+    TD_MENUSELECTION,
+    TD_TEXTSPEED,
+    TD_BATTLESCENE,
+    TD_BATTLESTYLE,
+    TD_SOUND,
+    TD_BUTTONMODE,
+    TD_FRAMETYPE,
+    TD_DIFFICULTY,
+    TD_LANGUAGE,
+ };
+//Menu Items Pg1
 enum
 {
     MENUITEM_TEXTSPEED,
@@ -36,9 +54,17 @@ enum
     MENUITEM_BUTTONMODE,
     MENUITEM_FRAMETYPE,
     //Ajout de selection de langue
-    MENUITEM_LANGUAGE,
+    MENUITEM_CANCEL,
     //*/
     MENUITEM_COUNT,
+};
+
+enum
+{
+    MENUITEM_DIFFICULTY,
+    MENUITEM_LANGUAGE,
+    MENUITEM_CANCEL_PG2,
+    MENUITEM_COUNT_PG2,
 };
 
 enum
@@ -46,16 +72,21 @@ enum
     WIN_HEADER,
     WIN_OPTIONS
 };
-
+//Pg 1
 #define YPOS_TEXTSPEED    (MENUITEM_TEXTSPEED * 16)
 #define YPOS_BATTLESCENE  (MENUITEM_BATTLESCENE * 16)
 #define YPOS_BATTLESTYLE  (MENUITEM_BATTLESTYLE * 16)
 #define YPOS_SOUND        (MENUITEM_SOUND * 16)
 #define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * 16)
 #define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * 16)
-//Ajout de selection de langue
+
+//Pg 2
+//Ajout de selection de langue et de difficulté
+#define YPOS_DIFFICULTY  (MENUITEM_DIFFICULTY * 16)
 #define YPOS_LANGUAGE    (MENUITEM_LANGUAGE * 16)
 //*/
+#define PAGE_COUNT 2
+
 
 static void Task_OptionMenuFadeIn(u8 taskId);
 static void Task_OptionMenuProcessInput(u8 taskId);
@@ -74,20 +105,29 @@ static u8 FrameType_ProcessInput(u8 selection);
 static void FrameType_DrawChoices(u8 selection);
 static u8 ButtonMode_ProcessInput(u8 selection);
 static void ButtonMode_DrawChoices(u8 selection);
-//Ajout de selection de langue
+//Ajout de selection de langue et difficulté
 static u8 Language_ProcessInput(u8 selection);
 static void Language_DrawChoices(u8 selection);
+static u8   Difficulty_ProcessInput(u8 selection);
+static void Difficulty_DrawChoices(u8 selection);
+//Gestion des pages
+static void Task_OptionMenuFadeIn_Pg2(u8 taskId);
+static void Task_OptionMenuProcessInput_Pg2(u8 taskId);
 //*/
+static void DrawTextOption(void);
 static void DrawHeaderText(void);
 static void DrawOptionMenuTexts(void);
 static void DrawBgWindowFrames(void);
 
 EWRAM_DATA static bool8 sArrowPressed = FALSE;
+//Gestion des pages
+EWRAM_DATA static u8 sCurrPage = 0;
 
 static const u16 sOptionMenuText_Pal[] = INCBIN_U16("graphics/interface/option_menu_text.gbapal");
 // note: this is only used in the Japanese release
 static const u8 sEqualSignGfx[] = INCBIN_U8("graphics/interface/option_menu_equals_sign.4bpp");
 
+//Contenu de la page 1
 static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
 {
     [MENUITEM_TEXTSPEED]   = gText_TextSpeed,
@@ -96,9 +136,16 @@ static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
     [MENUITEM_SOUND]       = gText_Sound,
     [MENUITEM_BUTTONMODE]  = gText_ButtonMode,
     [MENUITEM_FRAMETYPE]   = gText_Frame,
-    //Ajout de selection de langue
-    [MENUITEM_LANGUAGE]   = gText_Language,
+    [MENUITEM_CANCEL]      = gText_OptionMenuCancel,
     //*/
+};
+
+//Contenu de la page 2
+static const u8 *const sOptionMenuItemsNames_Pg2[MENUITEM_COUNT_PG2] =
+{
+    [MENUITEM_DIFFICULTY]      = gText_Difficulty,
+    [MENUITEM_LANGUAGE]        = gText_Language,
+    [MENUITEM_CANCEL_PG2]      = gText_OptionMenuCancel,
 };
 
 static const struct WindowTemplate sOptionMenuWinTemplates[] =
@@ -146,6 +193,42 @@ static const struct BgTemplate sOptionMenuBgTemplates[] =
     }
 };
 
+//Changer de pages
+static void ReadAllCurrentSettings(u8 taskId)
+{
+    gTasks[taskId].data[TD_MENUSELECTION] = 0;
+    gTasks[taskId].data[TD_TEXTSPEED] = gSaveBlock2Ptr->optionsTextSpeed;
+    gTasks[taskId].data[TD_BATTLESCENE] = gSaveBlock2Ptr->optionsBattleSceneOff;
+    gTasks[taskId].data[TD_BATTLESTYLE] = gSaveBlock2Ptr->optionsBattleStyle;
+    gTasks[taskId].data[TD_SOUND] = gSaveBlock2Ptr->optionsSound;
+    gTasks[taskId].data[TD_BUTTONMODE] = gSaveBlock2Ptr->optionsButtonMode;
+    gTasks[taskId].data[TD_FRAMETYPE] = gSaveBlock2Ptr->optionsWindowFrameType;
+    gTasks[taskId].data[TD_DIFFICULTY] = VarGet(VAR_DIFFICULTY);
+    gTasks[taskId].data[TD_LANGUAGE] = VarGet(VAR_LANG);
+}
+
+static void DrawOptionsPg1(u8 taskId)
+{  
+    ReadAllCurrentSettings(taskId);
+    TextSpeed_DrawChoices(gTasks[taskId].data[TD_TEXTSPEED]);
+    BattleScene_DrawChoices(gTasks[taskId].data[TD_BATTLESCENE]);
+    BattleStyle_DrawChoices(gTasks[taskId].data[TD_BATTLESTYLE]);
+    Sound_DrawChoices(gTasks[taskId].data[TD_SOUND]);
+    ButtonMode_DrawChoices(gTasks[taskId].data[TD_BUTTONMODE]);
+    FrameType_DrawChoices(gTasks[taskId].data[TD_FRAMETYPE]);
+    HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
+    CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
+}
+
+static void DrawOptionsPg2(u8 taskId)
+{
+    ReadAllCurrentSettings(taskId);
+    Difficulty_DrawChoices(gTasks[taskId].data[TD_DIFFICULTY]);
+    Language_DrawChoices(gTasks[taskId].data[TD_LANGUAGE]);
+    HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
+    CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
+}
+
 static const u16 sOptionMenuBg_Pal[] = {RGB(17, 18, 31)};
 
 static void MainCB2(void)
@@ -165,6 +248,7 @@ static void VBlankCB(void)
 
 void CB2_InitOptionMenu(void)
 {
+    u8 taskId;
     switch (gMain.state)
     {
     default:
@@ -239,31 +323,17 @@ void CB2_InitOptionMenu(void)
         break;
     case 10:
     {
-        u8 taskId = CreateTask(Task_OptionMenuFadeIn, 0);
-
-        gTasks[taskId].tMenuSelection = 0;
-        gTasks[taskId].tTextSpeed = gSaveBlock2Ptr->optionsTextSpeed;
-        gTasks[taskId].tBattleSceneOff = gSaveBlock2Ptr->optionsBattleSceneOff;
-        gTasks[taskId].tBattleStyle = gSaveBlock2Ptr->optionsBattleStyle;
-        gTasks[taskId].tSound = gSaveBlock2Ptr->optionsSound;
-        gTasks[taskId].tButtonMode = gSaveBlock2Ptr->optionsButtonMode;
-        gTasks[taskId].tWindowFrameType = gSaveBlock2Ptr->optionsWindowFrameType;
-        //Langue mode
-        gTasks[taskId].tLanguage = gSaveBlock2Ptr->optionsLanguage;
-        //*/
-
-        TextSpeed_DrawChoices(gTasks[taskId].tTextSpeed);
-        BattleScene_DrawChoices(gTasks[taskId].tBattleSceneOff);
-        BattleStyle_DrawChoices(gTasks[taskId].tBattleStyle);
-        Sound_DrawChoices(gTasks[taskId].tSound);
-        ButtonMode_DrawChoices(gTasks[taskId].tButtonMode);
-        FrameType_DrawChoices(gTasks[taskId].tWindowFrameType);
-        //Langue mode
-        Language_DrawChoices(gTasks[taskId].tLanguage);
-        //*/
-        HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
-
-        CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
+        switch(sCurrPage)
+        {
+        case 0:
+            taskId = CreateTask(Task_OptionMenuFadeIn, 0);
+            DrawOptionsPg1(taskId);
+            break;
+        case 1:
+            taskId = CreateTask(Task_OptionMenuFadeIn_Pg2, 0);
+            DrawOptionsPg2(taskId);
+            break;            
+        }
         gMain.state++;
         break;
     }
@@ -272,6 +342,43 @@ void CB2_InitOptionMenu(void)
         SetVBlankCallback(VBlankCB);
         SetMainCallback2(MainCB2);
         return;
+    }
+}
+//Gestion de changement de page
+static u8 Process_ChangePage(u8 CurrentPage)
+{
+    if (JOY_NEW(R_BUTTON))
+    {
+        if (CurrentPage < PAGE_COUNT - 1)
+            CurrentPage++;
+        else
+            CurrentPage = 0;
+    }
+    if (JOY_NEW(L_BUTTON))
+    {
+        if (CurrentPage != 0)
+            CurrentPage--;
+        else
+            CurrentPage = PAGE_COUNT - 1;
+    }
+    return CurrentPage;
+}
+
+static void Task_ChangePage(u8 taskId)
+{
+    DrawTextOption();
+    PutWindowTilemap(1);
+    DrawOptionMenuTexts();
+    switch(sCurrPage)
+    {
+    case 0:
+        DrawOptionsPg1(taskId);
+        gTasks[taskId].func = Task_OptionMenuFadeIn;
+        break;
+    case 1:
+        DrawOptionsPg2(taskId);
+        gTasks[taskId].func = Task_OptionMenuFadeIn_Pg2;
+        break;
     }
 }
 
@@ -283,8 +390,14 @@ static void Task_OptionMenuFadeIn(u8 taskId)
 
 static void Task_OptionMenuProcessInput(u8 taskId)
 {
-    if (JOY_NEW(B_BUTTON))
+    
+    if (JOY_NEW(L_BUTTON) || JOY_NEW(R_BUTTON))
     {
+        FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
+        ClearStdWindowAndFrame(WIN_OPTIONS, FALSE);
+        sCurrPage = Process_ChangePage(sCurrPage);
+        gTasks[taskId].func = Task_ChangePage;
+    } else if (JOY_NEW(B_BUTTON)) {
         gTasks[taskId].func = Task_OptionMenuSave;
     }
     else if (JOY_NEW(DPAD_UP))
@@ -292,12 +405,12 @@ static void Task_OptionMenuProcessInput(u8 taskId)
         if (gTasks[taskId].tMenuSelection > 0)
             gTasks[taskId].tMenuSelection--;
         else
-            gTasks[taskId].tMenuSelection = MENUITEM_LANGUAGE;
+            gTasks[taskId].tMenuSelection = MENUITEM_CANCEL;
         HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
     }
     else if (JOY_NEW(DPAD_DOWN))
     {
-        if (gTasks[taskId].tMenuSelection < MENUITEM_LANGUAGE)
+        if (gTasks[taskId].tMenuSelection < MENUITEM_CANCEL)
             gTasks[taskId].tMenuSelection++;
         else
             gTasks[taskId].tMenuSelection = 0;
@@ -351,15 +464,78 @@ static void Task_OptionMenuProcessInput(u8 taskId)
             if (previousOption != gTasks[taskId].tWindowFrameType)
                 FrameType_DrawChoices(gTasks[taskId].tWindowFrameType);
             break;
-        //Ajout de selection de langue
-        case MENUITEM_LANGUAGE:
-            previousOption = gTasks[taskId].tLanguage;
-            gTasks[taskId].tLanguage = Language_ProcessInput(gTasks[taskId].tLanguage);
+        default:
+            return;
+        }
 
-            if (previousOption != gTasks[taskId].tLanguage)
-                Language_DrawChoices(gTasks[taskId].tLanguage);
+        if (sArrowPressed)
+        {
+            sArrowPressed = FALSE;
+            CopyWindowToVram(WIN_OPTIONS, COPYWIN_GFX);
+        }
+    }
+}
+
+static void Task_OptionMenuFadeIn_Pg2(u8 taskId)
+{
+    if (!gPaletteFade.active)
+        gTasks[taskId].func = Task_OptionMenuProcessInput_Pg2;
+}
+
+static void Task_OptionMenuProcessInput_Pg2(u8 taskId)
+{
+    if (JOY_NEW(L_BUTTON) || JOY_NEW(R_BUTTON))
+    {
+        FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
+        ClearStdWindowAndFrame(WIN_OPTIONS, FALSE);
+        sCurrPage = Process_ChangePage(sCurrPage);
+        gTasks[taskId].func = Task_ChangePage;
+    }
+    else if (JOY_NEW(A_BUTTON))
+    {
+        if (gTasks[taskId].data[TD_MENUSELECTION] == MENUITEM_CANCEL_PG2)
+            gTasks[taskId].func = Task_OptionMenuSave;
+    }
+    else if (JOY_NEW(B_BUTTON))
+    {
+        gTasks[taskId].func = Task_OptionMenuSave;
+    }
+    else if (JOY_NEW(DPAD_UP))
+    {
+        if (gTasks[taskId].data[TD_MENUSELECTION] > 0)
+            gTasks[taskId].data[TD_MENUSELECTION]--;
+        else
+            gTasks[taskId].data[TD_MENUSELECTION] = MENUITEM_CANCEL_PG2;
+        HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
+    }
+    else if (JOY_NEW(DPAD_DOWN))
+    {
+        if (gTasks[taskId].data[TD_MENUSELECTION] < MENUITEM_CANCEL_PG2)
+            gTasks[taskId].data[TD_MENUSELECTION]++;
+        else
+            gTasks[taskId].data[TD_MENUSELECTION] = 0;
+        HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
+    }
+    else
+    {
+        u8 previousOption;
+
+        switch (gTasks[taskId].data[TD_MENUSELECTION])
+        {
+        case MENUITEM_DIFFICULTY:
+            previousOption = gTasks[taskId].data[TD_DIFFICULTY];
+            gTasks[taskId].data[TD_DIFFICULTY] = Difficulty_ProcessInput(gTasks[taskId].data[TD_DIFFICULTY]);
+
+            if (previousOption != gTasks[taskId].data[TD_DIFFICULTY])
+                Difficulty_DrawChoices(gTasks[taskId].data[TD_DIFFICULTY]);
             break;
-        //*/
+        case MENUITEM_LANGUAGE:
+            previousOption = gTasks[taskId].data[TD_LANGUAGE];
+            gTasks[taskId].data[TD_LANGUAGE] = Language_ProcessInput(gTasks[taskId].data[TD_LANGUAGE]);
+
+            if (previousOption != gTasks[taskId].data[TD_LANGUAGE])
+                Language_DrawChoices(gTasks[taskId].data[TD_LANGUAGE]);
+            break;
         default:
             return;
         }
@@ -380,9 +556,10 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->optionsSound = gTasks[taskId].tSound;
     gSaveBlock2Ptr->optionsButtonMode = gTasks[taskId].tButtonMode;
     gSaveBlock2Ptr->optionsWindowFrameType = gTasks[taskId].tWindowFrameType;
-    //Langue mode
-    gSaveBlock2Ptr->optionsLanguage = gTasks[taskId].tLanguage;
-
+    //Difficulty/Langue mode
+    VarSet(VAR_DIFFICULTY, gTasks[taskId].data[TD_DIFFICULTY]);
+    VarSet(VAR_LANG, gTasks[taskId].data[TD_LANGUAGE]);
+    //*/
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
     gTasks[taskId].func = Task_OptionMenuFadeOut;
 }
@@ -660,7 +837,31 @@ static void Language_DrawChoices(u8 selection){
     DrawOptionMenuChoice(gText_LanguageEn, 104, YPOS_LANGUAGE, styles[0]);
     DrawOptionMenuChoice(gText_LanguageFr, GetStringRightAlignXOffset(FONT_NORMAL, gText_LanguageFr, 198), YPOS_LANGUAGE, styles[1]);
 }
-//*/
+
+//Ajout des modes de difficultés
+static u8 Difficulty_ProcessInput(u8 selection)
+{
+     if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+    {
+        selection ^= 1;
+        sArrowPressed = TRUE;
+    }
+
+    return selection;
+}
+
+static void Difficulty_DrawChoices(u8 selection)
+{
+    u8 styles[2];
+
+    styles[0] = 0;
+    styles[1] = 0;
+    styles[selection] = 1;
+
+    DrawOptionMenuChoice(gText_DifficultyNormal, 104, YPOS_DIFFICULTY, styles[0]);
+    DrawOptionMenuChoice(gText_DifficultyHard, GetStringRightAlignXOffset(FONT_NORMAL, gText_DifficultyHard, 198), YPOS_DIFFICULTY, styles[1]);
+}
+
 static void DrawHeaderText(void)
 {
     FillWindowPixelBuffer(WIN_HEADER, PIXEL_FILL(1));
@@ -668,13 +869,49 @@ static void DrawHeaderText(void)
     CopyWindowToVram(WIN_HEADER, COPYWIN_FULL);
 }
 
+ static void DrawTextOption(void)
+ {
+    u32 i, widthOptions, xMid;
+    u8 pageDots[9] = _("");  // Array size should be at least (2 * PAGE_COUNT) -1
+    widthOptions = GetStringWidth(FONT_NORMAL, gText_Option, 0);
+
+    for (i = 0; i < PAGE_COUNT; i++)
+    {
+        if (i == sCurrPage)
+            StringAppend(pageDots, gText_LargeDot);
+        else
+            StringAppend(pageDots, gText_SmallDot);
+        if (i < PAGE_COUNT - 1)
+            StringAppend(pageDots, gText_Space);            
+    }
+    xMid = (8 + widthOptions + 5);
+    FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
+    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, gText_Option, 8, 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, pageDots, xMid, 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, gText_PageNav, GetStringRightAlignXOffset(FONT_NORMAL, gText_PageNav, 198), 1, TEXT_SKIP_DRAW, NULL);
+    CopyWindowToVram(WIN_HEADER, COPYWIN_FULL);
+ }
+
 static void DrawOptionMenuTexts(void)
 {
-    u8 i;
-
+    u8 i; 
+    u8 items = (sCurrPage == 0) ? MENUITEM_COUNT : MENUITEM_COUNT_PG2;
+    const u8* const* menu = (sCurrPage == 0) ? sOptionMenuItemsNames : sOptionMenuItemsNames_Pg2;
+/*
+    switch (sCurrPage){
+    case 0:
+        items = MENUITEM_COUNT;
+        menu = sOptionMenuItemsNames;
+        break;
+    case 1:
+        items = MENUITEM_COUNT_PG2;
+        menu = sOptionMenuItemsNames_Pg2;
+        break;    
+    }
+*/
     FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
-    for (i = 0; i < MENUITEM_COUNT; i++)
-        AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, sOptionMenuItemsNames[i], 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+    for (i = 0; i < items; i++)
+    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, menu[i], 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
 

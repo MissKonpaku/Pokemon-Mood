@@ -577,6 +577,7 @@ struct SaveBlock2
              u16 optionsBattleStyle:1; // OPTIONS_BATTLE_STYLE_[SHIFT/SET]
              u16 optionsBattleSceneOff:1; // whether battle animations are disabled
              u16 optionsLanguage:1; // OPTIONS_LANGUAGE_[English/Français]
+             u16 optionsDifficulty:1; //OPTIONS_DIFFICULTY_[Normal/Difficult]
              u16 regionMapZoom:1; // whether the map is zoomed in
              //u16 padding1:4;
              //u16 padding2;

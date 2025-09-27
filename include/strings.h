@@ -21,7 +21,7 @@ extern const u8 gText_ExpandedPlaceholder_May[];
 extern const u8 gText_FromSpace[];
 
 extern const u8 gText_Lv50[];
-extern const u8 gText_OpenLevel[];
+extern const u8 gText_OpenLevel[]; 
 
 extern const u8 gText_Mom[];
 extern const u8 gText_Dad[];
@@ -261,6 +261,15 @@ extern const u8 gText_SoundStereo[];
 extern const u8 gText_Language[];
 extern const u8 gText_LanguageEn[];
 extern const u8 gText_LanguageFr[];
+//Ajout mode difficulté
+extern const u8 gText_Difficulty[];
+extern const u8 gText_DifficultyEasy[];
+extern const u8 gText_DifficultyNormal[];
+extern const u8 gText_DifficultyHard[];
+//Ajout page d'option
+extern const u8 gText_SmallDot[];
+extern const u8 gText_LargeDot[];
+extern const u8 gText_PageNav[];
 //*/
 extern const u8 gText_FrameTypeNumber[];
 extern const u8 gText_FrameType[];
