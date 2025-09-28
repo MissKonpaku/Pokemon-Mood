@@ -49,6 +49,7 @@
 #include "constants/battle_frontier.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "constants/vars.h"
 
 // Menu actions
 enum
@@ -188,23 +189,105 @@ static const struct WindowTemplate sWindowTemplate_PyramidPeak = {
 
 static const u8 sText_MenuDebug[] = _("DEBUG");
 
-static const struct MenuAction sStartMenuItems[] =
+static struct MenuAction sStartMenuItems(u8 itemIndex) 
 {
-    [MENU_ACTION_POKEDEX]         = {gText_MenuPokedex, {.u8_void = StartMenuPokedexCallback}},
-    [MENU_ACTION_POKEMON]         = {gText_MenuPokemon, {.u8_void = StartMenuPokemonCallback}},
-    [MENU_ACTION_BAG]             = {gText_MenuBag,     {.u8_void = StartMenuBagCallback}},
-    [MENU_ACTION_POKENAV]         = {gText_MenuPokenav, {.u8_void = StartMenuPokeNavCallback}},
-    [MENU_ACTION_PLAYER]          = {gText_MenuPlayer,  {.u8_void = StartMenuPlayerNameCallback}},
-    [MENU_ACTION_SAVE]            = {gText_MenuSave,    {.u8_void = StartMenuSaveCallback}},
-    [MENU_ACTION_OPTION]          = {gText_MenuOption,  {.u8_void = StartMenuOptionCallback}},
-    [MENU_ACTION_EXIT]            = {gText_MenuExit,    {.u8_void = StartMenuExitCallback}},
-    [MENU_ACTION_RETIRE_SAFARI]   = {gText_MenuRetire,  {.u8_void = StartMenuSafariZoneRetireCallback}},
-    [MENU_ACTION_PLAYER_LINK]     = {gText_MenuPlayer,  {.u8_void = StartMenuLinkModePlayerNameCallback}},
-    [MENU_ACTION_REST_FRONTIER]   = {gText_MenuRest,    {.u8_void = StartMenuSaveCallback}},
-    [MENU_ACTION_RETIRE_FRONTIER] = {gText_MenuRetire,  {.u8_void = StartMenuBattlePyramidRetireCallback}},
-    [MENU_ACTION_PYRAMID_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBattlePyramidBagCallback}},
-    [MENU_ACTION_DEBUG]           = {sText_MenuDebug,   {.u8_void = StartMenuDebugCallback}},
-    [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
+    switch(itemIndex)
+    {
+        case MENU_ACTION_POKEDEX:         
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuPokedex : gText_MenuPokedexFr, 
+                {.u8_void = StartMenuPokedexCallback}
+            };
+            
+        case MENU_ACTION_POKEMON:          
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuPokemon : gText_MenuPokemonFr,
+                {.u8_void = StartMenuPokemonCallback}
+            };
+            
+        case MENU_ACTION_BAG:              
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuBag : gText_MenuBagFr,   
+                {.u8_void = StartMenuBagCallback}
+            };
+            
+        case MENU_ACTION_POKENAV:          
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuPokenav : gText_MenuPokenavFr,
+                {.u8_void = StartMenuPokeNavCallback}
+            };
+            
+        case MENU_ACTION_PLAYER:           
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuPlayer : gText_MenuPlayerFr,
+                {.u8_void = StartMenuPlayerNameCallback}
+            };
+            
+        case MENU_ACTION_SAVE:             
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuSave : gText_MenuSaveFr,   
+                {.u8_void = StartMenuSaveCallback}
+            };
+            
+        case MENU_ACTION_OPTION:           
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuOption : gText_MenuOptionFr, 
+                {.u8_void = StartMenuOptionCallback}
+            };
+            
+        case MENU_ACTION_EXIT:             
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuExit : gText_MenuExitFr,   
+                {.u8_void = StartMenuExitCallback}
+            };
+            
+        case MENU_ACTION_RETIRE_SAFARI:    
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuRetire : gText_MenuRetireFr,  
+                {.u8_void = StartMenuSafariZoneRetireCallback}
+            };
+            
+        case MENU_ACTION_PLAYER_LINK:      
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_NumPlayerLink : gText_NumPlayerLink,  
+                {.u8_void = StartMenuLinkModePlayerNameCallback}
+            };
+            
+        case MENU_ACTION_REST_FRONTIER:    
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuRest : gText_MenuRestFr, 
+                {.u8_void = StartMenuSaveCallback}
+            };
+            
+        case MENU_ACTION_RETIRE_FRONTIER:  
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuRetire : gText_MenuRetireFr,  
+                {.u8_void = StartMenuBattlePyramidRetireCallback}
+            };
+            
+        case MENU_ACTION_PYRAMID_BAG:      
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuBag : gText_MenuBagFr,      
+                {.u8_void = StartMenuBattlePyramidBagCallback}
+            };
+            
+        case MENU_ACTION_DEBUG:            
+            return (struct MenuAction){
+                sText_MenuDebug,  
+                {.u8_void = StartMenuDebugCallback}
+            };
+            
+        case MENU_ACTION_DEXNAV: 
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuDexNav : gText_MenuDexNavFr,
+                {.u8_void = StartMenuDexNavCallback}
+            };
+        default:
+            return (struct MenuAction){
+                (VarGet(VAR_LANG) == 0) ? gText_MenuExit : gText_MenuExitFr,   
+                {.u8_void = StartMenuExitCallback}
+            };
+    }
 };
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -481,13 +564,13 @@ static bool32 PrintStartMenuActions(s8 *pIndex, u32 count)
 
     do
     {
-        if (sStartMenuItems[sCurrentStartMenuActions[index]].func.u8_void == StartMenuPlayerNameCallback)
+        if (sStartMenuItems(sCurrentStartMenuActions[index]).func.u8_void == StartMenuPlayerNameCallback)
         {
-            PrintPlayerNameOnWindow(GetStartMenuWindowId(), sStartMenuItems[sCurrentStartMenuActions[index]].text, 8, (index << 4) + 9);
+            PrintPlayerNameOnWindow(GetStartMenuWindowId(), sStartMenuItems(sCurrentStartMenuActions[index]).text, 8, (index << 4) + 9);
         }
         else
         {
-            StringExpandPlaceholders(gStringVar4, sStartMenuItems[sCurrentStartMenuActions[index]].text);
+            StringExpandPlaceholders(gStringVar4, sStartMenuItems(sCurrentStartMenuActions[index]).text);
             AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, (index << 4) + 9, TEXT_SKIP_DRAW, NULL);
         }
 
@@ -636,7 +719,7 @@ static bool8 HandleStartMenuInput(void)
     if (JOY_NEW(A_BUTTON))
     {
         PlaySE(SE_SELECT);
-        if (sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].func.u8_void == StartMenuPokedexCallback)
+        if (sStartMenuItems(sCurrentStartMenuActions[sStartMenuCursorPos]).func.u8_void == StartMenuPokedexCallback)
         {
             if (GetNationalPokedexCount(FLAG_GET_SEEN) == 0)
                 return FALSE;
@@ -645,7 +728,7 @@ static bool8 HandleStartMenuInput(void)
           && MapHasNoEncounterData())
             return FALSE;
 
-        gMenuCallback = sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].func.u8_void;
+        gMenuCallback = sStartMenuItems(sCurrentStartMenuActions[sStartMenuCursorPos]).func.u8_void;
 
         if (gMenuCallback != StartMenuSaveCallback
             && gMenuCallback != StartMenuExitCallback

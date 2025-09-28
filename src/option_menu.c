@@ -128,25 +128,42 @@ static const u16 sOptionMenuText_Pal[] = INCBIN_U16("graphics/interface/option_m
 static const u8 sEqualSignGfx[] = INCBIN_U8("graphics/interface/option_menu_equals_sign.4bpp");
 
 //Contenu de la page 1
-static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
-{
-    [MENUITEM_TEXTSPEED]   = gText_TextSpeed,
-    [MENUITEM_BATTLESCENE] = gText_BattleScene,
-    [MENUITEM_BATTLESTYLE] = gText_BattleStyle,
-    [MENUITEM_SOUND]       = gText_Sound,
-    [MENUITEM_BUTTONMODE]  = gText_ButtonMode,
-    [MENUITEM_FRAMETYPE]   = gText_Frame,
-    [MENUITEM_CANCEL]      = gText_OptionMenuCancel,
-    //*/
+static const u8 *GetOptionMenuItemsNames(u8 itemIndex)
+{   
+    switch(itemIndex)
+    {
+        case MENUITEM_TEXTSPEED: 
+            return (VarGet(VAR_LANG) == 0) ? gText_TextSpeed : gText_TextSpeedFr;
+        case MENUITEM_BATTLESCENE:
+            return (VarGet(VAR_LANG) == 0) ? gText_BattleScene : gText_BattleSceneFr;
+        case MENUITEM_BATTLESTYLE: 
+            return (VarGet(VAR_LANG) == 0) ? gText_BattleStyle : gText_BattleStyleFr;
+        case MENUITEM_SOUND: 
+            return (VarGet(VAR_LANG) == 0) ? gText_Sound : gText_SoundFr;
+        case MENUITEM_BUTTONMODE: 
+            return (VarGet(VAR_LANG) == 0) ? gText_ButtonMode : gText_ButtonModeFr;
+        case MENUITEM_FRAMETYPE: 
+            return (VarGet(VAR_LANG) == 0) ? gText_Frame : gText_FrameFr;
+        default:
+            return (VarGet(VAR_LANG) == 0) ? gText_OptionMenuCancel : gText_OptionMenuCancelFr;
+    }
 };
 
 //Contenu de la page 2
-static const u8 *const sOptionMenuItemsNames_Pg2[MENUITEM_COUNT_PG2] =
+static const u8 *GetOptionMenuItemName_Pg2(u8 itemIndex)
 {
-    [MENUITEM_DIFFICULTY]      = gText_Difficulty,
-    [MENUITEM_LANGUAGE]        = gText_Language,
-    [MENUITEM_CANCEL_PG2]      = gText_OptionMenuCancel,
-};
+    switch(itemIndex)
+    {
+        case MENUITEM_DIFFICULTY:
+            return (VarGet(VAR_LANG) == 0) ? gText_Difficulty : gText_DifficultyFr;
+        case MENUITEM_LANGUAGE:
+            return (VarGet(VAR_LANG) == 0) ? gText_Language : gText_Langue;
+        case MENUITEM_CANCEL_PG2:
+            return (VarGet(VAR_LANG) == 0) ? gText_OptionMenuCancel : gText_OptionMenuCancelFr;
+        default:
+            return gText_OptionMenuCancel;
+    }
+}
 
 static const struct WindowTemplate sOptionMenuWinTemplates[] =
 {
@@ -210,6 +227,7 @@ static void ReadAllCurrentSettings(u8 taskId)
 static void DrawOptionsPg1(u8 taskId)
 {  
     ReadAllCurrentSettings(taskId);
+    DrawTextOption();
     TextSpeed_DrawChoices(gTasks[taskId].data[TD_TEXTSPEED]);
     BattleScene_DrawChoices(gTasks[taskId].data[TD_BATTLESCENE]);
     BattleStyle_DrawChoices(gTasks[taskId].data[TD_BATTLESTYLE]);
@@ -223,6 +241,7 @@ static void DrawOptionsPg1(u8 taskId)
 static void DrawOptionsPg2(u8 taskId)
 {
     ReadAllCurrentSettings(taskId);
+    DrawTextOption();
     Difficulty_DrawChoices(gTasks[taskId].data[TD_DIFFICULTY]);
     Language_DrawChoices(gTasks[taskId].data[TD_LANGUAGE]);
     HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
@@ -397,6 +416,9 @@ static void Task_OptionMenuProcessInput(u8 taskId)
         ClearStdWindowAndFrame(WIN_OPTIONS, FALSE);
         sCurrPage = Process_ChangePage(sCurrPage);
         gTasks[taskId].func = Task_ChangePage;
+    } else if (JOY_NEW(A_BUTTON)) {
+        if (gTasks[taskId].tMenuSelection == MENUITEM_CANCEL)
+            gTasks[taskId].func = Task_OptionMenuSave;
     } else if (JOY_NEW(B_BUTTON)) {
         gTasks[taskId].func = Task_OptionMenuSave;
     }
@@ -406,15 +428,15 @@ static void Task_OptionMenuProcessInput(u8 taskId)
             gTasks[taskId].tMenuSelection--;
         else
             gTasks[taskId].tMenuSelection = MENUITEM_CANCEL;
-        HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
+            HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
     }
     else if (JOY_NEW(DPAD_DOWN))
     {
         if (gTasks[taskId].tMenuSelection < MENUITEM_CANCEL)
             gTasks[taskId].tMenuSelection++;
         else
-            gTasks[taskId].tMenuSelection = 0;
-        HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
+            gTasks[taskId].tMenuSelection = MENUITEM_CANCEL;
+            HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
     }
     else
     {
@@ -530,7 +552,7 @@ static void Task_OptionMenuProcessInput_Pg2(u8 taskId)
                 Difficulty_DrawChoices(gTasks[taskId].data[TD_DIFFICULTY]);
             break;
         case MENUITEM_LANGUAGE:
-            previousOption = gTasks[taskId].data[TD_LANGUAGE];
+           previousOption = gTasks[taskId].data[TD_LANGUAGE];
             gTasks[taskId].data[TD_LANGUAGE] = Language_ProcessInput(gTasks[taskId].data[TD_LANGUAGE]);
 
             if (previousOption != gTasks[taskId].data[TD_LANGUAGE])
@@ -629,19 +651,25 @@ static void TextSpeed_DrawChoices(u8 selection)
     styles[0] = 0;
     styles[1] = 0;
     styles[2] = 0;
-    styles[selection] = 1;
+    styles[selection] = 1;  
 
-    DrawOptionMenuChoice(gText_TextSpeedSlow, 104, YPOS_TEXTSPEED, styles[0]);
+    DrawOptionMenuChoice((VarGet(VAR_LANG) == 0) ? gText_TextSpeedSlow : gText_TextSpeedSlowFr, 104, YPOS_TEXTSPEED, styles[0]);
 
-    widthSlow = GetStringWidth(FONT_NORMAL, gText_TextSpeedSlow, 0);
-    widthMid = GetStringWidth(FONT_NORMAL, gText_TextSpeedMid, 0);
-    widthFast = GetStringWidth(FONT_NORMAL, gText_TextSpeedFast, 0);
+    widthSlow = GetStringWidth(FONT_NORMAL, 
+        (VarGet(VAR_LANG) == 0) ? gText_TextSpeedSlow : gText_TextSpeedSlowFr, 0);
+    widthMid = GetStringWidth(FONT_NORMAL, 
+        (VarGet(VAR_LANG) == 0) ? gText_TextSpeedMid : gText_TextSpeedMidFr, 0);
+    widthFast = GetStringWidth(FONT_NORMAL, 
+        (VarGet(VAR_LANG) == 0) ? gText_TextSpeedFast : gText_TextSpeedFastFr, 0);
 
     widthMid -= 94;
     xMid = (widthSlow - widthMid - widthFast) / 2 + 104;
-    DrawOptionMenuChoice(gText_TextSpeedMid, xMid, YPOS_TEXTSPEED, styles[1]);
+    DrawOptionMenuChoice(
+        (VarGet(VAR_LANG) == 0) ? gText_TextSpeedMid : gText_TextSpeedMidFr, xMid, YPOS_TEXTSPEED, styles[1]);
 
-    DrawOptionMenuChoice(gText_TextSpeedFast, GetStringRightAlignXOffset(FONT_NORMAL, gText_TextSpeedFast, 198), YPOS_TEXTSPEED, styles[2]);
+    DrawOptionMenuChoice(
+        (VarGet(VAR_LANG) == 0) ? gText_TextSpeedFast : gText_TextSpeedFastFr, GetStringRightAlignXOffset(FONT_NORMAL, 
+        (VarGet(VAR_LANG) == 0) ? gText_TextSpeedFast : gText_TextSpeedFastFr, 198), YPOS_TEXTSPEED, styles[2]);
 }
 
 static u8 BattleScene_ProcessInput(u8 selection)
@@ -686,8 +714,10 @@ static void BattleStyle_DrawChoices(u8 selection)
     styles[1] = 0;
     styles[selection] = 1;
 
-    DrawOptionMenuChoice(gText_BattleStyleShift, 104, YPOS_BATTLESTYLE, styles[0]);
-    DrawOptionMenuChoice(gText_BattleStyleSet, GetStringRightAlignXOffset(FONT_NORMAL, gText_BattleStyleSet, 198), YPOS_BATTLESTYLE, styles[1]);
+    DrawOptionMenuChoice((VarGet(VAR_LANG) == 0) ? gText_BattleStyleShift : gText_BattleStyleShiftFr, 104, YPOS_BATTLESTYLE, styles[0]);
+    DrawOptionMenuChoice((VarGet(VAR_LANG) == 0) ? gText_BattleStyleSet : gText_BattleStyleSetFr,
+    GetStringRightAlignXOffset(FONT_NORMAL, 
+        (VarGet(VAR_LANG) == 0) ? gText_BattleStyleSet : gText_BattleStyleSetFr, 198), YPOS_BATTLESTYLE, styles[1]);
 }
 
 static u8 Sound_ProcessInput(u8 selection)
@@ -711,7 +741,9 @@ static void Sound_DrawChoices(u8 selection)
     styles[selection] = 1;
 
     DrawOptionMenuChoice(gText_SoundMono, 104, YPOS_SOUND, styles[0]);
-    DrawOptionMenuChoice(gText_SoundStereo, GetStringRightAlignXOffset(FONT_NORMAL, gText_SoundStereo, 198), YPOS_SOUND, styles[1]);
+    DrawOptionMenuChoice((VarGet(VAR_LANG) == 0) ? gText_SoundStereo : gText_SoundStereoFr,
+    GetStringRightAlignXOffset(FONT_NORMAL,
+        (VarGet(VAR_LANG) == 0) ? gText_SoundStereo : gText_SoundStereoFr, 198), YPOS_SOUND, styles[1]);
 }
 
 static u8 FrameType_ProcessInput(u8 selection)
@@ -814,25 +846,34 @@ static void ButtonMode_DrawChoices(u8 selection)
     widthLR -= 94;
     xLR = (widthNormal - widthLR - widthLA) / 2 + 104;
     DrawOptionMenuChoice(gText_ButtonTypeLR, xLR, YPOS_BUTTONMODE, styles[1]);
-
     DrawOptionMenuChoice(gText_ButtonTypeLEqualsA, GetStringRightAlignXOffset(FONT_NORMAL, gText_ButtonTypeLEqualsA, 198), YPOS_BUTTONMODE, styles[2]);
 }
 //Ajout du mode Langue
 static u8 Language_ProcessInput(u8 selection){
-    if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+    if (JOY_NEW(DPAD_LEFT))
     {
-        selection ^= 1;
+        if (selection != 0)
+            selection--;
+        else
+            selection = 1; 
         sArrowPressed = TRUE;
+        VarSet(VAR_LANG, selection);
+    }
+    if (JOY_NEW(DPAD_RIGHT))
+    {
+        if (selection < 1)
+            selection++;
+        else
+            selection = 0;
+        sArrowPressed = TRUE;
+        VarSet(VAR_LANG, selection);
     }
 
     return selection;
 }
 static void Language_DrawChoices(u8 selection){
-    u8 styles[2];
-
-    styles[0] = 0;
-    styles[1] = 0;
-    styles[selection] = 1;
+    u8 styles[2] = {0, 0};
+    styles[selection] = 1; //en gros le 1 c'est pour dire highlight moi ça
 
     DrawOptionMenuChoice(gText_LanguageEn, 104, YPOS_LANGUAGE, styles[0]);
     DrawOptionMenuChoice(gText_LanguageFr, GetStringRightAlignXOffset(FONT_NORMAL, gText_LanguageFr, 198), YPOS_LANGUAGE, styles[1]);
@@ -841,10 +882,23 @@ static void Language_DrawChoices(u8 selection){
 //Ajout des modes de difficultés
 static u8 Difficulty_ProcessInput(u8 selection)
 {
-     if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+    if (JOY_NEW(DPAD_LEFT))
     {
-        selection ^= 1;
+        if (selection != 0)
+            selection--;
+        else
+            selection = 1;
         sArrowPressed = TRUE;
+        VarSet(VAR_DIFFICULTY, selection);
+    }
+    if (JOY_NEW(DPAD_RIGHT))
+    {
+        if (selection < 1)
+            selection++;
+        else
+            selection = 0;
+        sArrowPressed = TRUE;
+        VarSet(VAR_DIFFICULTY, selection);
     }
 
     return selection;
@@ -858,8 +912,10 @@ static void Difficulty_DrawChoices(u8 selection)
     styles[1] = 0;
     styles[selection] = 1;
 
-    DrawOptionMenuChoice(gText_DifficultyNormal, 104, YPOS_DIFFICULTY, styles[0]);
-    DrawOptionMenuChoice(gText_DifficultyHard, GetStringRightAlignXOffset(FONT_NORMAL, gText_DifficultyHard, 198), YPOS_DIFFICULTY, styles[1]);
+    DrawOptionMenuChoice((VarGet(VAR_LANG) == 0) ? gText_DifficultyNormal : gText_DifficultyNormalFr, 104, YPOS_DIFFICULTY, styles[0]);
+    DrawOptionMenuChoice((VarGet(VAR_LANG) == 0) ? gText_DifficultyHard : gText_DifficultyHardFr,
+    GetStringRightAlignXOffset(FONT_NORMAL, 
+        (VarGet(VAR_LANG) == 0) ? gText_DifficultyHard : gText_DifficultyHardFr, 198), YPOS_DIFFICULTY, styles[1]);
 }
 
 static void DrawHeaderText(void)
@@ -885,10 +941,10 @@ static void DrawHeaderText(void)
             StringAppend(pageDots, gText_Space);            
     }
     xMid = (8 + widthOptions + 5);
-    FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
-    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, gText_Option, 8, 1, TEXT_SKIP_DRAW, NULL);
-    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, pageDots, xMid, 1, TEXT_SKIP_DRAW, NULL);
-    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, gText_PageNav, GetStringRightAlignXOffset(FONT_NORMAL, gText_PageNav, 198), 1, TEXT_SKIP_DRAW, NULL);
+    FillWindowPixelBuffer(WIN_HEADER, PIXEL_FILL(1));
+    AddTextPrinterParameterized(WIN_HEADER, FONT_NORMAL, gText_Option, 8, 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterized(WIN_HEADER, FONT_NORMAL, pageDots, xMid, 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterized(WIN_HEADER, FONT_NORMAL, gText_PageNav, GetStringRightAlignXOffset(FONT_NORMAL, gText_PageNav, 198), 1, TEXT_SKIP_DRAW, NULL);
     CopyWindowToVram(WIN_HEADER, COPYWIN_FULL);
  }
 
@@ -896,7 +952,6 @@ static void DrawOptionMenuTexts(void)
 {
     u8 i; 
     u8 items = (sCurrPage == 0) ? MENUITEM_COUNT : MENUITEM_COUNT_PG2;
-    const u8* const* menu = (sCurrPage == 0) ? sOptionMenuItemsNames : sOptionMenuItemsNames_Pg2;
 /*
     switch (sCurrPage){
     case 0:
@@ -910,8 +965,12 @@ static void DrawOptionMenuTexts(void)
     }
 */
     FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
-    for (i = 0; i < items; i++)
-    AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, menu[i], 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+    for (i = 0; i < items; i++) {
+        const u8 *text = (sCurrPage == 0) ? 
+            GetOptionMenuItemsNames(i) : 
+            GetOptionMenuItemName_Pg2(i);
+        AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, text, 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+    }
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
 

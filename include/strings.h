@@ -211,6 +211,19 @@ extern const u8 gText_MenuExit[];
 extern const u8 gText_MenuRetire[];
 extern const u8 gText_MenuRest[];
 extern const u8 gText_MenuDexNav[];
+//French menu texts
+extern const u8 gText_MenuPokedexFr[];
+extern const u8 gText_MenuPokemonFr[];
+extern const u8 gText_MenuBagFr[];
+extern const u8 gText_MenuPokenavFr[];
+extern const u8 gText_MenuPlayerFr[];
+extern const u8 gText_MenuSaveFr[];
+extern const u8 gText_MenuOptionFr[];
+extern const u8 gText_MenuExitFr[];
+extern const u8 gText_MenuRetireFr[];
+extern const u8 gText_MenuRestFr[];
+extern const u8 gText_MenuDexNavFr[];
+//
 extern const u8 gText_Floor1[];
 extern const u8 gText_Floor2[];
 extern const u8 gText_Floor3[];
@@ -248,34 +261,6 @@ extern const u8 gText_BattlePyramidConfirmRest[];
 extern const u8 gText_BattlePyramidConfirmRetire[];
 
 // option menu texts
-extern const u8 gText_TextSpeedSlow[];
-extern const u8 gText_TextSpeedMid[];
-extern const u8 gText_TextSpeedFast[];
-extern const u8 gText_BattleSceneOn[];
-extern const u8 gText_BattleSceneOff[];
-extern const u8 gText_BattleStyleShift[];
-extern const u8 gText_BattleStyleSet[];
-extern const u8 gText_SoundMono[];
-extern const u8 gText_SoundStereo[];
-//Ajout mode langue
-extern const u8 gText_Language[];
-extern const u8 gText_LanguageEn[];
-extern const u8 gText_LanguageFr[];
-//Ajout mode difficulté
-extern const u8 gText_Difficulty[];
-extern const u8 gText_DifficultyEasy[];
-extern const u8 gText_DifficultyNormal[];
-extern const u8 gText_DifficultyHard[];
-//Ajout page d'option
-extern const u8 gText_SmallDot[];
-extern const u8 gText_LargeDot[];
-extern const u8 gText_PageNav[];
-//*/
-extern const u8 gText_FrameTypeNumber[];
-extern const u8 gText_FrameType[];
-extern const u8 gText_ButtonTypeNormal[];
-extern const u8 gText_ButtonTypeLR[];
-extern const u8 gText_ButtonTypeLEqualsA[];
 extern const u8 gText_Option[];
 extern const u8 gText_OptionMenu[];
 extern const u8 gText_TextSpeed[];
@@ -285,6 +270,56 @@ extern const u8 gText_Sound[];
 extern const u8 gText_Frame[];
 extern const u8 gText_OptionMenuCancel[];
 extern const u8 gText_ButtonMode[];
+//option menu options texts
+extern const u8 gText_TextSpeedSlow[];
+extern const u8 gText_TextSpeedMid[];
+extern const u8 gText_TextSpeedFast[];
+extern const u8 gText_BattleSceneOn[];
+extern const u8 gText_BattleSceneOff[];
+extern const u8 gText_BattleStyleShift[];
+extern const u8 gText_BattleStyleSet[];
+extern const u8 gText_SoundMono[];
+extern const u8 gText_SoundStereo[];
+extern const u8 gText_FrameTypeNumber[];
+extern const u8 gText_FrameType[];
+extern const u8 gText_ButtonTypeNormal[];
+extern const u8 gText_ButtonTypeLR[];
+extern const u8 gText_ButtonTypeLEqualsA[];
+//French option menu texts
+extern const u8 gText_TextSpeedFr[];
+extern const u8 gText_BattleSceneFr[];
+extern const u8 gText_BattleStyleFr[];
+extern const u8 gText_SoundFr[];
+extern const u8 gText_FrameFr[];
+extern const u8 gText_OptionMenuCancelFr[];
+extern const u8 gText_ButtonModeFr[];
+//French option menu options texts
+extern const u8 gText_TextSpeedSlowFr[];
+extern const u8 gText_TextSpeedMidFr[];
+extern const u8 gText_TextSpeedFastFr[];
+extern const u8 gText_BattleStyleShiftFr[];
+extern const u8 gText_BattleStyleSetFr[];
+extern const u8 gText_SoundStereoFr[];
+//Ajout mode langue
+extern const u8 gText_Language[];
+extern const u8 gText_LanguageEn[];
+extern const u8 gText_LanguageFr[];
+extern const u8 gText_Langue[];
+//Ajout mode difficulté
+extern const u8 gText_Difficulty[];
+extern const u8 gText_DifficultyEasy[];
+extern const u8 gText_DifficultyNormal[];
+extern const u8 gText_DifficultyHard[];
+extern const u8 gText_DifficultyFr[];
+extern const u8 gText_DifficultyEasyFr[];
+extern const u8 gText_DifficultyNormalFr[];
+extern const u8 gText_DifficultyHardFr[];
+//Ajout page d'option
+extern const u8 gText_SmallDot[];
+extern const u8 gText_LargeDot[];
+extern const u8 gText_PageNav[];
+//*/
+
 
 extern const u8 gText_MaleSymbol[];
 extern const u8 gText_FemaleSymbol[];

@@ -273,8 +273,16 @@
 #define VAR_UNUSED_0x40FD                                0x40FD // Unused Var
 #define VAR_UNUSED_0x40FE                                0x40FE // Unused Var
 #define VAR_UNUSED_0x40FF                                0x40FF // Unused Var
+//LANGUAGE VAR
+#define VAR_LANG                                         0x4100
+#define VAR_LANG_EN                                      0x4101
+#define VAR_LANG_FR                                      0x4102
+//DIFFICULTY VAR
+#define VAR_DIFFICULTY                                   0x4103
+#define VAR_DIFFICULTY_NORMAL                            0x4104
+#define VAR_DIFFICULTY_DIFFICULT                         0x4105
 
-#define VARS_END                                         0x40FF
+#define VARS_END                                         0x4105
 #define VARS_COUNT                                       (VARS_END - VARS_START + 1)
 
 #define SPECIAL_VARS_START            0x8000
@@ -302,16 +310,8 @@
 #define VAR_MON_BOX_POS               0x8013
 #define VAR_UNUSED_0x8014             0x8014
 #define VAR_TRAINER_BATTLE_OPPONENT_A 0x8015 // Alias of TRAINER_BATTLE_PARAM.opponentA
-//LANGUAGE VAR
-#define VAR_LANG 0x8016
-#define VAR_LANG_EN 0x8017
-#define VAR_LANG_FR 0x8018
-//DIFFICULTY VAR
-#define VAR_DIFFICULTY 0x8019
-#define VAR_DIFFICULTY_NORMAL 0x801A
-#define VAR_DIFFICULTY_DIFFICULT 0x801B
 
-#define SPECIAL_VARS_END              0x801C
+#define SPECIAL_VARS_END              0x8015
 
 // If an overworld trigger uses this pseudo-variable as the trigger check,
 // then the script will be run using RunScriptImmediately instead of in the
