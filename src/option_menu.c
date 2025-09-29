@@ -53,12 +53,10 @@ enum
     MENUITEM_SOUND,
     MENUITEM_BUTTONMODE,
     MENUITEM_FRAMETYPE,
-    //Ajout de selection de langue
     MENUITEM_CANCEL,
-    //*/
     MENUITEM_COUNT,
 };
-
+//Menu item Pg2 pour Langue et Difficulté
 enum
 {
     MENUITEM_DIFFICULTY,

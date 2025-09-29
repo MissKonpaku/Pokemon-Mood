@@ -270,7 +270,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Noblichen,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 5,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Noblichen,
         .backPicSize = MON_COORDS_SIZE(56, 40),
@@ -326,7 +326,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         
         .frontPic = gMonFrontPic_Monarchen,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 5,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Monarchen,
         .backPicSize = MON_COORDS_SIZE(56, 40),
@@ -444,7 +444,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Detoptere,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Detoptere,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -502,7 +502,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Acidopt,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Acidopt,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -681,7 +681,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Horrifeel,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Horrifeel,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -799,7 +799,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Cocamper,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 10,
+        
          
         .backPic = gMonBackPic_Cocamper,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -858,6 +859,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Lampiposa,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 3,
          
         .backPic = gMonBackPic_Lampiposa,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -974,7 +976,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Scaracier,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Scaracier,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1032,7 +1034,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Scabuto,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Scabuto,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1149,7 +1151,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Usagunny,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Usagunny,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1206,7 +1208,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Yukigori,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Yukigori,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1324,7 +1326,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Stalibri,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 5,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Stalibri,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1381,7 +1383,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Zardopium,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Zardopium,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1442,7 +1444,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Stalla,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 15,
+        .frontPicYOffset = 12,
         .enemyMonElevation = 14,
          
         .backPic = gMonBackPic_Stalla,
@@ -1617,7 +1619,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Zapek,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 6,
          
         .backPic = gMonBackPic_Zapek,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1674,7 +1676,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Pikorage,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Pikorage,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1731,7 +1733,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Cockalypse,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Cockalypse,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1791,7 +1793,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Caviachat,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 13,
          
         .backPic = gMonBackPic_Caviachat,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1848,7 +1850,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Calikeau,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 8,
          
         .backPic = gMonBackPic_Calikeau,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1905,7 +1907,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Nauticat,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Nauticat,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -1966,6 +1968,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Plankteuy,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Plankteuy,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2025,7 +2028,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Melodie,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 6,
          
         .backPic = gMonBackPic_Melodie,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2082,7 +2085,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Melodrame,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 5,
          
         .backPic = gMonBackPic_Melodrame,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2203,12 +2206,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Copespine,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 9,
+        .enemyMonElevation = 11,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Copespine,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Copespine,
         .shinyPalette = gMonShinyPalette_Copespine,
@@ -2259,12 +2263,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Blopeller,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 3,
+        .enemyMonElevation = 9,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Blopeller,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Blopeller,
         .shinyPalette = gMonShinyPalette_Blopeller,
@@ -2322,7 +2327,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Taupeti,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 14,
          
         .backPic = gMonBackPic_Taupeti,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2379,7 +2384,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Taupassage,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Taupassage,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2496,11 +2501,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Gerbuzz,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 6,
          
         .backPic = gMonBackPic_Gerbuzz,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 2,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Gerbuzz,
         .shinyPalette = gMonShinyPalette_Gerbuzz,
@@ -2670,7 +2675,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Galem,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 6,
          
         .backPic = gMonBackPic_Galem,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2727,7 +2732,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Wardelith,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Wardelith,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2847,7 +2852,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Snifouy,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 6,
          
         .backPic = gMonBackPic_Snifouy,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2904,7 +2909,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Fistfouy,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Fistfouy,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2964,7 +2969,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Nekofee,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 8,
          
         .backPic = gMonBackPic_Nekofee,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -3024,7 +3029,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Plouffy,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 12,
          
         .backPic = gMonBackPic_Plouffy,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -3082,6 +3087,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Coinqwack,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 3,
          
         .backPic = gMonBackPic_Coinqwack,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -3138,7 +3144,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Colbouee,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Colbouee,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -3198,7 +3204,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Hemoglezar,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 8,
          
         .backPic = gMonBackPic_Hemoglezar,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -3902,11 +3908,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Veracina,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Veracina,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 2,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Veracina,
         .shinyPalette = gMonShinyPalette_Veracina,
@@ -3962,11 +3968,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Squalil,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Squalil,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 7,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Squalil,
         .shinyPalette = gMonShinyPalette_Squalil,
@@ -4019,7 +4026,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Placeholder,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 7,
          
         .backPic = gMonBackPic_Placeholder,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -4375,12 +4382,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Cheepouf,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 9,
+
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Cheepouf,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Cheepouf,
         .shinyPalette = gMonShinyPalette_Cheepouf,
@@ -4432,12 +4440,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Cheesetah,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 2,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Cheesetah,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Cheesetah,
         .shinyPalette = gMonShinyPalette_Cheesetah,
@@ -4554,12 +4562,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Maysugeki,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 2,
+        .enemyMonElevation = 1,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Maysugeki,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Maysugeki,
         .shinyPalette = gMonShinyPalette_Maysugeki,
@@ -4615,7 +4624,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Verote,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Verote,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -4673,11 +4682,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Rottenia,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Rottenia,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 1,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Rottenia,
         .shinyPalette = gMonShinyPalette_Rottenia,
@@ -4733,7 +4742,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Boh,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 5,
          
         .backPic = gMonBackPic_Boh,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -4790,7 +4799,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Euark,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Euark,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -4847,7 +4856,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Ohhaerk,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Ohhaerk,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -4907,7 +4916,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Sleepompik,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 10,
          
         .backPic = gMonBackPic_Sleepompik,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -4964,7 +4973,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Ominousleh,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Ominousleh,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -5021,7 +5030,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Mandelman,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Mandelman,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -5202,12 +5211,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Scriptile,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 6,
+        .enemyMonElevation = 1,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Scriptile,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Scriptile,
         .shinyPalette = gMonShinyPalette_Scriptile,
@@ -5258,12 +5268,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Pythagon,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 2,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Pythagon,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Pythagon,
         .shinyPalette = gMonShinyPalette_Pythagon,
@@ -5680,7 +5690,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Puyotan,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 8,
          
         .backPic = gMonBackPic_Puyotan,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -5918,7 +5928,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Finkfok,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Finkfok,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -5978,7 +5989,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Legz,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 5,
          
         .backPic = gMonBackPic_Legz,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6042,7 +6053,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_STOOPID,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_STOOPID,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6102,7 +6113,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Beublop,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 9,
          
         .backPic = gMonBackPic_Beublop,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6218,11 +6229,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Potipwet,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
-         
+        .frontPicYOffset = 11,
+        .enemyMonElevation = 8,
+
         .backPic = gMonBackPic_Potipwet,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 2,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Potipwet,
         .shinyPalette = gMonShinyPalette_Potipwet,
@@ -6276,6 +6288,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Flopwetwet,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Flopwetwet,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6335,7 +6348,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Gesticot,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 9,
          
         .backPic = gMonBackPic_Gesticot,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6452,7 +6465,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Daemonix,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Daemonix,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6510,6 +6523,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Achaethena,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Achaethena,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6565,7 +6579,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Beelzeros,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Beelzeros,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6626,6 +6640,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Phantasm,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Phantasm,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6683,7 +6698,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Shroomalice,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Shroomalice,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6743,7 +6758,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Denkid,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 6,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Denkid,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6859,7 +6875,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Jamush,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Jamush,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6917,7 +6933,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Mycellum,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Mycellum,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -6979,7 +6995,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
          
         .backPic = gMonBackPic_Bermudine,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 2,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Bermudine,
         .shinyPalette = gMonShinyPalette_Bermudine,
@@ -7039,7 +7055,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Blobuster,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Blobuster,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -7218,10 +7234,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Wichu,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Wichu,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 3,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Wichu,
         .shinyPalette = gMonShinyPalette_Wichu,
@@ -7394,7 +7411,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Figgon,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 7,
          
         .backPic = gMonBackPic_Figgon,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -7452,7 +7469,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Saladrake,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 8,
          
         .backPic = gMonBackPic_Saladrake,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -7509,7 +7526,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Auberjaw,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Auberjaw,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -7570,12 +7587,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Fourugla,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 7,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Fourugla,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Fourugla,
         .shinyPalette = gMonShinyPalette_Fourugla,
@@ -7628,12 +7645,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Yetidiot,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 0,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Yetidiot,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Yetidiot,
         .shinyPalette = gMonShinyPalette_Yetidiot,
@@ -7692,6 +7709,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Emprism,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Emprism,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -7809,10 +7827,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Octonimbus,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Octonimbus,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 13,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Octonimbus,
         .shinyPalette = gMonShinyPalette_Octonimbus,
@@ -7924,7 +7943,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Limacide,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 6,
          
         .backPic = gMonBackPic_Limacide,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -7982,6 +8001,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Glaugoon,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 2,
          
         .backPic = gMonBackPic_Glaugoon,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -8040,11 +8060,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Phlotoxico,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Phlotoxico,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 2,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Phlotoxico,
         .shinyPalette = gMonShinyPalette_Phlotoxico,
@@ -8100,7 +8120,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Wufur,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Wufur,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -8334,6 +8354,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Mederive,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Mederive,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -8511,12 +8532,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Mouchips,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 7,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Mouchips,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Mouchips,
         .shinyPalette = gMonShinyPalette_Mouchips,
@@ -8567,12 +8588,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Giganille,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 3,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Giganille,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Giganille,
         .shinyPalette = gMonShinyPalette_Giganille,
@@ -8625,12 +8646,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Probelle,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 0,
+        .enemyMonElevation = 3,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Probelle,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Probelle,
         .shinyPalette = gMonShinyPalette_Probelle,
@@ -8675,7 +8697,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .bodyColor = BODY_COLOR_RED,
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_POME,
+        .natDexNum = NATIONAL_DEX_POME,
         .description = COMPOUND_STRING(
             " \n"
             "Placeholder\n"
@@ -8689,6 +8711,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Pome,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Pome,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -8746,6 +8769,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Pomdarpi,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 3,
          
         .backPic = gMonBackPic_Pomdarpi,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -8805,7 +8829,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Kerocorn,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 9,
          
         .backPic = gMonBackPic_Kerocorn,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -9036,7 +9060,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             " "),
         
         .cryId = CRY_NONE,
-         .natDexNum = NATIONAL_DEX_INVOCAMON,
+        .natDexNum = NATIONAL_DEX_INVOCAMON,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -9044,12 +9068,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Invocamon,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 0,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Invocamon,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Invocamon,
         .shinyPalette = gMonShinyPalette_Invocamon,
@@ -9287,7 +9311,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Sheruran,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 13,
          
         .backPic = gMonBackPic_Sheruran,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -9466,6 +9490,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Synapti,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 3,
          
         .backPic = gMonBackPic_Synapti,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -9874,7 +9899,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Dracoton,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Dracoton,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -9931,7 +9956,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Tundragon,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
          
         .backPic = gMonBackPic_Tundragon,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -9990,12 +10015,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Blastailes,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 6,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Blastailes,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Blastailes,
         .shinyPalette = gMonShinyPalette_Blastailes,
@@ -10467,11 +10492,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Ostenssy,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 4,
          
         .backPic = gMonBackPic_Ostenssy,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 9,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Ostenssy,
         .shinyPalette = gMonShinyPalette_Ostenssy,
@@ -10524,7 +10549,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Rancossor,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Rancossor,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -10642,6 +10667,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Jaimaille,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
+        .enemyMonElevation = 5,
          
         .backPic = gMonBackPic_Jaimaille,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -10992,7 +11018,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Gyaoon,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 1,
          
         .backPic = gMonBackPic_Gyaoon,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -11170,7 +11196,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Larvambre,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 8,
          
         .backPic = gMonBackPic_Larvambre,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -11346,11 +11372,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Virulox,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 9,
          
         .backPic = gMonBackPic_Virulox,
         .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
+        .backPicYOffset = 9,
         .backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Virulox,
         .shinyPalette = gMonShinyPalette_Virulox,
@@ -11403,7 +11429,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Ransomite,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 10,
+        .enemyMonElevation = 1,
          
         .backPic = gMonBackPic_Ransomite,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -11577,7 +11604,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Mementos,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 2,
+        .enemyMonElevation = 3,
          
         .backPic = gMonBackPic_Mementos,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -11637,7 +11665,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Apprenpti,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 7,
          
         .backPic = gMonBackPic_Apprenpti,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -11694,7 +11722,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //graphics
         .frontPic = gMonFrontPic_Reptueur,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
+        .frontPicYOffset = 3,
          
         .backPic = gMonBackPic_Reptueur,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -11927,15 +11955,17 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
+        
 
         .frontPic = gMonFrontPic_Lumini,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
-         
+        .frontPicYOffset = 0,
+        .enemyMonElevation = 2,
+
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Lumini,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Lumini,
         .shinyPalette = gMonShinyPalette_Lumini,
@@ -11987,12 +12017,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Parademise,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 0,
+        .enemyMonElevation = 3,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Parademise,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Parademise,
         .shinyPalette = gMonShinyPalette_Parademise,
@@ -12467,12 +12498,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
         .frontPic = gMonFrontPic_Celestial,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
-        .frontPicYOffset = 13,
+        .frontPicYOffset = 0,
          
         .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Celestial,
         .backPicSize = MON_COORDS_SIZE(56, 40),
-        .backPicYOffset = 13,
+        .backPicYOffset = 0,
         .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         .palette = gMonPalette_Celestial,
         .shinyPalette = gMonShinyPalette_Celestial,
