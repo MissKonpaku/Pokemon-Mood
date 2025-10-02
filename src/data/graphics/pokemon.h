@@ -27290,6 +27290,14 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     //#if P_FOOTPRINTS
     //const u8 gMonFootprint_Magmalodon[] = INCBIN_U8("custom/doomdex/magmalodon/footprint.1bpp");
 /**/
+    const u32 gMonFrontPic_Hierocculte[] = INCBIN_U32("custom/doomdex/hierocculte/front.4bpp.lz");
+    const u16 gMonPalette_Hierocculte[] = INCBIN_U16("custom/doomdex/hierocculte/normal.gbapal");
+    const u32 gMonBackPic_Hierocculte[] = INCBIN_U32("custom/doomdex/hierocculte/back.4bpp.lz");
+    const u16 gMonShinyPalette_Hierocculte[] = INCBIN_U16("custom/doomdex/hierocculte/shiny.gbapal");
+    //const u8 gMonIcon_Hierocculte[] = INCBIN_U8("custom/doomdex/hierocculte/icon.4bpp");
+    //#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Hierocculte[] = INCBIN_U8("custom/doomdex/hierocculte/footprint.1bpp");
+/**/
     const u32 gMonFrontPic_Verote[] = INCBIN_U32("custom/doomdex/verote/front.4bpp.lz");
     const u16 gMonPalette_Verote[] = INCBIN_U16("custom/doomdex/verote/normal.gbapal");
     const u32 gMonBackPic_Verote[] = INCBIN_U32("custom/doomdex/verote/back.4bpp.lz");

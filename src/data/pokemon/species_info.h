@@ -4337,6 +4337,65 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     //P_FAMILY_ANCAT
 
+    //P_FAMILY_HIEROCCULTE
+    [SPECIES_HIEROCCULTE] =
+    {
+        .baseHP        = 76,
+        .baseAttack    = 40,
+        .baseDefense   = 109,
+        .baseSpAttack  = 112,
+        .baseSpDefense = 92,
+        .baseSpeed     = 67,
+        .types = MON_TYPES(TYPE_GROUND, TYPE_DARK),
+        .catchRate = 25,
+        .expYield = 152,
+        
+        .genderRatio = MON_GENDERLESS,
+        .eggCycles = 25,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        
+        .abilities = {ABILITY_INFILTRATOR/*ABILITY_GRAVITY_FALLS*/},
+        
+        .speciesName = _("Hierocculte"),
+        .categoryName = _("Enigme"),
+        .height = 15,
+        .weight = 10,
+        //data
+        .evYield_Defense = 3,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
+        .bodyColor = BODY_COLOR_YELLOW,
+        .cryId = CRY_NONE,
+         .natDexNum = NATIONAL_DEX_PSALMEURTRI,
+        .description = COMPOUND_STRING(
+            " \n"
+            "Placeholder\n"
+            " \n"
+            " "),
+        .pokemonScale = 255,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        //graphics
+        .frontPic = gMonFrontPic_Hierocculte,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .enemyMonElevation = 5,
+         
+        .backPic = gMonBackPic_Hierocculte,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_Hierocculte,
+        .shinyPalette = gMonShinyPalette_Hierocculte,
+        .iconSprite = gMonIcon_QuestionMark,
+        .iconPalIndex = 0,
+        //learnsets
+        .levelUpLearnset = sLilichenLevelUpLearnset,
+        //.teachableLearnset = sLilichenTeachableLearnset,
+    },
+    //P_FAMILY_HIEROCCULT
+
     //P_FAMILY_CHEEPOUF
 
     [SPECIES_CHEEPOUF] = 
