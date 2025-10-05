@@ -249,12 +249,12 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan1;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
 /*POKEMON MOOD*/
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Doom;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GruntM;
 /*POKEMON MOOD*/
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     /*POKEMON MOOD*/
-    [OBJ_EVENT_GFX_DOOM] =                     &gObjectEventGraphicsInfo_Doom, 
+    [OBJ_EVENT_GFX_GRUNT_M] =                  &gObjectEventGraphicsInfo_GruntM, 
     /*POKEMON MOOD*/
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
