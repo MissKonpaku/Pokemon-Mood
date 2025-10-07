@@ -1,6 +1,6 @@
 /*POKEMON MOOD*/
-static const struct SpriteFrameImage sPicTable_Doom[] = {
-    overworld_ascending_frames(gObjectEventPic_BrendanNormalRunning, 2, 4),
+static const struct SpriteFrameImage sPicTable_GruntM[] = {
+    overworld_ascending_frames(gObjectEventPic_GruntM, 2, 4),
 };
 /*POKEMON MOOD*/
 

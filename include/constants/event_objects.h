@@ -246,11 +246,25 @@
 #define OBJ_EVENT_GFX_POKE_BALL                  239
 #define OBJ_EVENT_GFX_OW_MON                     240
 #define OBJ_EVENT_GFX_LIGHT_SPRITE               241
-#define OBJ_EVENT_GFX_DOOM                       242
+/*POKEMON MOOD CUSTOM GFX*/
+#define OBJ_EVENT_GFX_BART                       242
+#define OBJ_EVENT_GFX_CHARLIZE                   243
+#define OBJ_EVENT_GFX_SARASSA                    244
+#define OBJ_EVENT_GFX_MONICA                     245
+#define OBJ_EVENT_GFX_COACH                      246
+#define OBJ_EVENT_GFX_NOBYTA                     247
+#define OBJ_EVENT_GFX_ELLY                       248
+#define OBJ_EVENT_GFX_BLAKE                      249
+#define OBJ_EVENT_GFX_GRUNT_M                    250
+#define OBJ_EVENT_GFX_GRUNT_F                    251
+#define OBJ_EVENT_GFX_BOSS                       252
+#define OBJ_EVENT_GFX_LILITH                     253
+#define OBJ_EVENT_GFX_TISANE                     254
+
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        243
+#define NUM_OBJ_EVENT_GFX                        255
 
 
 // These are dynamic object gfx ids.
@@ -381,7 +395,19 @@
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1124
 /*POKEMON MOOD*/
-#define OBJ_EVENT_PAL_TAG_DOOM                    0x1125
+#define OBJ_EVENT_PAL_TAG_BART                    0x1125
+#define OBJ_EVENT_PAL_TAG_CHARLIZE                0x1126
+#define OBJ_EVENT_PAL_TAG_SARASSA                 0x1127
+#define OBJ_EVENT_PAL_TAG_MONICA                  0x1128
+#define OBJ_EVENT_PAL_TAG_COACH                   0x1129
+#define OBJ_EVENT_PAL_TAG_NOBYTA                  0x1130
+#define OBJ_EVENT_PAL_TAG_ELLY                    0x1131
+#define OBJ_EVENT_PAL_TAG_BLAKE                   0x1132
+#define OBJ_EVENT_PAL_TAG_GRUNT_M                 0x1133
+#define OBJ_EVENT_PAL_TAG_GRUNT_F                 0x1134
+#define OBJ_EVENT_PAL_TAG_BOSS                    0x1135
+#define OBJ_EVENT_PAL_TAG_LILITH                  0x1136
+#define OBJ_EVENT_PAL_TAG_TISANE                  0x1137
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

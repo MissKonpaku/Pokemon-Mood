@@ -525,6 +525,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Lugia,                 OBJ_EVENT_PAL_TAG_LUGIA},
     {gObjectEventPal_RubySapphireBrendan,   OBJ_EVENT_PAL_TAG_RS_BRENDAN},
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
+    //MOOD
+    {gObjectEventPal_GruntM, OBJ_EVENT_PAL_TAG_GRUNT_M},
+    //MOOD
 #if OW_FOLLOWERS_POKEBALLS
     {gObjectEventPal_MasterBall,            OBJ_EVENT_PAL_TAG_BALL_MASTER},
     {gObjectEventPal_UltraBall,             OBJ_EVENT_PAL_TAG_BALL_ULTRA},
@@ -563,9 +566,6 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPaletteEmotes,             OBJ_EVENT_PAL_TAG_EMOTES},
     {gObjectEventPaletteNeonLight,          OBJ_EVENT_PAL_TAG_NEON_LIGHT},
 #ifdef BUGFIX
-    //MOOD
-    {gObjectEventPal_Brendan, OBJ_EVENT_PAL_TAG_DOOM},
-    //MOOD
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else
     {}, // BUG: FindObjectEventPaletteIndexByTag looks for OBJ_EVENT_PAL_TAG_NONE and not 0x0.
