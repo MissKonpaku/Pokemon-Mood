@@ -4,34 +4,34 @@ FLDEFFGFXDIR := graphics/field_effects/pics
 MISCGFXDIR := graphics/misc
 
 #POKEMON MOOD
-#$(OBJEVENTGFXDIR)/custom/characters/champions/bart/overworld/bart.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/bart/overworld/bart.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-#$(OBJEVENTGFXDIR)/custom/characters/champions/charlize/overworld/charlize.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/charlize/overworld/charlize.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-#$(OBJEVENTGFXDIR)/custom/characters/champions/sarassa/overworld/sarassa.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/sarassa/overworld/sarassa.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-#$(OBJEVENTGFXDIR)/custom/characters/champions/monica/overworld/monica.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/monica/overworld/monica.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-#$(OBJEVENTGFXDIR)/custom/characters/champions/coach/overworld/coach.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/coach/overworld/coach.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-#$(OBJEVENTGFXDIR)/custom/characters/champions/nobyta/overworld/nobyta.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/nobyta/overworld/nobyta.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-#$(OBJEVENTGFXDIR)/custom/characters/champions/elly/overworld/elly.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/elly/overworld/elly.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-#$(OBJEVENTGFXDIR)/custom/characters/champions/blake/overworld/blake.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/champions/blake/overworld/blake.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #
-$(OBJEVENTGFXDIR)/custom/characters/evil/grunt_male/overworld/grunt_m.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/custom/evil/grunt_male/overworld/grunt_m.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4 
 
-#$(OBJEVENTGFXDIR)/custom/characters/evil/grunt_female/overworld/grunt_f.4bpp: %.4bpp: %.png
+#$(OBJEVENTGFXDIR)/custom/evil/grunt_female/overworld/grunt_f.4bpp: %.4bpp: %.png
 #	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #POKEMON MOOD
 

@@ -463,12 +463,9 @@ enum MoveEffects
     MOVE_EFFECT_LOWER_SPEED_2_SIDE,
     MOVE_EFFECT_FIRE_SPIN_SIDE,
     MOVE_EFFECT_FIXED_POWER,
-<<<<<<< HEAD
     //MOVE_EFFECT_OIL_UP,
-=======
     // Max move effects end. They can be used for (custom) normal moves.
 
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     NUM_MOVE_EFFECTS
 };
 

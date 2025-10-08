@@ -253,9 +253,6 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GruntM;
 /*POKEMON MOOD*/
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
-    /*POKEMON MOOD*/
-    [OBJ_EVENT_GFX_GRUNT_M] =                  &gObjectEventGraphicsInfo_GruntM, 
-    /*POKEMON MOOD*/
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
     [OBJ_EVENT_GFX_BRENDAN_SURFING] =          &gObjectEventGraphicsInfo_BrendanSurfing,
@@ -498,6 +495,9 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKE_BALL] =                &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
+    /*POKEMON MOOD*/
+    [OBJ_EVENT_GFX_GRUNT_M] =                  &gObjectEventGraphicsInfo_GruntM, 
+    /*POKEMON MOOD*/
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

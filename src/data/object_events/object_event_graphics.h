@@ -1,15 +1,5 @@
-/*POKEMON MOOD*/
-const u32 gObjectEventPic_GruntM[] = INCBIN_U32("custom/characters/evil/grunt_male/overworld/grunt_m.4bpp");
-const u16 gObjectEventPal_GruntM[] = INCBIN_U16("custom/characters/evil/grunt_male/palette/grunt_m.gbapal");
-//const u32 gObjectEventPic_DoomNormalRunning[] = INCBIN_U32("custom/object_event/people/doom/png/walking.4bpp", "custom/object_event/people/doom/png/running.4bpp"); 
-//const u16 gObjectEventPal_Doom[] = INCBIN_U16("custom/object_event/people/doom/palettes/normalwalkingrunning.gbapal");
-/*POKEMON MOOD*/
-
-const u32 gObjectEventPic_BrendanNormalRunning[] = INCBIN_U32(
-    "graphics/object_events/pics/people/brendan/walking.4bpp",
-    "graphics/object_events/pics/people/brendan/running.4bpp"
-); 
-const u16 gObjectEventPal_Brendan[] = INCBIN_U16("custom/characters/prota/doom/palettes");
+const u32 gObjectEventPic_BrendanNormalRunning[] = INCBIN_U32("graphics/object_events/pics/people/brendan/walking.4bpp", "graphics/object_events/pics/people/brendan/running.4bpp");
+const u16 gObjectEventPal_Brendan[] = INCBIN_U16("graphics/object_events/palettes/brendan.gbapal");
 const u32 gObjectEventPic_RubySapphireBrendanNormal[] = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_brendan/walking.4bpp");
 const u32 gObjectEventPic_RubySapphireBrendanRunning[] = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_brendan/running.4bpp");
 const u16 gObjectEventPal_RubySapphireBrendan[] = INCBIN_U16("graphics/object_events/palettes/ruby_sapphire_brendan.gbapal");
@@ -472,3 +462,8 @@ const u16 gObjectEventPal_StrangeBall[] = INCBIN_U16("graphics/object_events/pic
 
 const u32 gFieldEffectObjectPic_CaveDust[] = INCBIN_U32("graphics/field_effects/pics/cave_dust.4bpp");
 const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effects/palettes/cave_dust.gbapal");
+
+/*POKEMON MOOD*/
+const u32 gObjectEventPic_GruntM[] = INCBIN_U32("graphics/object_events/pics/custom/evil/grunt_male/overworld/grunt_m.4bpp");
+const u16 gObjectEventPal_GruntM[] = INCBIN_U16("graphics/object_events/pics/custom/evil/grunt_male/palette/grunt_m.gbapal");
+/*POKEMON MOOD*/
