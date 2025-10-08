@@ -690,14 +690,7 @@
     },
     {
       "id": "MAPSEC_DYNAMIC",
-<<<<<<< HEAD
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-=======
       "name": ""
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
@@ -746,26 +739,12 @@
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
       "name": "ROUTE 4",
-<<<<<<< HEAD
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-=======
       "name_clone": true
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     },
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
       "name": "ROUTE 10",
-<<<<<<< HEAD
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-=======
       "name_clone": true
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     },
     {
       "id": "MAPSEC_ROUTE_1",
@@ -886,14 +865,7 @@
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
       "name": "UNDERGROUND PATH",
-<<<<<<< HEAD
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-=======
       "name_clone": true
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     },
     {
       "id": "MAPSEC_DIGLETTS_CAVE",
@@ -902,14 +874,7 @@
     {
       "id": "MAPSEC_KANTO_VICTORY_ROAD",
       "name": "VICTORY ROAD",
-<<<<<<< HEAD
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-=======
       "name_clone": true
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     },
     {
       "id": "MAPSEC_ROCKET_HIDEOUT",
@@ -926,14 +891,7 @@
     {
       "id": "MAPSEC_KANTO_SAFARI_ZONE",
       "name": "SAFARI ZONE",
-<<<<<<< HEAD
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-=======
       "name_clone": true
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
@@ -1106,14 +1064,7 @@
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
       "name": "TRAINER TOWER",
-<<<<<<< HEAD
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
-=======
       "name_clone": true
->>>>>>> d8059ce3d1879c0fb9d3c834036c31f34684c54d
     },
     {
       "id": "MAPSEC_DOTTED_HOLE",
