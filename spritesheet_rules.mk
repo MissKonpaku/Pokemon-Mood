@@ -31,8 +31,8 @@ MISCGFXDIR := graphics/misc
 $(OBJEVENTGFXDIR)/custom/evil/grunt_male/overworld/grunt_m.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4 
 
-#$(OBJEVENTGFXDIR)/custom/evil/grunt_female/overworld/grunt_f.4bpp: %.4bpp: %.png
-#	$(GFX) $< $@ -mwidth 2 -mheight 4 
+$(OBJEVENTGFXDIR)/custom/evil/grunt_female/overworld/grunt_f.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4 
 #POKEMON MOOD
 
 $(OBJEVENTGFXDIR)/people/brendan/walking.4bpp: %.4bpp: %.png

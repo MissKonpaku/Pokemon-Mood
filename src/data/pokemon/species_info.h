@@ -1280,7 +1280,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Gralibri,
         .iconPalIndex = 1,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sGralibriLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
     .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_STALIBRI}),
     },
@@ -1337,7 +1337,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Stalibri,
         .iconPalIndex = 1,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sStalibriLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_ZARDOPIUM}),
     },
@@ -1394,7 +1394,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Zardopium,
         .iconPalIndex = 1,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sZardopiumLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         
     },
@@ -1456,7 +1456,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Stalla,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sStallaLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_STARLING}),
     },
@@ -1513,7 +1513,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_QuestionMark,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sStarlingLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_GLADIVA}),
     },
@@ -1570,7 +1570,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_QuestionMark,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sGladivaLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
     },
 
@@ -1630,7 +1630,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Zapek,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sZapekLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_PIKORAGE}),
     },
@@ -1687,7 +1687,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Pikorage,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sPikorageLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_SHINY_STONE, SPECIES_COCKALYPSE}),
     },
@@ -1744,7 +1744,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Cockalypse,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sCockalypseLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
     },
 

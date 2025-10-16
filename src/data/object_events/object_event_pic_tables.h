@@ -1,3 +1,11 @@
+/*POKEMON MOOD*/
+static const struct SpriteFrameImage sPicTable_GruntM[] = {
+    overworld_ascending_frames(gObjectEventPic_GruntM, 2, 4),
+};
+static const struct SpriteFrameImage sPicTable_GruntF[] = {
+    overworld_ascending_frames(gObjectEventPic_GruntF, 2, 4),
+};
+/*POKEMON MOOD*/
 static const struct SpriteFrameImage sPicTable_BrendanNormal[] = {
     overworld_ascending_frames(gObjectEventPic_BrendanNormalRunning, 2, 4),
 };
@@ -1356,9 +1364,3 @@ static const struct SpriteFrameImage sPicTable_KirliaOld[] = {
 static const struct SpriteFrameImage sPicTable_RubySapphireMay[] = {
     overworld_ascending_frames(gObjectEventPic_RubySapphireMayNormal, 2, 4),
 };
-
-/*POKEMON MOOD*/
-static const struct SpriteFrameImage sPicTable_GruntM[] = {
-    overworld_ascending_frames(gObjectEventPic_GruntM, 2, 4),
-};
-/*POKEMON MOOD*/

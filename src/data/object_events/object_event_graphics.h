@@ -1,3 +1,9 @@
+/*POKEMON MOOD*/
+const u32 gObjectEventPic_GruntM[] = INCBIN_U32("graphics/object_events/pics/custom/evil/grunt_male/overworld/grunt_m.4bpp");
+const u16 gObjectEventPal_GruntM[] = INCBIN_U16("graphics/object_events/pics/custom/evil/grunt_male/palette/overworld.gbapal");
+const u32 gObjectEventPic_GruntF[] = INCBIN_U32("graphics/object_events/pics/custom/evil/grunt_female/overworld/grunt_f.4bpp");
+const u16 gObjectEventPal_GruntF[] = INCBIN_U16("graphics/object_events/pics/custom/evil/grunt_female/palette/overworld.gbapal");
+/*POKEMON MOOD*/
 const u32 gObjectEventPic_BrendanNormalRunning[] = INCBIN_U32("graphics/object_events/pics/people/brendan/walking.4bpp", "graphics/object_events/pics/people/brendan/running.4bpp");
 const u16 gObjectEventPal_Brendan[] = INCBIN_U16("graphics/object_events/palettes/brendan.gbapal");
 const u32 gObjectEventPic_RubySapphireBrendanNormal[] = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_brendan/walking.4bpp");
@@ -462,8 +468,3 @@ const u16 gObjectEventPal_StrangeBall[] = INCBIN_U16("graphics/object_events/pic
 
 const u32 gFieldEffectObjectPic_CaveDust[] = INCBIN_U32("graphics/field_effects/pics/cave_dust.4bpp");
 const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effects/palettes/cave_dust.gbapal");
-
-/*POKEMON MOOD*/
-const u32 gObjectEventPic_GruntM[] = INCBIN_U32("graphics/object_events/pics/custom/evil/grunt_male/overworld/grunt_m.4bpp");
-const u16 gObjectEventPal_GruntM[] = INCBIN_U16("graphics/object_events/pics/custom/evil/grunt_male/palette/grunt_m.gbapal");
-/*POKEMON MOOD*/

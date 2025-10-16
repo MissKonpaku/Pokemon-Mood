@@ -250,6 +250,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvi
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
 /*POKEMON MOOD*/
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GruntM;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GruntF;
 /*POKEMON MOOD*/
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
@@ -497,6 +498,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
     /*POKEMON MOOD*/
     [OBJ_EVENT_GFX_GRUNT_M] =                  &gObjectEventGraphicsInfo_GruntM, 
+    [OBJ_EVENT_GFX_GRUNT_F] =                  &gObjectEventGraphicsInfo_GruntF, 
     /*POKEMON MOOD*/
 };
 

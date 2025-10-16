@@ -950,18 +950,7 @@ static void DrawOptionMenuTexts(void)
 {
     u8 i; 
     u8 items = (sCurrPage == 0) ? MENUITEM_COUNT : MENUITEM_COUNT_PG2;
-/*
-    switch (sCurrPage){
-    case 0:
-        items = MENUITEM_COUNT;
-        menu = sOptionMenuItemsNames;
-        break;
-    case 1:
-        items = MENUITEM_COUNT_PG2;
-        menu = sOptionMenuItemsNames_Pg2;
-        break;    
-    }
-*/
+
     FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
     for (i = 0; i < items; i++) {
         const u8 *text = (sCurrPage == 0) ? 
