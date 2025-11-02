@@ -129,7 +129,7 @@ static const u16 sHoennToNationalOrder[HOENN_DEX_COUNT - 1] =
     HOENN_TO_NATIONAL(WOOPEEL),              
     HOENN_TO_NATIONAL(CRUEEL),              
     HOENN_TO_NATIONAL(HORRIFEEL),               
-    HOENN_TO_NATIONAL(CATERPILE),             
+    HOENN_TO_NATIONAL(CATERPILE),              
     HOENN_TO_NATIONAL(COCAMPER),            
     HOENN_TO_NATIONAL(LAMPIPOSA),        
     HOENN_TO_NATIONAL(SCARABEBE),        
