@@ -1234,6 +1234,10 @@
     {
       "id": "MAPSEC_ACADEMIE",
       "name": "ACADEMIE"
+    },
+    {
+      "id": "MAPSEC_TEST",
+      "name": "Boréal"
     }
   ]
 }

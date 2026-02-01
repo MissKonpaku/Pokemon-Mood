@@ -392,10 +392,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Le lanceur envoie un\n"
             "déluche de pics toxiques"),
         .effect = EFFECT_HIT,
-        .additionalEffects = ADDITIONAL_EFFECTS ({
-            .moveEffect = EFFECT_TOXIC_SPIKES,
+        /*.additionalEffects = ADDITIONAL_EFFECTS({
+            .battleMoveEffect = EFFECT_TOXIC_SPIKES,
             .chance = 100,
-        }),
+        }),*/
         .power = 65,
         .type = TYPE_POISON,
         .accuracy = 90,

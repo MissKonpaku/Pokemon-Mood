@@ -2512,7 +2512,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_QuestionMark,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sGerbuzzLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_TESLANTEN}),
     },
@@ -2569,7 +2569,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_QuestionMark,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sTeslantenLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
     },
 
@@ -2629,7 +2629,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Galemimi,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sGalemimiLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 19, SPECIES_GALEM}),
     },
@@ -2686,7 +2686,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Galem,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sGalemLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_WARDELITH}),
     },
@@ -2743,7 +2743,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_QuestionMark,
         .iconPalIndex = 0,
         //learnsets
-        .levelUpLearnset = sLilichenLevelUpLearnset,
+        .levelUpLearnset = sWardelithLevelUpLearnset,
         //.teachableLearnset = sLilichenTeachableLearnset,
     },
 
